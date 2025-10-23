@@ -223,7 +223,7 @@ const Navbar = ({ path, change = false }) => {
               <li>
                 <Link
                   href="/booking"
-                  className={`tracking-[0.2em] text-[12px] leading-[34px] py-3 px-4  rounded transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full`}
+                  className={`tracking-[0.2em] text-[12px] leading-[34px] py-3 px-4 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full`}
                 >
                   Reservations
                 </Link>
