@@ -2,26 +2,147 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-Thin.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-ThinItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("./fonts/AktivGrotesk-HairlineItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --casa-scarlet: #9b3b25;
+  --casa-white: #ffffff;
+  --casa-black: #424144;
+  --casa-background: #f2eade;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--casa-background);
+  font-family: "AktivGrotesk", sans-serif;
+}
+
+/* scroll bar */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--casa-white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--casa-scarlet);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--casa-black);
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+/* globals.css */
+.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.writing-mode-vertical-lr {
+  writing-mode: vertical-lr;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 80s linear infinite;
 }
