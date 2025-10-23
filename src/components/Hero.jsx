@@ -19,15 +19,15 @@ const imagesLarge = [
 
 const imagesSmall = [
   {
-    src: "/images/hero-casalalla-large.webp",
+    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498616_1280.jpg",
     class: "object-center",
   },
   {
-    src: "/images/gallery-3.webp",
+    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg",
     class: "object-center",
   },
   {
-    src: "/images/gallery-2.webp",
+    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
     class: "object-center",
   },
 ];

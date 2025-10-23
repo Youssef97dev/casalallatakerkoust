@@ -13,6 +13,9 @@ module.exports = {
         casa_white: "var(--casa-white)",
         casa_black: "var(--casa-black)",
       },
+      fontFamily: {
+        canela: ["Canela", "sans-serif"],
+      },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
         "slide-right": "slideRight 2s ease-in-out forwards",
