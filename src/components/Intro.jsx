@@ -22,7 +22,7 @@ const Intro = () => {
           alt="casa lalla agafay vibes desert"
           width={500}
           height={500}
-          className="w-full opacity-90"
+          className="w-full opacity-70"
         />
       </div>
     </div>
