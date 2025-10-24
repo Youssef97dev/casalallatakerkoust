@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Intro = () => {
   return (
@@ -15,6 +16,15 @@ const Intro = () => {
           "Discover Casa Lalla Takerkoust, our charming lakeside restaurant offering authentic flavors and warm Moroccan hospitality."
         }
       </p>
+      <div className="w-full flex justify-end items-center mt-8">
+        <Image
+          src="/images/casa-lalla-2.png"
+          alt="casa lalla agafay vibes desert"
+          width={500}
+          height={500}
+          className="w-[60%]"
+        />
+      </div>
     </div>
   );
 };

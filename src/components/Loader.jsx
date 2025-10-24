@@ -1,4 +1,6 @@
 import About from "./About";
+import AboutTwo from "./AboutTwo";
+import Events from "./Events";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
@@ -13,6 +15,8 @@ const Loader = () => {
       <div className="h-[2px] w-14 bg-casa_scarlet mx-auto"></div>
       <About />
       <OurSpaces />
+      <AboutTwo />
+      <Events />
 
       {/*<div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />
