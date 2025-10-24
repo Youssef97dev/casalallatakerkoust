@@ -16,13 +16,13 @@ const Intro = () => {
           "Discover Casa Lalla Takerkoust, our charming lakeside restaurant offering authentic flavors and warm Moroccan hospitality."
         }
       </p>
-      <div className="w-full flex justify-end items-center mt-8">
+      <div className="w-full flex justify-center items-center mt-8">
         <Image
-          src="/images/casa-lalla-2.png"
+          src="/images/casa-lalla-4.png"
           alt="casa lalla agafay vibes desert"
           width={500}
           height={500}
-          className="w-[60%]"
+          className="w-full opacity-90"
         />
       </div>
     </div>
