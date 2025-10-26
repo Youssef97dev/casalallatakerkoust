@@ -39,7 +39,7 @@ const Activities = () => {
           ></span>
         </Link>
       </div>
-      <div className="z-10 absolute left-0 w-[90%] lg:w-1/2 h-full">
+      <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
         <Image
           src="https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498718_1280.jpg"
           alt="casa lalla takerkoust, agafay vibes"
