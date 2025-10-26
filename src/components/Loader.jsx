@@ -3,6 +3,7 @@ import AboutTwo from "./AboutTwo";
 import Activities from "./Activities";
 import Events from "./Events";
 import Hero from "./Hero";
+import InstagramSection from "./InstagramSection";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import OurSpaces from "./OurSpaces";
@@ -23,6 +24,7 @@ const Loader = () => {
       <div className="px-5 lg:px-0 mt-10 lg:mt-32">
         <Activities />
       </div>
+      <InstagramSection />
       {/*<div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />
       </div>*/}
