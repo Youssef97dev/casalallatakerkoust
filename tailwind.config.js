@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         casa_background: "var(--casa-background)",
         casa_scarlet: "var(--casa-scarlet)",
+        casa_scarlet_opacity: "var(--casa-scarlet-opacity)",
         casa_white: "var(--casa-white)",
         casa_black: "var(--casa-black)",
       },

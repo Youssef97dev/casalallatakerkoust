@@ -65,6 +65,7 @@
 
 :root {
   --casa-scarlet: #9b3b25;
+  --casa-scarlet-opacity: #9b3b25be;
   --casa-white: #ffffff;
   --casa-black: #424144;
   --casa-background: #f2eade;
@@ -157,4 +158,10 @@ body {
 
 .animate-scroll {
   animation: scroll 80s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .text-image-overlap .left-section {
+    transform: translateY(-80px);
+  }
 }
