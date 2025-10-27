@@ -2,7 +2,7 @@ import React from "react";
 
 const SpotifySection = () => {
   return (
-    <section className="py-16 text-center">
+    <section className="pt-16 text-center">
       <div className="max-w-3xl mx-auto mb-12 px-4">
         <h2 className="text-[25px] leading-[32.5px] font-canela text-casa_black">
           Discover our music
