@@ -7,6 +7,7 @@ import InstagramSection from "./InstagramSection";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import OurSpaces from "./OurSpaces";
+import SpotifySection from "./SpotifySection";
 
 const Loader = () => {
   return (
@@ -25,6 +26,8 @@ const Loader = () => {
         <Activities />
       </div>
       <InstagramSection />
+      <div className="h-[1px] w-[70%] bg-casa_scarlet mx-auto mt-20"></div>
+      <SpotifySection />
       {/*<div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />
       </div>*/}
