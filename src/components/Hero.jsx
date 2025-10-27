@@ -88,8 +88,8 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-40 hidden lg:block"></div>
+      {/* Overlay
+      <div className="absolute inset-0 bg-black bg-opacity-40 hidden lg:block"></div> */}
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
         <a href="#about">
