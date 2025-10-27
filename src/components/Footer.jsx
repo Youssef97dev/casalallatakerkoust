@@ -56,8 +56,7 @@ const Footer = () => {
 
           {/* Instagram Icon */}
           <Link
-            href="https://instagram.com"
-            target="_blank"
+            href="https://www.instagram.com/casa.lalla.takerkoust/"
             rel="noopener noreferrer"
             className="text-[#8b3a2b] hover:text-[#a04630] transition"
           >

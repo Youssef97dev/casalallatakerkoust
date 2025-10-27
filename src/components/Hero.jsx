@@ -4,15 +4,19 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "/images/hero-casalalla-large.webp",
+    src: "/images/casalalla-takerkoust-agafay-large-1.jpg",
     class: "object-center",
   },
   {
-    src: "/images/gallery-3.webp",
+    src: "/images/casalalla-takerkoust-agafay-large-2.jpg",
     class: "object-center",
   },
   {
-    src: "/images/gallery-2.webp",
+    src: "/images/casalalla-takerkoust-agafay-large-3.jpg",
+    class: "object-center",
+  },
+  {
+    src: "/images/casalalla-takerkoust-agafay-large-4.jpg",
     class: "object-center",
   },
 ];
@@ -24,6 +28,10 @@ const imagesSmall = [
   },
   {
     src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg",
+    class: "object-center",
+  },
+  {
+    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
     class: "object-center",
   },
   {
