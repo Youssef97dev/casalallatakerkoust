@@ -134,13 +134,13 @@ const Navbar = ({ path, change = false }) => {
                 <Link href="#">Home</Link>
               </li>
               <li>
-                <Link href="#">Restaurant</Link>
+                <Link href="/restaurant-casa-lalla">Restaurant</Link>
               </li>
               <li>
-                <Link href="#">Events</Link>
+                <Link href="/private-events">Events</Link>
               </li>
               <li>
-                <Link href="#">Activities</Link>
+                <Link href="/lalla-takerkoust-activities">Activities</Link>
               </li>
               <li>
                 <Link href="#">Gallery</Link>
@@ -206,13 +206,13 @@ const Navbar = ({ path, change = false }) => {
                 <Link href="/">{"Home"}</Link>
               </li>
               <li className="">
-                <Link href="/about">{"About"}</Link>
+                <Link href="/restaurant-casa-lalla">{"Restaurant"}</Link>
               </li>
               <li className="">
-                <Link href="/events">{"Events"}</Link>
+                <Link href="/private-events">{"Private Events"}</Link>
               </li>
               <li className="">
-                <Link href="/activities">{"Activities"}</Link>
+                <Link href="/lalla-takerkoust-activities">{"Activities"}</Link>
               </li>
               <li className="">
                 <Link href="/gallery">{"Gallery"}</Link>
