@@ -8,7 +8,7 @@ const Content = () => {
       className="grid grid-cols-1 gap-3 pt-32 pb-12 text-center"
     >
       <h1 className="font-canela text-[35px] leading-[42px] text-casa_black mx-8 lg:mx-56">
-        An ideal venue in Miami for both intimate and large private celebrations
+        An exceptional venue for unforgettable events by the lake
       </h1>
       <h2 className="mt-4 font-canela italic text-[25px] leading-[25px] text-casa_black">
         Plan your next event with us
