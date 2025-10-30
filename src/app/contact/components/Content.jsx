@@ -39,8 +39,8 @@ function Content() {
           Lalla Takerkoust, Marrakech 40000 Morocco
         </h2>
         <p className="text-[15px] leading-[25.5px] font-light text-casa_black text-center">
-          Open Thursday to Sunday <br />
-          Opening hours : 1:00 PM to 10:00 PM
+          Open Everyday <br />
+          Opening hours : 1:00 PM to 17:00 PM
         </p>
         <Link href="https://maps.app.goo.gl/W2KBNPAQ7UNFHhJx5">
           <Image

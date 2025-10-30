@@ -28,26 +28,27 @@ const Footer = () => {
               Marrakech 40000 Morocco
             </Link>
           </p>
-          <p className="underline">Opening hours : 1:00 PM to 10:00 PM</p>
+          <p className="underline">Open Everyday</p>
+          <p className="underline">Opening hours : 1:00 PM to 17:00 PM</p>
         </div>
 
         {/* Center Section */}
         <div className="w-full flex flex-col items-center justify-between gap-6 mt-2">
           {/* Links */}
           <nav className="text-[14px] leading-[25.5px] text-casa_black font-light tracking-wider space-x-2">
-            <Link href="#" className="underline">
+            <Link href="/restaurant-casa-lalla" className="underline">
               RESTAURANT
             </Link>{" "}
             |
-            <Link href="#" className="underline">
+            <Link href="/lalla-takerkoust-activities" className="underline">
               ACTIVITIES
             </Link>{" "}
             |
-            <Link href="#" className="underline">
+            <Link href="/booking" className="underline">
               RESERVATION
             </Link>{" "}
             |
-            <Link href="#" className="underline">
+            <Link href="/contact" className="underline">
               CONTACT
             </Link>
           </nav>
