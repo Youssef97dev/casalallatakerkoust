@@ -18,7 +18,7 @@ const Intro = () => {
       </p>
       <div className="w-full flex justify-center items-center mt-8">
         <Image
-          src="/images/casa-lalla-4.png"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829529/casalalla-illustration_fjwptf.jpg"
           alt="casa lalla agafay vibes desert"
           width={500}
           height={500}

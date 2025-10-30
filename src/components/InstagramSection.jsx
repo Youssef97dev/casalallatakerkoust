@@ -4,34 +4,34 @@ import Link from "next/link";
 
 const images = [
   {
-    src: "/images/casalalla-insta-1.jpg",
-    video: false,
-    link: "#",
-  },
-  {
-    src: "/images/casalalla-insta-2.jpg",
-    video: false,
-    link: "#",
-  },
-  {
-    src: "/images/casalalla-insta-3.jpg",
-    video: false,
-    link: "#",
-  },
-  {
-    src: "/images/casalalla-insta-4.jpg",
-    video: false,
-    link: "#",
-  },
-  {
-    src: "/images/casalalla-insta-5.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830020/casalalla-takerkoust-instagram-1_phnv6j.png",
     video: true,
-    link: "#",
+    link: "https://www.instagram.com/p/C017YeRLVBD/",
   },
   {
-    src: "/images/casalalla-insta-6.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830133/casalalla-takerkoust-agafay-instagram-2_vphuia.png",
     video: true,
-    link: "#",
+    link: "https://www.instagram.com/p/DGgDi8UNboO/",
+  },
+  {
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830244/casalalla-takerkoust-agafay-instagram-3_qoxj5j.png",
+    video: true,
+    link: "https://www.instagram.com/p/DI9Nuh1M0Yx/",
+  },
+  {
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830320/casalalla-insta-1_e0s6zb.jpg",
+    video: false,
+    link: "https://www.instagram.com/p/DHjsxYRoOAP/",
+  },
+  {
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830393/casalalla-takerkoust-agafay-instagram-4_izakt2.png",
+    video: false,
+    link: "https://www.instagram.com/p/DHjsZt_o1DF/",
+  },
+  {
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830447/casalalla-insta-3_ltgetw.jpg",
+    video: false,
+    link: "https://www.instagram.com/p/DGlJuUJNAxp/",
   },
 ];
 

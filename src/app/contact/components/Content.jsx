@@ -44,7 +44,7 @@ function Content() {
         </p>
         <Link href="https://maps.app.goo.gl/W2KBNPAQ7UNFHhJx5">
           <Image
-            src="https://casalallatakerkoust.com/Plant-1.png"
+            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830575/Plant-1_v7h1zm.png"
             alt="casa lalla takerkoust location"
             width={500}
             height={500}

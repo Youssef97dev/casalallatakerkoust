@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/casalalla-takerkoust-agafay-large-2.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-3_wyrrod.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829060/casalalla-takerkoust-agafay-vibes-small-4_h0xoqa.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
@@ -22,9 +22,9 @@ const Hero = () => {
         />
       </div>
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-40 hidden lg:block"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
-      <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-2 lg:px-0">
+      <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-5 lg:px-0">
         <h1>Private Dining & Event Space in Lalla Takerkoust</h1>
       </div>
 

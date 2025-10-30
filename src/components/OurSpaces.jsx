@@ -6,16 +6,20 @@ const spaces = [
   {
     title: "Restaurant",
     image:
-      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498718_960_720.jpg",
+      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829766/lalla-takerkoust-agafay-restaurant_snield.webp",
+    link: "/restaurant-casa-lalla",
   },
   {
     title: "Activities",
-    image: "https://casalallatakerkoust.com/images/activities.webp",
+    image:
+      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827998/lalla-takerkoust-agafay-activities-3_biuulg.webp",
+    link: "/lalla-takerkoust-activities",
   },
   {
-    title: "Rooftop Private Events",
+    title: "Private Events",
     image:
-      "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498586_1280.jpg",
+      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-2_t8j0yv.jpg",
+    link: "/private-events",
   },
 ];
 
@@ -29,7 +33,7 @@ const OurSpaces = () => {
         {spaces.map((space, index) => (
           <Link
             key={index}
-            href="#"
+            href={space.link}
             className="relative group overflow-hidden shadow-md"
           >
             <Image

@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/casalalla-takerkoust-agafay-large-2.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-1_fg1q0v.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-2_gg32iu.webp"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}

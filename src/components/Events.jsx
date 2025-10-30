@@ -28,7 +28,7 @@ const Events = () => {
           occasion into an experience of taste, beauty, and emotion.`}
         </p>
         <Link
-          href="#"
+          href="/private-events"
           className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
         >
           <span className="relative z-10">Discover More</span>
@@ -40,7 +40,7 @@ const Events = () => {
       </div>
       <div className="z-10 absolute right-0 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498718_1280.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-1_jfaibi.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}

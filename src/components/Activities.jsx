@@ -29,7 +29,7 @@ const Activities = () => {
           {`just 5 minutes away — ideal for quad, buggy, or camel excursions. For cycling enthusiasts, a Bike Tour through the desert leads to the crystal-clear oasis of Lalla Takerkoust, offering an unforgettable journey surrounded by the High Atlas Mountains. From thrilling adventures to tranquil escapes, Lalla Takerkoust promises experiences for every taste.`}
         </p>
         <Link
-          href="#"
+          href="/lalla-takerkoust-activities"
           className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
         >
           <span className="relative z-10">Discover More</span>
@@ -41,7 +41,7 @@ const Activities = () => {
       </div>
       <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498718_1280.jpg"
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827993/lalla-takerkoust-agafay-activities-2_nbrj6p.webp"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}

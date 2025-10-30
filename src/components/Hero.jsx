@@ -4,38 +4,38 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "/images/casalalla-takerkoust-agafay-large-1.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-1_fg1q0v.jpg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-large-2.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-2_tqnpww.jpg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-large-3.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-3_wyrrod.jpg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-large-4.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-4_oqjzb9.jpg",
     class: "object-center",
   },
 ];
 
 const imagesSmall = [
   {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498616_1280.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-2_gg32iu.webp",
     class: "object-center",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-3_mawwbu.webp",
     class: "object-center",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829060/casalalla-takerkoust-agafay-vibes-small-4_h0xoqa.jpg",
     class: "object-center",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829176/casalalla-takerkoust-agafay-vibes-small-5_yssnlf.webp",
     class: "object-center",
   },
 ];
@@ -62,7 +62,7 @@ const Hero = () => {
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
+              alt={`casalalla, takerkoust, agafay vibes ${index + 1}`}
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}
@@ -80,7 +80,7 @@ const Hero = () => {
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
+              alt={`casalalla, takerkoust, agafay vibes ${index + 1}`}
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}

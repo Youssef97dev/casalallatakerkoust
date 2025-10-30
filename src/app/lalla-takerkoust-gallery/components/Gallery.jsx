@@ -3,43 +3,43 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "https://casalallatakerkoust.com/gallery/gallery-1.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498600_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/gallery/gallery-2.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498707_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/gallery/gallery-4.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498619_960_720.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/images/activities-slide-2.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498706_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/images/activities-slide-3.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498615_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/images/about-large.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498709_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/gallery/gallery-5.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498708_1280.jpg",
     class: "object-center",
   },
   {
-    image: "https://casalallatakerkoust.com/gallery/gallery-7.webp",
-    class: "object-center",
-  },
-  {
-    image: "https://casalallatakerkoust.com/gallery/gallery-10.webp",
-    class: "object-center",
-  },
-  {
-    image: "https://casalallatakerkoust.com/gallery/gallery-19.webp",
+    image:
+      "https://cdn.pixabay.com/photo/2025/03/28/11/48/agafay-9498719_1280.jpg",
     class: "object-center",
   },
 ];

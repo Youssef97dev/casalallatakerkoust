@@ -1,98 +1,34 @@
-"use client";
-import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-const imagesLarge = [
-  {
-    src: "/images/casalalla-takerkoust-agafay-large-1.jpg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-large-2.jpg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-large-3.jpg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-large-4.jpg",
-    class: "object-center",
-  },
-];
-
-const imagesSmall = [
-  {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498616_1280.jpg",
-    class: "object-center",
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498605_1280.jpg",
-    class: "object-center",
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
-    class: "object-center",
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498596_1280.jpg",
-    class: "object-center",
-  },
-];
-
 const Hero = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesLarge.length);
-    }, 5000); // Change image every 3000ms
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
-        {imagesLarge.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              src={image.src}
-              alt={`Image ${index + 1}`}
-              width={1500}
-              height={1500}
-              className={`w-full h-full object-cover ${image.class}`}
-            />
-          </div>
-        ))}
+        <Image
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-4_oqjzb9.jpg"
+          alt="casa lalla takerkoust, agafay vibes"
+          width={1500}
+          height={1500}
+          className={`w-full h-full object-cover`}
+        />
       </div>
       <div className="w-full h-full block lg:hidden">
-        {imagesSmall.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              src={image.src}
-              alt={`Image ${index + 1}`}
-              width={1500}
-              height={1500}
-              className={`w-full h-full object-cover ${image.class}`}
-            />
-          </div>
-        ))}
+        <Image
+          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829176/casalalla-takerkoust-agafay-vibes-small-5_yssnlf.webp"
+          alt="casa lalla takerkoust, agafay vibes"
+          width={1500}
+          height={1500}
+          className={`w-full h-full object-cover`}
+        />
       </div>
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-40 hidden lg:block"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
       <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-2 lg:px-0">
-        <h1>Mediterranean fine dining on the Miami River</h1>
+        <h1>
+          A refined culinary experience by the tranquil waters of Lalla
+          Takerkoust
+        </h1>
       </div>
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
