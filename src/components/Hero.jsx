@@ -12,7 +12,7 @@ const imagesLarge = [
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-3_wyrrod.jpg",
+    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761838718/casalalla-takerkoust-agafay-large_ekc7ys.jpg",
     class: "object-center",
   },
   {
