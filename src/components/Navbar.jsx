@@ -146,7 +146,7 @@ const Navbar = ({ path, change = false }) => {
                 <Link href="/lalla-takerkoust-gallery">Gallery</Link>
               </li>
               <li>
-                <Link href="#">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
               <li>
                 <div
