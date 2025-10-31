@@ -10,22 +10,22 @@ function Content() {
     >
       <div className="w-full flex flex-col justify-start items-center gap-5">
         <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
-          Reserve online
+          Réservez en ligne
         </h1>
         <Link
-          href="/booking"
+          href="/fr/booking"
           className={`tracking-[0.2em] mt-2 uppercase text-[11px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full hover:bg-casa_scarlet hover:text-casa_background`}
         >
-          Book Here
+          Réservez ici
         </Link>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
-          Customer Service |{" "}
+          Service client |{" "}
           <span className="text-casa_scarlet underline underline-offset-4">
             +212 675-480103
           </span>
         </p>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
-          Email Address |{" "}
+          Adresse email |{" "}
           <span className="text-casa_scarlet underline underline-offset-4">
             reservations@casalallatakerkoust.com
           </span>
@@ -33,14 +33,14 @@ function Content() {
       </div>
       <div className="w-full flex flex-col justify-start items-center gap-5">
         <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
-          Our Location
+          Notre emplacement
         </h1>
         <h2 className="text-[15px] leading-[25.5px] font-light text-casa_scarlet underline underline-offset-4">
           Lalla Takerkoust, Marrakech 40000 Morocco
         </h2>
         <p className="text-[15px] leading-[25.5px] font-light text-casa_black text-center">
-          Open Everyday <br />
-          Opening hours : 13:00 PM to 17:00 PM
+          Ouvert tous les jours <br />
+          {`Horaires d'ouverture : de 13h00 à 17h00`}
         </p>
         <Link href="https://maps.app.goo.gl/W2KBNPAQ7UNFHhJx5">
           <Image
