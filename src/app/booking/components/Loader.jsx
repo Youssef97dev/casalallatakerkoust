@@ -7,7 +7,7 @@ import Booking from "./Booking";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr"} />
+      <Navbar path={"/fr/booking"} />
       <Hero />
       <Booking />
       <Footer />

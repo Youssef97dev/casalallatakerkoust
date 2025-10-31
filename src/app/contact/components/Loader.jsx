@@ -7,7 +7,7 @@ import Content from "./Content";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr"} />
+      <Navbar path={"/fr/contact"} />
       <Hero />
       <Content />
       <Footer />

@@ -6,7 +6,7 @@ import Gallery from "./Gallery";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr"} change={true} />
+      <Navbar path={"/fr/lalla-takerkoust-gallery"} change={true} />
       <Gallery />
       <Footer />
     </div>
