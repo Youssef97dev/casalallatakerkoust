@@ -25,8 +25,15 @@ const Activities = () => {
         </p>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           {`Discover the landscape on Horseback Riding adventures or explore the`}{" "}
-          <strong>Agafay Desert</strong>{" "}
-          {`just 5 minutes away — ideal for quad, buggy, or camel excursions. For cycling enthusiasts, a Bike Tour through the desert leads to the crystal-clear oasis of Lalla Takerkoust, offering an unforgettable journey surrounded by the High Atlas Mountains. From thrilling adventures to tranquil escapes, Lalla Takerkoust promises experiences for every taste.`}
+          <strong>Agafay Desert</strong> just 5 minutes away — ideal for{" "}
+          <strong>quad</strong>, <strong>buggy</strong>, or{" "}
+          <strong>camel excursions</strong>. For cycling enthusiasts, a{" "}
+          <strong>Bike Tour</strong> through the <strong>desert</strong> leads
+          to the crystal-clear oasis of <strong>Lalla Takerkoust</strong>,
+          offering an unforgettable journey surrounded by the{" "}
+          <strong>High Atlas Mountains</strong>. From thrilling adventures to
+          tranquil escapes, <strong>Lalla Takerkoust</strong> promises
+          experiences for every taste.
         </p>
         <Link
           href="/lalla-takerkoust-activities"
