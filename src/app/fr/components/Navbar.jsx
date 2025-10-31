@@ -61,14 +61,14 @@ const Navbar = ({ path, change = false }) => {
           <div className="flex lg:justify-start justify-end items-center gap-5 w-[26%] z-20">
             <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
               <Link
-                href="/booking"
+                href="/fr/booking"
                 className={`w-full rounded-full text-center uppercase lg:w-[60%] tracking-[0.1em] lg:tracking-[0.2em]  text-[12px] leading-[12px] py-3 px-2 transition-all duration-300 ease-in-out ${
                   scrolled || change
                     ? "text-casa_scarlet bg-casa_background hover:bg-casa_scarlet hover:text-casa_background border-2 border-casa_scarlet"
                     : "text-casa_background bg-transparent hover:bg-casa_background hover:text-casa_scarlet border-2 border-casa_background"
                 }`}
               >
-                Reservation
+                Réservation
               </Link>
             </div>
             <div
@@ -131,22 +131,22 @@ const Navbar = ({ path, change = false }) => {
           >
             <ul className="flex justify-center items-center gap-3 uppercase text-[12px] leading-[36px] font-light">
               <li>
-                <Link href="#">Home</Link>
+                <Link href="/fr">Accueil</Link>
               </li>
               <li>
-                <Link href="/restaurant-casa-lalla">Restaurant</Link>
+                <Link href="/fr/restaurant-casa-lalla">Restaurant</Link>
               </li>
               <li>
-                <Link href="/private-events">Private Events</Link>
+                <Link href="/fr/private-events">Événements privés</Link>
               </li>
               <li>
-                <Link href="/lalla-takerkoust-activities">Activities</Link>
+                <Link href="/fr/lalla-takerkoust-activities">Activités</Link>
               </li>
               <li>
-                <Link href="/lalla-takerkoust-gallery">Gallery</Link>
+                <Link href="/fr/lalla-takerkoust-gallery">Galerie</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/fr/contact">Contact</Link>
               </li>
               <li>
                 <div
@@ -166,12 +166,12 @@ const Navbar = ({ path, change = false }) => {
                   {isDropdownOpen && (
                     <ul className="absolute rounded top-8 -left-2 bg-casa_background mt-0 py-2 w-20 shadow-lg flex justify-center items-center gap-1">
                       <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa_scarlet hover:text-casa_background transition-all duration-200 ease-in-out font-light text-casa_scarlet">
-                        <Link rel="alternate" hreflang="en" href="#">
+                        <Link rel="alternate" hreflang="en" href={`${path}`}>
                           {"EN"}
                         </Link>
                       </li>
                       <li className="px-2 py-0 rounded-lg cursor-pointer hover:bg-casa_scarlet hover:text-casa_background transition-all duration-200 ease-in-out font-light text-casa_scarlet">
-                        <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                        <Link rel="alternate" hreflang="fr" href="#">
                           {"FR"}
                         </Link>
                       </li>
@@ -203,34 +203,36 @@ const Navbar = ({ path, change = false }) => {
               className="space-y-4 text-casa_scarlet leading-[49px] text-[16px] flex flex-col justify-center items-center font-light"
             >
               <li className="">
-                <Link href="/">{"Home"}</Link>
+                <Link href="/fr">{"Accueil"}</Link>
               </li>
               <li className="">
-                <Link href="/restaurant-casa-lalla">{"Restaurant"}</Link>
+                <Link href="/fr/restaurant-casa-lalla">{"Restaurant"}</Link>
               </li>
               <li className="">
-                <Link href="/private-events">{"Private Events"}</Link>
+                <Link href="/fr/private-events">{"Événements privés"}</Link>
               </li>
               <li className="">
-                <Link href="/lalla-takerkoust-activities">{"Activities"}</Link>
+                <Link href="/fr/lalla-takerkoust-activities">
+                  {"Activités"}
+                </Link>
               </li>
               <li className="">
-                <Link href="/lalla-takerkoust-gallery">{"Gallery"}</Link>
+                <Link href="/fr/lalla-takerkoust-gallery">{"Galerie"}</Link>
               </li>
               <li className="">
-                <Link href="/contact">{"Contact"}</Link>
+                <Link href="/fr/contact">{"Contact"}</Link>
               </li>
               <li>
                 <Link
-                  href="/booking"
+                  href="/fr/booking"
                   className={`tracking-[0.2em] text-[12px] leading-[34px] py-3 px-4 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full`}
                 >
-                  Reservation
+                  Réservation
                 </Link>
               </li>
               <ul className="py-2 w-full flex justify-center items-start gap-3">
                 <li className="px-2 rounded-lg cursor-pointer">
-                  <Link rel="alternate" hreflang="en" href="#">
+                  <Link rel="alternate" hreflang="en" href={`${path}`}>
                     <Image
                       src="/english.png"
                       width={100}
@@ -241,7 +243,7 @@ const Navbar = ({ path, change = false }) => {
                   </Link>
                 </li>
                 <li className="px-2 rounded-lg cursor-pointer">
-                  <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                  <Link rel="alternate" hreflang="fr" href="#">
                     <Image
                       src="/france.png"
                       width={100}

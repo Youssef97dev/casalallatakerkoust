@@ -40,11 +40,12 @@ const InstagramSection = () => {
     <section className="py-12 text-center">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-[25px] leading-[35.2px] font-canela text-casa_black">
-          Experience Casa Lalla Takerkoust at your own pace — refined luxury,
-          lakeside tranquility, and a culinary journey of emotion and culture.
+          {`Vivez Casa Lalla Takerkoust à votre rythme — un luxe raffiné, une
+          tranquillité au bord du lac et une expérience culinaire faite
+          d’émotion et d’évasion.`}
         </h2>
         <p className="text-[15px] leading-[25.5px] font-light mt-4 text-casa_black">
-          Follow us on Instagram{" "}
+          Suivez-nous sur Instagram{" "}
           <Link
             href="https://www.instagram.com/casa.lalla.takerkoust/"
             className="text-casa_scarlet"
