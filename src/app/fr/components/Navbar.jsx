@@ -44,7 +44,7 @@ const Navbar = ({ path, change = false }) => {
             className={`cursor-pointer w-[26%] text-[18px] lg:text-[30px]`}
           ></div>
           <div className="w-[48%] flex justify-center items-center pb-1 z-20">
-            <Link href="/">
+            <Link href="/fr">
               <Image
                 src={
                   scrolled || change
