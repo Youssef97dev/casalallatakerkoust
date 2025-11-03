@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         canela: ["Canela", "sans-serif"],
+        lora: ["Lora", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",

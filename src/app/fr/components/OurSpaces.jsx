@@ -44,7 +44,7 @@ const OurSpaces = () => {
               className="w-full h-[500px] object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 transition-all duration-500" />
-            <h3 className="absolute inset-0 flex items-center justify-center text-casa_background text-[35px] leading-[55px] font-canela font-light tracking-wide italic px-14">
+            <h3 className="absolute inset-0 flex items-center justify-center text-casa_background text-[30px] leading-[55px] font-lora tracking-wide italic px-14">
               {space.title}
             </h3>
           </Link>

@@ -6,7 +6,7 @@ const Activities = () => {
   return (
     <div className="relative w-full h-[150vh] lg:h-[110vh]">
       <div className="absolute z-20 right-0 lg:right-[181px] w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-start gap-5  p-5 lg:p-10 top-[320px] lg:top-1/2 -translate-y-0 lg:-translate-y-1/2 bg-[#EDE5D9]">
-        <h1 className="font-canela text-[27px] leading-[32.4px] text-casa_black">
+        <h1 className="font-lora text-[22px] leading-[32.4px] text-casa_black">
           Casa Lalla Takerkoust offert des expériences uniques
         </h1>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
@@ -14,7 +14,7 @@ const Activities = () => {
           {` n’est pas seulement une destination
           pittoresque — c’est un véritable terrain de jeu pour l’aventure et
           l’exploration. Facilement accessible en taxi ou en bus, les visiteurs
-          peuvent plonger directement dans une variété`}
+          peuvent plonger directement dans une variété `}
           <strong>{`d’activités`}</strong>
           {` palpitantes. Ressentez l’adrénaline d’un`}{" "}
           <strong>tour en Quad</strong> ou en <strong>Buggy</strong>, guidé hors
@@ -47,7 +47,7 @@ const Activities = () => {
         </p>
         <Link
           href="/fr/lalla-takerkoust-activities"
-          className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
+          className="font-lora italic text-[15px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
         >
           <span className="relative z-10">Découvrez plus</span>
           <span

@@ -6,14 +6,14 @@ const Events = () => {
   return (
     <div className="relative w-full h-[137vh] lg:h-[110vh]">
       <div className="absolute z-20 left-0 lg:left-40 w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-start gap-5  p-5 lg:p-10 top-[320px] lg:top-1/2 -translate-y-0 lg:-translate-y-1/2 bg-[#EDE5D9]">
-        <h1 className="font-canela text-[27px] leading-[32.4px] text-casa_black">
+        <h1 className="font-lora text-[22px] leading-[32.4px] text-casa_black">
           Événements Privés & Mariages au Restaurant Casa Lalla Takerkoust
         </h1>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           La vue exceptionnelle de notre <strong>paysage naturel</strong> est{" "}
           <strong>la scène</strong> parfaite pour votre{" "}
-          <strong>événement</strong> ou votre <strong>célébration</strong>.
-          {`Qu'il s'agisse d'un`}
+          <strong>événement</strong> ou votre <strong>célébration</strong>.{" "}
+          {`Qu'il s'agisse d'un `}
           <strong>mariage</strong>
           {`, d'un `}
           <strong>anniversaire</strong>, {` d'une `}
@@ -48,7 +48,7 @@ const Events = () => {
         </p>
         <Link
           href="/fr/private-events"
-          className="font-canela italic text-[18px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
+          className="font-lora italic text-[15px] leading-[25.5px] text-casa_scarlet hover:text-casa_scarlet_opacity group relative inline-block no-underline"
         >
           <span className="relative z-10">Découvrez plus</span>
           <span
