@@ -69,8 +69,7 @@ const Content = () => {
           <p className="text-[15px] leading-[25.5px] font-light text-casa_black">
             Each space at <strong>Casa Lalla Takerkoust</strong> combines
             natural beauty, refined design, and warm hospitality — ensuring
-            every event becomes a truly
-            <strong>memorable experience</strong>.
+            every event becomes a truly <strong>memorable experience</strong>.
           </p>
           <h1 className="font-canela text-[25px] leading-[32.5px] text-casa_black mt-0">
             Contact Us to Book Your Event

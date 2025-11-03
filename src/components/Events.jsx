@@ -11,15 +11,16 @@ const Events = () => {
         </h1>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           The unmatched beauty of our <strong>natural</strong> landscape is the
-          perfect <strong>backdrop</strong>
-          for your <strong>event</strong> or <strong>celebration</strong>. From{" "}
-          <strong>weddings</strong>, <strong>anniversaries</strong> and
+          perfect <strong>backdrop</strong> for your <strong>event</strong> or{" "}
+          <strong>celebration</strong>. From <strong>weddings</strong>,{" "}
+          <strong>anniversaries</strong>
+          {" and "}
           <strong>birthdays</strong> to <strong>photo shoots</strong> and{" "}
           <strong>brand events</strong>, you can make{" "}
-          <strong>Casa lalla</strong>
-          your own for an unforgettable time. whether intimate or grand, our
-          specially designed <strong>experience</strong> will ensure your vision
-          comes to life seamlessly.
+          <strong>Casa lalla</strong> your own for an unforgettable time.
+          whether intimate or grand, our specially designed{" "}
+          <strong>experience</strong> will ensure your vision comes to life
+          seamlessly.
         </p>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           Host your unforgettable moments at{" "}
@@ -27,13 +28,12 @@ const Events = () => {
           the tranquility of the <strong>lake</strong>. Whether it’s an intimate{" "}
           <strong>wedding</strong>, a <strong>private dinner</strong>, or a{" "}
           <strong>corporate gathering</strong>, our serene setting offers the
-          perfect backdrop for your <strong>celebration</strong>. Enjoy
+          perfect backdrop for your <strong>celebration</strong>. Enjoy{" "}
           <strong>personalized menus</strong> crafted by our chefs, elegant
-          décor inspired by
-          <strong>Moroccan charm</strong>, and a warm atmosphere that turns
-          every <strong>event</strong> into a lasting memory. At{" "}
-          <strong>Casa Lalla Takerkoust</strong>, we transform your special
-          occasion into an experience of taste, beauty, and emotion.
+          décor inspired by <strong>Moroccan charm</strong>, and a warm
+          atmosphere that turns every <strong>event</strong> into a lasting
+          memory. At <strong>Casa Lalla Takerkoust</strong>, we transform your
+          special occasion into an experience of taste, beauty, and emotion.
         </p>
         <Link
           href="/private-events"
