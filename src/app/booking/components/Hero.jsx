@@ -5,16 +5,16 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-2_tqnpww.jpg"
+          src="/images/casalalla-takerkoust-booking.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover`}
+          className={`w-full h-full object-cover object-bottom`}
         />
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-3_mawwbu.webp"
+          src="/images/casalalla-takerkoust-booking-agafay.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}

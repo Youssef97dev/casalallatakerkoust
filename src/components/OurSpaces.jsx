@@ -11,14 +11,12 @@ const spaces = [
   },
   {
     title: "Activities",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827998/lalla-takerkoust-agafay-activities-3_biuulg.webp",
+    image: "/images/casa-lalla-activities-desert.jpeg",
     link: "/lalla-takerkoust-activities",
   },
   {
     title: "Private Events",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-2_t8j0yv.jpg",
+    image: "/images/casa-lalla-takerkoust-private-events.jpeg",
     link: "/private-events",
   },
 ];

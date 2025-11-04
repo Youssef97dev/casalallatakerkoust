@@ -5,16 +5,16 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-4_oqjzb9.jpg"
+          src="/images/casalalla-takerkoust-restaurant-large.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover`}
+          className={`w-full h-full object-cover object-center`}
         />
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829176/casalalla-takerkoust-agafay-vibes-small-5_yssnlf.webp"
+          src="/images/casalalla-takerkoust-restaurant-small.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
@@ -22,7 +22,7 @@ const Hero = () => {
         />
       </div>
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-35"></div>
 
       <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-2 lg:px-0">
         <h1>

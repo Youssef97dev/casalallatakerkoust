@@ -3,6 +3,38 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
+    image: "/images/casalalla-takerkoust-agafay-vibes-small-3.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-agafay-vibes-small-2.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-vibes-agafay-events.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casa-lalla-takerkoust-private-events.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-agafay-vibes-activities-2.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-agafay-vibes-activities-3.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-akerkoust-culunary.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-culunary2.jpeg",
+    class: "object-center",
+  },
+  {
     image:
       "https://cdn.pixabay.com/photo/2025/03/28/11/00/marrakech-9498600_1280.jpg",
     class: "object-center",

@@ -48,7 +48,7 @@ const Events = () => {
       </div>
       <div className="z-10 absolute right-0 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-1_jfaibi.jpg"
+          src="/images/casalalla-takerkoust-vibes-agafay-events.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}

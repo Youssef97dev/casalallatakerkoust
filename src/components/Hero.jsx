@@ -4,38 +4,38 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-1_fg1q0v.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-1.jpg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-2_tqnpww.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-2.jpg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761838718/casalalla-takerkoust-agafay-large_ekc7ys.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-3.jpg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828559/casalalla-takerkoust-agafay-large-4_oqjzb9.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-4.jpg",
     class: "object-center",
   },
 ];
 
 const imagesSmall = [
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-2_gg32iu.webp",
+    src: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829059/casalalla-takerkoust-agafay-vibes-small-3_mawwbu.webp",
+    src: "/images/casalalla-takerkoust-agafay-vibes-small-2.jpeg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829060/casalalla-takerkoust-agafay-vibes-small-4_h0xoqa.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-small-3.jpeg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829176/casalalla-takerkoust-agafay-vibes-small-5_yssnlf.webp",
+    src: "/images/casalalla-takerkoust-agafay-vibes-small-4.jpeg",
     class: "object-center",
   },
 ];
