@@ -5,8 +5,7 @@ import Link from "next/link";
 const spaces = [
   {
     title: "Restaurant",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829766/lalla-takerkoust-agafay-restaurant_snield.webp",
+    image: "/images/casalalla-restaurant-agafay.jpeg",
     link: "/restaurant-casa-lalla",
   },
   {

@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-1.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-1.jpeg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-2.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-2.jpeg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-3.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-3.jpeg",
     class: "object-center",
   },
   {
@@ -71,22 +71,16 @@ const Hero = () => {
         ))}
       </div>
       <div className="w-full h-full block lg:hidden">
-        {imagesSmall.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              src={image.src}
-              alt={`casalalla, takerkoust, agafay vibes ${index + 1}`}
-              width={1500}
-              height={1500}
-              className={`w-full h-full object-cover ${image.class}`}
-            />
-          </div>
-        ))}
+        <video
+          className="object-cover h-full w-full"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/video/casalalla-vibes-agafay.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       {/* Overlay
       <div className="absolute inset-0 bg-black bg-opacity-40 hidden lg:block"></div> */}
