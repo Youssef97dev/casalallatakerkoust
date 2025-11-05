@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://casalallatakerkoust.com/sitemap.xml
