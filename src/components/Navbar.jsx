@@ -143,6 +143,9 @@ const Navbar = ({ path, change = false }) => {
                 <Link href="/lalla-takerkoust-activities">Activities</Link>
               </li>
               <li>
+                <Link href="/menu/menu-casalalla-anglais.pdf">Menu</Link>
+              </li>
+              <li>
                 <Link href="/lalla-takerkoust-gallery">Gallery</Link>
               </li>
               <li>
@@ -191,7 +194,7 @@ const Navbar = ({ path, change = false }) => {
           leaveFrom="transform -translate-x-0 opacity-100"
           leaveTo="transform -translate-x-full opacity-0"
         >
-          <div className="fixed top-0 left-0 z-50 w-full h-screen bg-casa_background flex flex-col items-left justify-start gap-16 py-6 px-6 uppercase lg:hidden">
+          <div className="fixed top-0 left-0 z-50 w-full h-screen bg-casa_background flex flex-col items-left justify-start gap-11 py-6 px-6 uppercase lg:hidden">
             <div
               className="w-full flex justify-end items-center text-casa_scarlet text-[25px]"
               onClick={() => setIsOpen(false)}
@@ -200,7 +203,7 @@ const Navbar = ({ path, change = false }) => {
             </div>
             <ul
               onClick={() => setIsOpen(false)}
-              className="space-y-4 text-casa_scarlet leading-[49px] text-[16px] flex flex-col justify-center items-center font-light"
+              className="space-y-3 text-casa_scarlet leading-[49px] text-[16px] flex flex-col justify-center items-center font-light"
             >
               <li className="">
                 <Link href="/">{"Home"}</Link>
@@ -213,6 +216,9 @@ const Navbar = ({ path, change = false }) => {
               </li>
               <li className="">
                 <Link href="/lalla-takerkoust-activities">{"Activities"}</Link>
+              </li>
+              <li>
+                <Link href="/menu/menu-casalalla-anglais.pdf">Menu</Link>
               </li>
               <li className="">
                 <Link href="/lalla-takerkoust-gallery">{"Gallery"}</Link>
