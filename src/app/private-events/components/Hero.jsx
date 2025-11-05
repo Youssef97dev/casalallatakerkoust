@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/casalalla-takerkoust-agafay-vibes-5.jpg"
+          src="/images/casalalla-takerkoust-agafay-vibes-contact-large.jpeg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}

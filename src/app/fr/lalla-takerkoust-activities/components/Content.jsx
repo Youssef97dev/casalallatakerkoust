@@ -16,14 +16,14 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827992/lalla-takerkoust-agafay-activities-1_eqckzn.webp"
+            src="/images/casalalla-takerkoust-vibes-agafay-activities-2.jpg"
             alt="casa lalla takerkoust, agafay vibes, activities"
             width={500}
             height={500}
             className="object-cover w-full h-full"
           />
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827993/lalla-takerkoust-agafay-activities-2_nbrj6p.webp"
+            src="/images/casalalla-takerkoust-vibes-agafay-activities-3.jpg"
             alt="casa lalla takerkoust, agafay vibes, activities"
             width={500}
             height={500}
@@ -116,14 +116,14 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827998/lalla-takerkoust-agafay-activities-3_biuulg.webp"
+            src="/images/casalalla-takerkoust-vibes-agafay-activities-4.jpg"
             alt="casa lalla takerkoust, agafay vibes, activities"
             width={500}
             height={500}
             className="object-cover w-full h-full"
           />
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827993/lalla-takerkoust-agafay-activities-4_dulq4w.webp"
+            src="/images/casalalla-takerkoust-vibes-agafay-activities-5.jpg"
             alt="casa lalla takerkoust, agafay vibes, activities"
             width={500}
             height={500}
