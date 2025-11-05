@@ -21,25 +21,6 @@ const imagesLarge = [
   },
 ];
 
-const imagesSmall = [
-  {
-    src: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-vibes-small-2.jpeg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-vibes-small-3.jpeg",
-    class: "object-center",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-vibes-small-4.jpeg",
-    class: "object-center",
-  },
-];
-
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {

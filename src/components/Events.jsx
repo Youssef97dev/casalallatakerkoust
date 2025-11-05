@@ -48,7 +48,7 @@ const Events = () => {
       </div>
       <div className="z-10 absolute right-0 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="/images/casalallatakerkoust-vibes-agafay.jpg"
+          src="/images/casalalla-takerkoust-agafay-vibes-gallery-7.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}
