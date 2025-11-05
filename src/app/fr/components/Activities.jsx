@@ -58,7 +58,7 @@ const Activities = () => {
       </div>
       <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827993/lalla-takerkoust-agafay-activities-2_nbrj6p.webp"
+          src="/images/casalalla-takerkoust-agafay-vibes-activities-5.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}

@@ -5,20 +5,17 @@ import Link from "next/link";
 const spaces = [
   {
     title: "Restaurant",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829766/lalla-takerkoust-agafay-restaurant_snield.webp",
+    image: "/images/casalalla-restaurant-agafay.jpeg",
     link: "/fr/restaurant-casa-lalla",
   },
   {
     title: "Activités",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827998/lalla-takerkoust-agafay-activities-3_biuulg.webp",
+    image: "/images/casa-lalla-activities-desert.jpeg",
     link: "/fr/lalla-takerkoust-activities",
   },
   {
     title: "Événements privés",
-    image:
-      "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-2_t8j0yv.jpg",
+    image: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
     link: "/fr/private-events",
   },
 ];
