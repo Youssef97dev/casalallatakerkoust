@@ -20,14 +20,14 @@ const Content = () => {
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
-            className="object-cover w-full"
+            className="object-cover w-full h-[500px]"
           />
           <Image
             src="/images/casalalla-takerkoust-agafay-vibes-gallery-6.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
-            className="object-cover w-full"
+            className="object-cover w-full h-[500px]"
           />
         </div>
         <div className="w-full flex flex-col justify-start items-center text-left gap-10">
@@ -110,14 +110,14 @@ const Content = () => {
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
-            className="object-cover w-full"
+            className="object-cover w-full h-[500px]"
           />
           <Image
             src="/images/casalalla-takerkoust-agafay-vibes-gallery-7.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
-            className="object-cover w-full"
+            className="object-cover w-full h-[500px]"
           />
         </div>
       </div>
