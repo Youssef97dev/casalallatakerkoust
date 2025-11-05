@@ -17,7 +17,7 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-agafay-vibes-activities-1.jpeg"
+            src="/images/casalalla-takerkoust-agafay-vibes-activities-5.jpg"
             alt="casa lalla takerkoust, agafay vibes, activities"
             width={500}
             height={500}

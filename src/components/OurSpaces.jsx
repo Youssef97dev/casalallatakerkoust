@@ -15,7 +15,7 @@ const spaces = [
   },
   {
     title: "Private Events",
-    image: "/images/casa-lalla-takerkoust-private-events.jpeg",
+    image: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
     link: "/private-events",
   },
 ];

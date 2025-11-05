@@ -7,17 +7,17 @@ const About = () => {
       id="about"
       className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa_black py-20"
     >
-      <h1 className="text-[35px] leading-[42px] font-canela">
+      <h1 className="text-[32px] leading-[42px] font-canela">
         {
           "Casa Lalla Takerkoust is a space for members to eat, drink and celebrate"
         }
       </h1>
-      <h2 className="italic text-[25px] leading-[32.5px] font-canela">
+      <h2 className="italic text-[25px] leading-[35.5px] font-canela ">
         {
           "Featuring our signature Casa Lalla restaurant, where Mediterranean elegance meets lakeside tranquility"
         }
       </h2>
-      <p className="text-[15px] leading-[25.5px] font-light italic pt-5 px-0 lg:px-52">
+      <p className="text-[15px] leading-[28.5px] font-light italic pt-5 px-5 lg:px-52">
         {
           "Casa Lalla welcomes its guests far from the sophistication and hustle and bustle of the city, this haven of peace is the ideal place to indulge in simple pleasures and savor the mild climate."
         }

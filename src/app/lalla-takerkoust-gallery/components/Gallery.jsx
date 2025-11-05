@@ -15,7 +15,7 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/images/casa-lalla-takerkoust-private-events.jpeg",
+    image: "/images/casalalla-takerkoust-agafay-vibes-contact.jpeg",
     class: "object-center",
   },
   {
