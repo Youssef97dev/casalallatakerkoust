@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram, FaWhatsapp, FaMailBulk } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -56,31 +57,29 @@ const Footer = () => {
           <div className="w-14 h-[1.8px] bg-[#8b3a2b] mx-auto my-2"></div>
 
           {/* Instagram Icon */}
-          <Link
-            href="https://www.instagram.com/casa.lalla.takerkoust/"
-            rel="noopener noreferrer"
-            className="text-[#8b3a2b] hover:text-[#a04630] transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.6}
-              stroke="currentColor"
-              className="w-6 h-6"
+          <div className="w-full flex justify-center items-center gap-4">
+            <Link
+              href="https://www.instagram.com/casa.lalla.takerkoust/"
+              rel="noopener noreferrer"
+              className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M7.75 2.75h8.5A5.75 5.75 0 0122 8.5v7a5.75 5.75 0 01-5.75 5.75h-8.5A5.75 5.75 0 012 15.5v-7A5.75 5.75 0 017.75 2.75z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.25 12a3.25 3.25 0 11-6.5 0 3.25 3.25 0 016.5 0z"
-              />
-            </svg>
-          </Link>
+              <FaInstagram />
+            </Link>
+            <Link
+              href="https://wa.me/212675480103"
+              rel="noopener noreferrer"
+              className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
+            >
+              <FaWhatsapp />
+            </Link>
+            <Link
+              href="mailto:reservations@casalallatakerkoust.com"
+              rel="noopener noreferrer"
+              className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
+            >
+              <FaMailBulk />
+            </Link>
+          </div>
 
           <p className="text-[15px] leading-[25.5px] font-light uppercase tracking-wider text-casa_black mt-2">
             © 2025, CASA LALLA TAKERKOUST
