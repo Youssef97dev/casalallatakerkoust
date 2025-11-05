@@ -16,14 +16,14 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-1_jfaibi.jpg"
+            src="/images/agafay-takerkoust-private-events.jpeg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
             className="object-cover w-full"
           />
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761828221/casalalla-takerkoust-agafay-private-event-2_t8j0yv.jpg"
+            src="/images/agafay-takerkoust-private-events-2.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
