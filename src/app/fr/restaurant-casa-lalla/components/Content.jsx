@@ -7,11 +7,11 @@ const Content = () => {
       id="our-philosophy"
       className="w-full flex flex-col justify-center items-center gap-4 py-24 lg:py-32 px-5 lg:px-80 text-center"
     >
-      <h1 className="font-canela text-[35px] leading-[42px] text-casa_black">
+      <h1 className="font-canela text-[40px] leading-[42px] text-casa_black">
         Notre Philosophie
       </h1>
-      <h2 className="font-canela text-[25px] leading-[32.5px] text-casa_black italic">
-        Le restaurant CASA LALLA TAKERKOUST vous invite à un voyage au cœur de
+      <h2 className="font-lora text-[18px] leading-[32.5px] text-casa_black italic">
+        Le restaurant Casa Lalla Takerkoust vous invite à un voyage au cœur de
         la riche culture culinaire et des saveurs vibrantes de la Méditerranée.
       </h2>
       <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black mt-8 px-0 lg:px-14">

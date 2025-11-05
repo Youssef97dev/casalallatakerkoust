@@ -83,7 +83,7 @@ const Hero = () => {
         </video>
       </div>
       {/* Overlay*/}
-      <div className="absolute top-0 left-0 w-full h-[35%] bg-gradient-to-b from-black/70 to-transparent"></div>
+      <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-black/70 to-transparent"></div>
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
         <a href="#about">

@@ -7,11 +7,11 @@ const Content = () => {
       id="events"
       className="grid grid-cols-1 gap-3 pt-32 pb-12 text-center"
     >
-      <h1 className="font-canela text-[35px] leading-[42px] text-casa_black mx-8 lg:mx-56">
+      <h1 className="font-lora text-[25px] italic leading-[38px] text-casa_black mx-8 lg:mx-56">
         Un lieu d’exception pour des événements inoubliables au bord du lac
       </h1>
       <h2 className="mt-4 font-canela italic text-[25px] leading-[25px] text-casa_black">
-        Organisez votre prochain événement avec nous
+        Organisez votre prochain evenement avec nous
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">

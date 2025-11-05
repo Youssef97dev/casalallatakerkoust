@@ -39,7 +39,7 @@ const InstagramSection = () => {
   return (
     <section className="py-12 text-center">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-[22px] leading-[35.2px] font-lora italic text-casa_black">
+        <h2 className="text-[19px] leading-[35.2px] font-lora italic text-casa_black">
           {`Vivez Casa Lalla Takerkoust à votre rythme un luxe raffiné, une
           tranquillite au bord du lac et une expérience culinaire faite
           d’émotion et d’évasion.`}

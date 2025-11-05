@@ -7,12 +7,12 @@ const About = () => {
       id="about"
       className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa_black py-20"
     >
-      <h1 className="text-[32px] leading-[40px] font-lora">
+      <h1 className="text-[27px] italic leading-[40px] font-lora">
         {
           "Casa Lalla est un espace où les visiteurs peuvent manger, boire et célébrer"
         }
       </h1>
-      <h2 className="italic text-[22px] leading-[32.5px] font-lora">
+      <h2 className="italic text-[19px] leading-[32.5px] font-lora">
         {
           "Mettant en avant notre restaurant emblématique Casa Lalla, où l’élégance méditerranéenne rencontre la tranquillité du lac."
         }

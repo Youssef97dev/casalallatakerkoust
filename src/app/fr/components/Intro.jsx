@@ -7,9 +7,9 @@ const Intro = () => {
       <h1 className="text-[40px] leading-[60px] font-canela font-thin text-casa_black">
         {"Une cuisine exquise et une vue panoramique extraordinaire"}
       </h1>
-      <p className="text-[22px] leading-[40px] font-lora italic text-casa_black tracking-wider">
+      <p className="text-[17px] leading-[40px] font-lora italic text-casa_black tracking-wider">
         {
-          "Entrez dans notre paradis culinaire méditerranéen a CASA LALLA TAKERKOUST,"
+          "Entrez dans notre paradis culinaire méditerranéen a Casa Lalla Takerkoust,"
         }
         <br />
         {

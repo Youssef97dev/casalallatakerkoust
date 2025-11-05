@@ -7,12 +7,12 @@ const AboutTwo = () => {
       id="about_two"
       className="w-full flex flex-col justify-center items-center gap-5 text-center px-3 lg:px-40 text-casa_black py-20"
     >
-      <h1 className="text-[32px] leading-[42px] font-lora">
+      <h1 className="text-[27px] leading-[42px] font-lora italic">
         {
-          "Casa Lalla Takerkoust — Entre charme du lac et atmosphère du désert d’Agafay"
+          "Casa Lalla Takerkoust Entre charme du lac et atmosphère du désert d’Agafay"
         }
       </h1>
-      <h2 className="italic text-[22px] leading-[32.5px] font-lora">
+      <h2 className="italic text-[19px] leading-[32.5px] font-lora">
         {"Être au bon endroit au bon moment"}
       </h2>
       <p className="text-[15px] leading-[25.5px] font-light italic pt-5 px-0 lg:px-52">

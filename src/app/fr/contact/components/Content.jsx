@@ -10,7 +10,7 @@ function Content() {
     >
       <div className="w-full flex flex-col justify-start items-center gap-5">
         <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
-          Réservez en ligne
+          Reservez en ligne
         </h1>
         <Link
           href="/fr/booking"

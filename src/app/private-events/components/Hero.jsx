@@ -22,7 +22,7 @@ const Hero = () => {
         />
       </div>
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-35"></div>
+      <div className="absolute top-0 left-0 w-full h-[85%] bg-gradient-to-b from-black/70 to-transparent"></div>
 
       <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-5 lg:px-0">
         <h1>Private Dining & Event Space in Lalla Takerkoust</h1>
