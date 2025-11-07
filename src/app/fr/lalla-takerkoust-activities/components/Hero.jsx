@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/images/casalalla-takerkoust-vibes-agafay-activities-1.jpg"
+          src="/images/casalalla-takerkoust-vibes-agafay-activities-hero-mobile.jpg"
           alt="casa lalla takerkoust, agafay vibes"
           width={1500}
           height={1500}
