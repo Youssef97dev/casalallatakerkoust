@@ -5,6 +5,7 @@ import "react-phone-input-2/lib/style.css";
 import emailjs from "@emailjs/browser";
 import { ClockLoader } from "react-spinners";
 import Link from "next/link";
+import { ToastContainer, toast, Bounce } from "react-toastify";
 
 const optionsTime = [
   "13:00",
@@ -41,17 +42,29 @@ const optionsGuests = [
 ];
 
 const Booking = () => {
+  const notify = () =>
+    toast.warn("All fields required.", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
   const [isClient, setIsClient] = useState(false);
   const [loading, setLoading] = useState(false);
   const [messageSent, setMessageSent] = useState(false);
   const [phone, setPhone] = useState("");
-  const [reservationDate, setReservationDate] = useState(new Date());
+  const [reservationDate, setReservationDate] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     email: "",
-    guests: 0,
-    time: "",
+    guests: "1 Guest",
+    time: "13:00",
     comment: "",
   });
 
@@ -65,10 +78,13 @@ const Booking = () => {
     const templateId = "template_c262tqj";
     e.preventDefault();
     if (
-      formData.firstName !== "" &&
-      formData.lastName !== "" &&
-      formData.email !== "" &&
-      phone !== ""
+      formData.firstName &&
+      formData.lastName &&
+      formData.email &&
+      formData.guests &&
+      formData.time &&
+      phone &&
+      reservationDate
     ) {
       try {
         setLoading(true);
@@ -94,6 +110,8 @@ const Booking = () => {
       } finally {
         setLoading(false);
       }
+    } else {
+      notify();
     }
   };
 
@@ -108,6 +126,20 @@ const Booking = () => {
   return (
     isClient && (
       <>
+        <ToastContainer
+          position="top-center"
+          style={{ zIndex: 999999 }}
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={true}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+        />
         {!messageSent ? (
           <form className="w-full flex flex-col justify-center items-center uppercase gap-4 text-[12.08px] mt-5 px-11  lg:px-52 pt-14 overflow-y-auto">
             <div className="w-full flex lg:flex-row flex-col justify-center items-center gap-3">
