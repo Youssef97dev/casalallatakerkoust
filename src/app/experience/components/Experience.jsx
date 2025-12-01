@@ -38,7 +38,7 @@ const images = [
 
 const Experience = () => {
   return (
-    <div className="pt-24 w-full">
+    <div className="pt-24 relative w-full h-full">
       {/*<div className="w-full grid grid-cols-1 gap-10 md:gap-20 items-start">
         <div
           className=" [&_.swiper-button-next]:text-white
@@ -88,13 +88,10 @@ const Experience = () => {
           </Swiper>
         </div>
       </div>*/}
-      <div className="relative w-full h-full">
-        <div className="absolute top-1 w-full flex justify-center items-center text-black  uppercase text-[9px] lg:text-[14px]">{`Menu`}</div>
-        <iframe
-          src="https://casalalla-activities.vercel.app/"
-          className="w-full h-full"
-        />
-      </div>
+      <iframe
+        src="https://casalalla-activities.vercel.app/"
+        className="w-full h-full"
+      />
     </div>
   );
 };
