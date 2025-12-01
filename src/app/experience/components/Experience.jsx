@@ -38,8 +38,8 @@ const images = [
 
 const Experience = () => {
   return (
-    <div className="pt-24 w-full px-5 lg:px-80">
-      <div className="w-full grid grid-cols-1 gap-10 md:gap-20 items-start">
+    <div className="pt-24 w-full">
+      {/*<div className="w-full grid grid-cols-1 gap-10 md:gap-20 items-start">
         <div
           className=" [&_.swiper-button-next]:text-white
 [&_.swiper-button-prev]:text-white
@@ -70,7 +70,7 @@ const Experience = () => {
                       height={1000}
                       className={`object-contain w-auto h-auto max-h-[480px] ${img.class}`}
                     />
-                    {/* CUSTOM ARROWS — NOW CENTERED TO IMAGE ONLY */}
+                    
                     <button className="custom-prev !absolute left-4 top-1/2 -translate-y-1/2 z-20 text-white text-5xl">
                       ‹
                     </button>
@@ -87,6 +87,13 @@ const Experience = () => {
             ))}
           </Swiper>
         </div>
+      </div>*/}
+      <div className="relative w-full h-full">
+        <div className="absolute top-1 w-full flex justify-center items-center text-black  uppercase text-[9px] lg:text-[14px]">{`Menu`}</div>
+        <iframe
+          src="https://casalalla-activities.vercel.app/"
+          className="w-full h-full"
+        />
       </div>
     </div>
   );
