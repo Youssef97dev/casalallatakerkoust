@@ -4,7 +4,7 @@ import Link from "next/link";
 const Intro = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-4 pt-28 px-4 lg:px-56">
-      <h1 className="text-[35px] leading-[45px] text-center tracking-[2px] text-salama_text font-canela text-casa_scarlet mb-2 px-10">{`Day Pass and Lunch`}</h1>
+      <h1 className="text-[35px] leading-[45px] text-center tracking-[2px] text-salama_text font-canela text-casa_scarlet mb-2 px-10">{`Reservation`}</h1>
       <p className="text-[14px] lg:text-[12px] lg:leading-[23px] text-center font-light lg:font-normal tracking-wider leading-[28px] px-4 2xl:px-12 text-salama_text">{`Spend a perfect day at Casa Lalla Takerkoust.`}</p>
       <p className="text-[14px] lg:text-[12px] lg:leading-[23px] text-center font-light lg:font-normal tracking-wider leading-[28px] px-4 2xl:px-12 text-salama_text">{`Relax in our peaceful gardens, enjoy our panoramic view overlooking Lake Lalla Takerkoust, and savour a delicious farm-to-table lunch prepared with fresh local ingredients.`}</p>
       <p className="text-[14px] lg:text-[12px] lg:leading-[23px] text-center font-light lg:font-normal tracking-wider leading-[28px] px-4 2xl:px-12 text-salama_text">{`Open every day from 13:00 PM to 17:00 PM, it’s the perfect place to enjoy lunch at any time.`}</p>
