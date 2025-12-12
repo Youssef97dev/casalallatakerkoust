@@ -7,11 +7,11 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/images/lake-4.jpg",
+    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-2.jpg",
     class: "object-bottom",
   },
   {
-    image: "/images/lake-10.jpg",
+    image: "/images/casalalla-takerkoust-booking.jpeg",
     class: "object-center",
   },
   {
