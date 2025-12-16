@@ -8,7 +8,7 @@ import Gallery from "../../day-pass/components/Gallery";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/day-pass"} change={true} />
+      <Navbar path={"/fr/reservation"} change={true} />
       <Intro />
       <Gallery />
       <Footer />

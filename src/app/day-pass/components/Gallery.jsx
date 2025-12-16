@@ -11,15 +11,17 @@ const GalleryImage = [
     class: "object-bottom",
   },
   {
-    image: "/images/lake-10.jpg",
-    class: "object-top",
-  },
-  {
     image: "/images/casalalla-restaurant-agafay.jpeg",
     class: "object-center",
   },
   {
-    image: "/images/casalalla-takerkoust-vibes-agafay-activities-5.jpg",
+    image: "/images/DSC01955.jpg",
+    class: "object-center",
+  },
+
+  {
+    image:
+      "/images/casalalla-takerkoust-vibes-agafay-activities-hero-mobile.jpg",
     class: "object-bottom",
   },
 ];
