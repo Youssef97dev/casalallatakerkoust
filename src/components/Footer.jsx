@@ -45,7 +45,7 @@ const Footer = () => {
               ACTIVITIES
             </Link>{" "}
             |
-            <Link href="/booking" className="underline">
+            <Link href="/reservation" className="underline">
               RESERVATION
             </Link>{" "}
             |

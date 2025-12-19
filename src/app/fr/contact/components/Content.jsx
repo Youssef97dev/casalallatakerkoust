@@ -13,7 +13,7 @@ function Content() {
           Reservez en ligne
         </h1>
         <Link
-          href="/fr/booking"
+          href="/fr/reservation"
           className={`tracking-[0.2em] mt-2 uppercase text-[11px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full hover:bg-casa_scarlet hover:text-casa_background`}
         >
           Réservez ici

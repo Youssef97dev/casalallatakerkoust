@@ -23,12 +23,22 @@ const imagesLarge = [
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesLarge.length);
     }, 5000); // Change image every 3000ms
 
     return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 80);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
@@ -65,6 +75,25 @@ const Hero = () => {
       </div>
       {/* Overlay*/}
       <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-black/70 to-transparent"></div>
+
+      <div
+        id="hero-logo"
+        className={`fixed z-50 transition-all duration-700 ease-in-out
+          ${
+            scrolled
+              ? "top-4 left-24 translate-x-0 translate-y-0 scale-50 opacity-0"
+              : "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100"
+          }
+        `}
+      >
+        <Image
+          src="/casa-lalla-background.png"
+          alt="Casa Lalla"
+          width={180}
+          height={180}
+          priority
+        />
+      </div>
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
         <a href="#about">

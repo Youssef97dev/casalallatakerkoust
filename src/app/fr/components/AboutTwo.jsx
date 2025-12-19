@@ -22,7 +22,7 @@ const AboutTwo = () => {
       </p>
       <div className="h-[2px] w-14 bg-casa_scarlet mx-auto my-4"></div>
       <Link
-        href="/fr/booking"
+        href="/fr/reservation"
         className={`tracking-[0.2em] mt-2 uppercase text-[11px] font-medium  py-3 px-5 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full hover:bg-casa_scarlet hover:text-casa_background`}
       >
         Réservation

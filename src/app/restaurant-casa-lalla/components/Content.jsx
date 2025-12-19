@@ -66,7 +66,7 @@ const Content = () => {
         .
       </p>
       <Link
-        href="/booking"
+        href="/reservation"
         className={`mt-5 tracking-[0.2em] text-[11px] font-medium uppercase py-2.5 px-4 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet hover:bg-casa_scarlet hover:text-casa_background rounded-full`}
       >
         Reservations

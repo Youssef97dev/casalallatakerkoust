@@ -48,8 +48,8 @@ const Navbar = ({ path, change = false }) => {
               <Image
                 src={
                   scrolled || change
-                    ? "/casa-lalla-scarlet-agafay.png"
-                    : "/casa-lalla-background.png"
+                    ? "/casa-lalla-scarlet.png"
+                    : "/back-trans.png"
                 }
                 width={300}
                 height={300}
@@ -61,7 +61,7 @@ const Navbar = ({ path, change = false }) => {
           <div className="flex lg:justify-start justify-end items-center gap-5 w-[26%] z-20">
             <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
               <Link
-                href="/booking"
+                href="/reservation"
                 className={`w-full rounded-full text-center uppercase lg:w-[60%] tracking-[0.1em] lg:tracking-[0.2em]  text-[12px] leading-[12px] py-3 px-2 transition-all duration-300 ease-in-out ${
                   scrolled || change
                     ? "text-casa_scarlet bg-casa_background hover:bg-casa_scarlet hover:text-casa_background border-2 border-casa_scarlet"
@@ -228,7 +228,7 @@ const Navbar = ({ path, change = false }) => {
               </li>
               <li>
                 <Link
-                  href="/booking"
+                  href="/reservation"
                   className={`tracking-[0.2em] text-[12px] leading-[34px] py-3 px-4 transition-all duration-300 ease-in-out border-2 border-casa_scarlet text-casa_scarlet rounded-full`}
                 >
                   Reservation
