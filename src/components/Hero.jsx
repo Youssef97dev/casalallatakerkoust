@@ -8,15 +8,15 @@ const imagesLarge = [
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-2.jpg",
-    class: "object-center",
+    src: "/images/casalalla-takerkoust-agafay-vibes-6.jpg",
+    class: "object-[50%,40%]",
   },
   {
     src: "/images/casalalla-takerkoust-agafay-vibes-3.jpg",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-4.jpg",
+    src: "/images/casalalla-takerkoust-agafay-vibes-5.jpg",
     class: "object-center",
   },
 ];
@@ -74,7 +74,7 @@ const Hero = () => {
         </video>
       </div>
       {/* Overlay*/}
-      <div className="absolute top-0 left-0 w-full h-[50%] bg-gradient-to-b from-black/70 to-transparent"></div>
+      <div className="absolute top-0 left-0 w-full h-[90%] bg-gradient-to-b from-black/80 to-transparent"></div>
 
       <div
         id="hero-logo"
@@ -89,8 +89,8 @@ const Hero = () => {
         <Image
           src="/casa-lalla-background.png"
           alt="Casa Lalla"
-          width={180}
-          height={180}
+          width={280}
+          height={280}
           priority
         />
       </div>
