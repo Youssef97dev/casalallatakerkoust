@@ -10,12 +10,12 @@ import Navbar from "./Navbar";
 import OurSpaces from "./OurSpaces";
 import SpotifySection from "@/components/SpotifySection";
 import ButtonWtsp from "@/components/ButtonWtsp";
-import Flyer from "@/components/Flyer";
+//import Flyer from "@/components/Flyer";
 
 const Loader = () => {
   return (
     <div className="relative">
-      <Flyer path="/fr/reservation" />
+      {/*<Flyer path="/fr/reservation" />*/}
       <Navbar path={"/"} />
       <Hero />
       <Intro />
