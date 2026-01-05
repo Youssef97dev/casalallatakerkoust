@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="pl-0 lg:pl-12 w-full flex flex-col items-center md:items-start justify-start gap-4">
+        <div className="pl-0 lg:pl-12 w-full hidden md:flex flex-col items-center md:items-start justify-start gap-4">
           <h3 className="text-[22px] leading-[32.5px] font-lora text-casa_black">
             Restez informé
           </h3>

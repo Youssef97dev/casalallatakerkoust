@@ -4,8 +4,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: {
-    default: "Casa Lalla Takerkoust - Vibe Agafay Desert",
-    template: "%s | Vibe Agafay Desert",
+    default: "Casa Lalla Takerkoust",
+    template: "%s | Casa Lalla Takerkoust",
   },
   description:
     "Casalalla Restaurant is a must-visit dining destination near Marrakech, located by the stunning barrage Lalla Takerkoust. This culinary gem offers an exceptional experience with a delightful blend of Moroccan cuisine and international dishes, all prepared with fresh, local ingredients. Enjoy breathtaking views of Lalla Takerkoust Lake and the Atlas Mountains, making it the perfect backdrop for a memorable meal.",
@@ -26,7 +26,7 @@ export const metadata = {
         url: "https://casalallatakerkoust.com/casalalla-takerkoust-agafay-vibes.jpg",
         width: 1200,
         height: 630,
-        alt: "Casa Lalla Takerkoust - Vibe Agafay Desert",
+        alt: "Casa Lalla Takerkoust",
       },
     ],
     locale: "en_US",
