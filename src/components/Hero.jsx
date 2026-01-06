@@ -82,15 +82,15 @@ const Hero = () => {
           ${
             scrolled
               ? "top-4 left-24 translate-x-0 translate-y-0 scale-50 opacity-0"
-              : "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100"
+              : "top-32 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100"
           }
         `}
       >
         <Image
           src="/casa-lalla-background.png"
           alt="Casa Lalla"
-          width={280}
-          height={280}
+          width={160}
+          height={160}
           priority
         />
       </div>
