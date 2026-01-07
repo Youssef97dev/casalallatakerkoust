@@ -20,24 +20,35 @@ function Content() {
         </Link>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           Customer Service |{" "}
-          <span className="text-casa_scarlet underline underline-offset-4">
+          <Link
+            href="https://wa.me/212675480103"
+            target="_blank"
+            className="text-casa_scarlet underline underline-offset-4"
+          >
             +212 675-480103
-          </span>
+          </Link>
         </p>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           Email Address |{" "}
-          <span className="text-casa_scarlet underline underline-offset-4">
+          <Link
+            href="mailto:reservations@casalallatakerkoust.com"
+            className="text-casa_scarlet underline underline-offset-4"
+          >
             reservations@casalallatakerkoust.com
-          </span>
+          </Link>
         </p>
       </div>
       <div className="w-full flex flex-col justify-start items-center gap-5">
         <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
           Our Location
         </h1>
-        <h2 className="text-[15px] leading-[25.5px] font-light text-casa_scarlet underline underline-offset-4">
+        <Link
+          href="https://maps.app.goo.gl/n6jVMNXSKJzRcuMv7"
+          target="_blank"
+          className="text-[15px] leading-[25.5px] font-light text-casa_scarlet underline underline-offset-4"
+        >
           Lalla Takerkoust, Marrakech 40000 Morocco
-        </h2>
+        </Link>
         <p className="text-[15px] leading-[25.5px] font-light text-casa_black text-center">
           Open Everyday <br />
           Opening hours : 13:00 PM to 17:00 PM

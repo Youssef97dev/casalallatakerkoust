@@ -20,12 +20,20 @@ const Footer = () => {
         {/* Left Section */}
         <div className="w-full flex flex-col items-center lg:items-start justify-start gap-4 text-[15px] leading-[25.5px] text-casa_black font-light mt-2">
           <p>
-            <Link href="#" className="underline">
+            <Link
+              href="https://maps.app.goo.gl/n6jVMNXSKJzRcuMv7"
+              target="_blank"
+              className="underline"
+            >
               Lalla Takerkoust,
             </Link>
           </p>
           <p>
-            <Link href="#" className="underline">
+            <Link
+              href="https://maps.app.goo.gl/n6jVMNXSKJzRcuMv7"
+              target="_blank"
+              className="underline"
+            >
               Marrakech 40000 Morocco
             </Link>
           </p>
@@ -60,6 +68,7 @@ const Footer = () => {
           <div className="w-full flex justify-center items-center gap-4">
             <Link
               href="https://www.instagram.com/casa.lalla.takerkoust/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
             >
@@ -67,6 +76,7 @@ const Footer = () => {
             </Link>
             <Link
               href="https://wa.me/212675480103"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
             >

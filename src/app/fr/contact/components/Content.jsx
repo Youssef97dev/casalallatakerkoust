@@ -9,8 +9,8 @@ function Content() {
       className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-5 px-3 lg:px-40 pt-24"
     >
       <div className="w-full flex flex-col justify-start items-center gap-5">
-        <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
-          Reservez en ligne
+        <h1 className="text-[35px] leading-[42px] font-light text-casa_black">
+          Réservez en ligne
         </h1>
         <Link
           href="/fr/reservation"
@@ -20,24 +20,35 @@ function Content() {
         </Link>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           Service client |{" "}
-          <span className="text-casa_scarlet underline underline-offset-4">
+          <Link
+            href="https://wa.me/212675480103"
+            target="_blank"
+            className="text-casa_scarlet underline underline-offset-4"
+          >
             +212 675-480103
-          </span>
+          </Link>
         </p>
         <p className="font-light text-[15px] leading-[25.5px] text-casa_black">
           Adresse email |{" "}
-          <span className="text-casa_scarlet underline underline-offset-4">
+          <Link
+            href="mailto:reservations@casalallatakerkoust.com"
+            className="text-casa_scarlet underline underline-offset-4"
+          >
             reservations@casalallatakerkoust.com
-          </span>
+          </Link>
         </p>
       </div>
       <div className="w-full flex flex-col justify-start items-center gap-5">
         <h1 className="text-[35px] leading-[42px] font-canela text-casa_black">
           Notre emplacement
         </h1>
-        <h2 className="text-[15px] leading-[25.5px] font-light text-casa_scarlet underline underline-offset-4">
+        <Link
+          href="https://maps.app.goo.gl/n6jVMNXSKJzRcuMv7"
+          target="_blank"
+          className="text-[15px] leading-[25.5px] font-light text-casa_scarlet underline underline-offset-4"
+        >
           Lalla Takerkoust, Marrakech 40000 Morocco
-        </h2>
+        </Link>
         <p className="text-[15px] leading-[25.5px] font-light text-casa_black text-center">
           Ouvert tous les jours <br />
           {`Horaires d'ouverture : de 13h00 à 17h00`}
