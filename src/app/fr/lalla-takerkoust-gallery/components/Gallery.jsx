@@ -34,6 +34,22 @@ const GalleryImage = [
     image: "/images/casalalla-takerkoust-agafay-vibes-gallery-8.jpg",
     class: "object-center",
   },
+  {
+    image: "/images/casalalla-akerkoust-culunary.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-booking-agafay.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01611.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01610.jpg",
+    class: "object-center",
+  },
 ];
 
 const Gallery = () => {
