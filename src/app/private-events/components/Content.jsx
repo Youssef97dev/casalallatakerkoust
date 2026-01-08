@@ -101,7 +101,7 @@ const Content = () => {
             className="object-cover w-full h-[500px]"
           />
           <Image
-            src="/images/casalalla-takerkoust-agafay-vibes-gallery-7.jpg"
+            src="/images/lake-24.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
