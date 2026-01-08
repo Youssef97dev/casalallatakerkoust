@@ -16,14 +16,14 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-agafay-vibes-gallery-2.jpg"
+            src="/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
             className="object-cover w-full h-[500px]"
           />
           <Image
-            src="/images/casalalla-takerkoust-agafay-vibes-gallery-6.jpg"
+            src="/images/casalalla-events.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}
@@ -94,7 +94,7 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761827999/casalalla-takerkoust-agafay-private-event-3_womf26.jpg"
+            src="/images/DSC01910--.jpg"
             alt="casa lalla takerkoust, agafay vibes, private events"
             width={500}
             height={500}

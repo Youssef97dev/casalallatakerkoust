@@ -220,7 +220,12 @@ const Navbar = ({ path, change = false }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/menu/menu-casalalla-francais.pdf">La Carte</Link>
+                <Link
+                  target="_blank"
+                  href="https://casalalla.blogspot.com/2025/02/blog-post.html"
+                >
+                  La Carte
+                </Link>
               </li>
               <li className="">
                 <Link href="/fr/lalla-takerkoust-gallery">{"Galerie"}</Link>

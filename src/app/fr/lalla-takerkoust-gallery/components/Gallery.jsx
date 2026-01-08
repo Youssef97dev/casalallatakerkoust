@@ -3,30 +3,6 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-1.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-2.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-3.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-4.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-5.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/casalalla-takerkoust-agafay-vibes-gallery-6.jpg",
-    class: "object-center",
-  },
-  {
     image: "/images/casalalla-takerkoust-agafay-vibes-gallery-7.jpg",
     class: "object-center",
   },
@@ -35,20 +11,76 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/images/casalalla-akerkoust-culunary.jpeg",
+    image: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01667--.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01910--.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08639--.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/lake-15.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/lake-24.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casa-lalla-activities-desert.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/casalalla-takerkoust-agafay-vibes-activities-5.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01922--.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01923--.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01944--.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC01955.jpg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08781--.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08786--.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08787--.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08790--.jpeg",
+    class: "object-center",
+  },
+  {
+    image: "/images/DSC08792--.jpeg",
     class: "object-center",
   },
   {
     image: "/images/casalalla-takerkoust-booking-agafay.jpeg",
-    class: "object-center",
-  },
-  {
-    image: "/images/DSC01611.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/images/DSC01610.jpg",
-    class: "object-center",
+    class: "object-bottom",
   },
 ];
 
