@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-[85%] bg-gradient-to-b from-black/70 to-transparent"></div>
 
       <div className="absolute inset-0 w-full flex justify-center text-center items-center font-lora text-white text-[24px] italic leading-[40px] lg:text-[40px] lg:leading-[60px] px-5 lg:px-0">
-        <h1>Dîners Privés et Espaces Événementiels à Lalla Takerkoust</h1>
+        <h1>Espaces Événementiels à Lalla Takerkoust</h1>
       </div>
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
