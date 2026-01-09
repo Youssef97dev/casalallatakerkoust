@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Activities = () => {
   return (
-    <div className="relative w-full  h-[165vh] lg:h-[125vh]">
-      <div className="absolute z-20 right-0 lg:right-[181px] w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-start gap-5  p-5 lg:p-10 top-[320px] lg:top-1/2 -translate-y-0 lg:-translate-y-1/2 bg-[#EDE5D9]">
+    <div className="relative w-full h-[169vh] lg:h-[125vh]">
+      <div className="absolute z-20 right-0 lg:right-[181px] w-[90%] lg:w-[43%] h-fit flex flex-col justify-center items-start gap-5  p-5 lg:p-10 top-[420px] lg:top-1/2 -translate-y-0 lg:-translate-y-1/2 bg-[#EDE5D9]">
         <h1 className="font-canela text-[27px] leading-[32.4px] text-casa_black">
           Casa Lalla producing unique member experiences
         </h1>
@@ -48,11 +48,11 @@ const Activities = () => {
       </div>
       <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="/images/casalalla-takerkoust-agafay-vibes-activities-5.jpg"
+          src="/images/casalalla-activities.png"
           alt="casa lalla takerkoust, agafay vibes"
           width={500}
           height={500}
-          className="object-cover h-[400px] lg:h-[125vh]"
+          className="object-cover h-[500px] lg:h-[125vh]"
         />
       </div>
     </div>
