@@ -4,32 +4,38 @@ import Link from "next/link";
 
 const images = [
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830020/casalalla-takerkoust-instagram-1_phnv6j.png",
-    video: true,
-    link: "https://www.instagram.com/p/C017YeRLVBD/",
+    src: "/agafay-takerkoust/mykonos-vibes-restaurant-agafay-desert-marrakech.webp",
+    alt: "",
+    video: false,
+    link: "https://www.instagram.com/p/DSHv8mkDbTF/",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830133/casalalla-takerkoust-agafay-instagram-2_vphuia.png",
-    video: true,
-    link: "https://www.instagram.com/p/DGgDi8UNboO/",
+    src: "/agafay-takerkoust/ibiza-sunset-lounge-near-royal-mansour.webp",
+    alt: "",
+    video: false,
+    link: "https://www.instagram.com/p/DSHvxAujVCu/",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830244/casalalla-takerkoust-agafay-instagram-3_qoxj5j.png",
-    video: true,
-    link: "https://www.instagram.com/p/DI9Nuh1M0Yx/",
+    src: "/agafay-takerkoust/mykonos-chic-Lalla-akerkoust-lake-morocco.webp",
+    alt: "",
+    video: false,
+    link: "https://www.instagram.com/p/DSHuJyJDShv/",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830320/casalalla-insta-1_e0s6zb.jpg",
+    src: "/agafay-takerkoust/luxury-trip-from-mamounia-the-lake.webp",
+    alt: "",
     video: false,
     link: "https://www.instagram.com/p/DHjsxYRoOAP/",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830393/casalalla-takerkoust-agafay-instagram-4_izakt2.png",
+    src: "/agafay-takerkoust/royal-mansour-lake-takerkoust-agafay.webp",
+    alt: "",
     video: false,
-    link: "https://www.instagram.com/p/DHjsZt_o1DF/",
+    link: "https://www.instagram.com/p/DQ7fxQFDl_v/",
   },
   {
     src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830447/casalalla-insta-3_ltgetw.jpg",
+    alt: "",
     video: false,
     link: "https://www.instagram.com/p/DGlJuUJNAxp/",
   },
@@ -61,7 +67,8 @@ const InstagramSection = () => {
             <div className="relative overflow-hidden">
               <Image
                 src={image.src}
-                alt={`Instagram post ${index + 1}`}
+                alt={image.alt}
+                loading="lazy"
                 width={250}
                 height={250}
                 className="w-full h-full object-cover aspect-square transition-transform duration-500 hover:scale-105"

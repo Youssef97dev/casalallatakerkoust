@@ -17,15 +17,15 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-2.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp"
+            alt="Feeling the adrenaline rush on a high-speed quad or buggy bike tour in Agafay vibes"
             width={500}
             height={500}
             className="object-cover w-full h-full"
           />
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-3.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp"
+            alt="Feeling the adrenaline rush on a high-speed quad or buggy bike tour in Agafay vibes"
             width={500}
             height={500}
             className="object-cover w-full h-full"
@@ -105,15 +105,15 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-4.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/quad-bike-tour-agafay-desert-adventure.webp"
+            alt="Navigating winding off-road trails on a quad bike in the Marrakech desert"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-5.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/luxury-tour-experience-casa-lalla-takerkoust.webp"
+            alt="Navigating winding off-road trails on a quad bike in the Agafay desert"
             width={500}
             height={500}
             className="object-cover w-full  h-full"

@@ -4,20 +4,24 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-1.jpg",
+    src: "/agafay-takerkoust/sunset-cocktails-lalla-takerkoust-lounge.webp",
+    alt: "Premium cocktails at sunset on the Casa Lalla Takerkoust lounge bar terrace",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-6.jpg",
-    class: "object-[50%,40%]",
-  },
-  {
-    src: "/images/casalalla-takerkoust-agafay-vibes-3.jpg",
+    src: "/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp",
+    alt: "Elegant boho-chic wedding ceremony at Casa Lalla Takerkoust overlooking the water",
     class: "object-center",
   },
   {
-    src: "/images/casalalla-takerkoust-agafay-vibes-5.jpg",
+    src: "/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp",
+    alt: "Sophisticated venue setup for a private corporate event at Lalla Takerkoust",
     class: "object-center",
+  },
+  {
+    src: "/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp",
+    alt: "Freshly prepared seafood pasta at Casa Lalla's Mediterranean restaurant",
+    class: "object-bottom",
   },
 ];
 
@@ -53,7 +57,8 @@ const Hero = () => {
           >
             <Image
               src={image.src}
-              alt={`casalalla, takerkoust, agafay vibes ${index + 1}`}
+              alt={image.alt}
+              loading="lazy"
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}
@@ -78,10 +83,10 @@ const Hero = () => {
 
       <div
         id="hero-logo"
-        className={`fixed z-50 transition-all duration-700 ease-in-out
+        className={`fixed z-40 transition-all duration-700 ease-in-out
           ${
             scrolled
-              ? "top-4 left-24 translate-x-0 translate-y-0 scale-50 opacity-0"
+              ? "top-4 left-[32%] lg:left-[45%] translate-x-0 translate-y-0 scale-50 opacity-0"
               : "top-32 lg:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100"
           }
         `}

@@ -49,8 +49,9 @@ const Activities = () => {
         </div>
         <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
           <Image
-            src="/images/casalalla-activities.png"
-            alt="casa lalla takerkoust, agafay vibes"
+            src="/agafay-takerkoust/agafay-desert-buggy-tour-marrakech.webp"
+            alt="Off-road buggy tour adventure through the rugged trails of the Agafay Desert"
+            loading="lazy"
             width={500}
             height={500}
             className="object-cover h-[500px] lg:h-[125vh]"
@@ -101,10 +102,11 @@ const Activities = () => {
         </div>
         <div className="w-full h-full">
           <Image
-            src="/images/casalalla-activities.png"
-            alt="casa lalla takerkoust, agafay vibes"
+            src="/agafay-takerkoust/agafay-desert-buggy-tour-marrakech.webp"
+            alt="Off-road buggy tour adventure through the rugged trails of the Agafay Desert"
             width={500}
             height={500}
+            loading="lazy"
             className="object-cover h-full"
           />
         </div>

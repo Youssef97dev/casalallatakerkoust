@@ -7,6 +7,7 @@ const Hero = () => {
         <Image
           src="/images/casalalla-takerkoust-agafay-vibes-4.jpg"
           alt="casa lalla takerkoust, agafay vibes"
+          loading="lazy"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover object-center`}
@@ -14,8 +15,9 @@ const Hero = () => {
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/images/casalalla-takerkoust-agafay-vibes-gallery-3.jpg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
+          alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+          loading="lazy"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover`}

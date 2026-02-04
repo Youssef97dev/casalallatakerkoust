@@ -16,15 +16,17 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg"
-            alt="casa lalla takerkoust, agafay vibes, private events"
+            src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
+            alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+            loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-[500px]"
           />
           <Image
-            src="/images/casalalla-events.jpg"
-            alt="casa lalla takerkoust, agafay vibes, private events"
+            src="/agafay-takerkoust/agafay-desert-marrakech-restaurants.webp"
+            alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+            loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-[500px]"
@@ -94,15 +96,17 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/DSC01910--.jpg"
-            alt="casa lalla takerkoust, agafay vibes, private events"
+            src="/agafay-takerkoust/boho-chic-interior-design-marrakech-lake.webp"
+            alt="Modern minimalist interior design inspired by Ibiza and Formentera at Casa Lalla"
+            loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-[500px]"
           />
           <Image
-            src="/images/lake-24.jpg"
-            alt="casa lalla takerkoust, agafay vibes, private events"
+            src="/agafay-takerkoust/high-atlas-mountains-snow-peaks-marrakech.webp"
+            alt="Panoramic view of the snow-capped High Atlas Mountains from the desert"
+            loading="lazy"
             width={500}
             height={500}
             className="object-cover w-full h-[500px]"

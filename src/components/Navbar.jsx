@@ -54,7 +54,7 @@ const Navbar = ({ path, change = false }) => {
                 width={300}
                 height={300}
                 alt="Logo casa lalla takerkoust, agafay vibes, agafay desert, takerkoust"
-                className={`py-2 w-20`}
+                className={`py-2 w-[65px]`}
               />
             </Link>
           </div>
@@ -194,7 +194,7 @@ const Navbar = ({ path, change = false }) => {
           leaveFrom="transform -translate-x-0 opacity-100"
           leaveTo="transform -translate-x-full opacity-0"
         >
-          <div className="fixed top-0 left-0 z-50 w-full h-screen bg-casa_background flex flex-col items-left justify-start gap-11 py-6 px-6 uppercase lg:hidden">
+          <div className="fixed top-0 left-0 z-[9999] w-full h-screen bg-casa_background flex flex-col items-left justify-start gap-11 py-6 px-6 uppercase lg:hidden">
             <div
               className="w-full flex justify-end items-center text-casa_scarlet text-[25px]"
               onClick={() => setIsOpen(false)}

@@ -18,8 +18,9 @@ const Intro = () => {
       </p>
       <div className="w-full flex justify-center items-center mt-8">
         <Image
-          src="https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761829529/casalalla-illustration_fjwptf.jpg"
-          alt="casa lalla agafay vibes desert"
+          src="/agafay-takerkoust/boho-chic-rattan-decor-luxury-restaurant.webp"
+          alt="Detail of handmade rattan lighting and furniture in a luxury bohemian restaurant"
+          loading="lazy"
           width={500}
           height={500}
           className="w-full opacity-70"

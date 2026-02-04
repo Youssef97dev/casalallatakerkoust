@@ -5,20 +5,22 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/casalalla-takerkoust-events.jpeg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/mykonos-style-architecture-marrakech-lake.webp"
+          alt="White-washed Mykonos-style architecture at the Casa Lalla lakeside retreat"
+          loading="lazy"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover object-bottom`}
+          className={`w-full h-full object-cover object-[50%_75%]`}
         />
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/images/casalalla-takerkoust-events.jpeg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp"
+          alt="Elegant boho-chic wedding ceremony at Casa Lalla Takerkoust overlooking the water"
+          loading="lazy"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover`}
+          className={`w-full h-full object-cover object-[15%_50%]`}
         />
       </div>
       {/* Overlay */}
