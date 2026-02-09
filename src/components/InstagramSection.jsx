@@ -34,7 +34,7 @@ const images = [
     link: "https://www.instagram.com/p/DQ7fxQFDl_v/",
   },
   {
-    src: "https://res.cloudinary.com/dzg6dnmdp/image/upload/v1761830447/casalalla-insta-3_ltgetw.jpg",
+    src: "/agafay-takerkoust/restaurants-marocain-marrakech-agafay.jpeg",
     alt: "",
     video: false,
     link: "https://www.instagram.com/p/DGlJuUJNAxp/",
