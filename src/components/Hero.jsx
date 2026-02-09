@@ -97,6 +97,7 @@ const Hero = () => {
           width={160}
           height={160}
           priority
+          className="w-52 2xl:w-96"
         />
       </div>
 

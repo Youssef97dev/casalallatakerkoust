@@ -49,7 +49,7 @@ const Activities = () => {
         </div>
         <div className="z-10 absolute left-0 lg:left-40 w-[90%] lg:w-1/2 h-full">
           <Image
-            src="/agafay-takerkoust/agafay-desert-buggy-tour-marrakech.webp"
+            src="/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp"
             alt="Off-road buggy tour adventure through the rugged trails of the Agafay Desert"
             loading="lazy"
             width={500}
@@ -102,7 +102,7 @@ const Activities = () => {
         </div>
         <div className="w-full h-full">
           <Image
-            src="/agafay-takerkoust/agafay-desert-buggy-tour-marrakech.webp"
+            src="/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp"
             alt="Off-road buggy tour adventure through the rugged trails of the Agafay Desert"
             width={500}
             height={500}
