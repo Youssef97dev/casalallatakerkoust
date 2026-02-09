@@ -21,14 +21,14 @@ const Content = () => {
             alt="Feeling the adrenaline rush on a high-speed quad or buggy bike tour in Agafay vibes"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
           <Image
             src="/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp"
             alt="Feeling the adrenaline rush on a high-speed quad or buggy bike tour in Agafay vibes"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
         </div>
         <div className="w-full flex flex-col justify-start items-center text-left gap-10">
@@ -116,7 +116,7 @@ const Content = () => {
             alt="Navigating winding off-road trails on a quad bike in the Agafay desert"
             width={500}
             height={500}
-            className="object-cover w-full  h-full"
+            className="object-cover w-full  h-full aspect-[3/4]"
           />
         </div>
       </div>

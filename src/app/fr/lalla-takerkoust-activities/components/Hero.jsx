@@ -5,17 +5,17 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen">
       <div className="w-full h-full hidden lg:block">
         <Image
-          src="/images/casalalla-takerkoust-vibes-agafay-activities-6.jpg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/high-atlas-mountains-quad-marrakech.webp"
+          alt="Stunning golden hour landscape in the Agafay desert with agafay vibes"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover`}
+          className={`w-full h-full object-cover object-bottom`}
         />
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/images/casalalla-takerkoust-vibes-agafay-activities-hero-mobile.jpg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/adrenaline-buggy-tour-marrakech-agafay-desert.webp"
+          alt="Stunning golden hour landscape in the Agafay desert with snow-capped peaks"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover`}

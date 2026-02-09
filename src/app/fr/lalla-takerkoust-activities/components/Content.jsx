@@ -16,18 +16,18 @@ const Content = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-8 px-3 lg:px-14 10 mt-8">
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-2.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp"
+            alt="Guests enjoying cocktails and Agafay vibes in a festive setting reminiscent of Mykonos and Ibiza"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-3.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp"
+            alt="Stylish outdoor lounge with Mykonos aesthetic, perfect for relaxing after a quad bike tour"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
         </div>
         <div className="w-full flex flex-col justify-start items-center text-left gap-10">
@@ -116,18 +116,18 @@ const Content = () => {
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-4.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/quad-bike-tour-agafay-desert-adventure.webp"
+            alt="Sunset horse riding experience near Lake Takerkoust followed by an Ibiza style dinner on the terrace"
             width={500}
             height={500}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full aspect-[3/4]"
           />
           <Image
-            src="/images/casalalla-takerkoust-vibes-agafay-activities-5.jpg"
-            alt="casa lalla takerkoust, agafay vibes, activities"
+            src="/agafay-takerkoust/luxury-tour-experience-casa-lalla-takerkoust.webp"
+            alt="Tourists enjoying a quad and buggy adventure in the desert landscape with true Agafay vibes"
             width={500}
             height={500}
-            className="object-cover w-full  h-full"
+            className="object-cover w-full  h-full aspect-[3/4]"
           />
         </div>
       </div>
