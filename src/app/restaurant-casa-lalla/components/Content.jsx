@@ -8,62 +8,93 @@ const Content = () => {
       className="w-full flex flex-col justify-center items-center gap-4 py-24 lg:py-32 px-5 lg:px-80 text-center"
     >
       <h1 className="font-canela text-[35px] leading-[42px] text-casa_black">
-        Our Philosophy
+        CASA LALLA TAKERKOUST: A Culinary Voyage in The Heart of The Region
       </h1>
-      <h2 className="font-canela text-[25px] leading-[32.5px] text-casa_black italic">
-        CASA LALLA TAKERKOUST Restaurant invites you on a voyage through the
-        rich culinary culture and vibrant flavors of the Mediterranean.
-      </h2>
-      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black mt-8 px-0 lg:px-14">
+
+      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black mt-8 px-0 lg:px-14 text-justify">
+        Discover{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          Marrakech best of
+        </strong>{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          restaurants
+        </strong>{" "}
+        just a short drive from the city center.{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
           Casa Lalla Takerkoust
         </strong>{" "}
-        is a unique and upscale <strong>dining destination</strong> located in
-        the scenic area of <strong>Barrage Lalla Takerkoust</strong>. Offering a
-        combination of{" "}
+        invites you on a voyage through the rich culinary culture and vibrant
+        flavors of the Mediterranean, set against the breathtaking backdrop of
+        the Atlas Mountains.
+      </p>
+      <h2 className="font-canela text-[25px] leading-[32.5px] text-casa_black italic">
+        A Unique Dining Destination on Lake Takerkoust
+      </h2>
+      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black px-0 lg:px-14 text-justify">
+        Located in the scenic area of Barrage Lalla Takerkoust, our restaurant
+        is a unique and upscale dining destination. We offer a mouth-watering
+        menu that blends{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
           traditional Moroccan
         </strong>{" "}
-        and{" "}
+        dishes with refined international cuisine. Whether you are looking for{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          international cuisine
-        </strong>
-        , the restaurant serves up a mouth-watering menu in a{" "}
-        <strong>relaxed</strong> and <strong>stylish setting</strong>. With a
-        focus on fresh and locally sourced ingredients,{" "}
-        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          Casa Lalla Takerkoust
+          top Morrocan restaurants
         </strong>{" "}
-        offers an{" "}
-        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          authentic culinary experience
-        </strong>{" "}
-        that showcases the best of the {"region's"} flavors.
+        or a Mediterranean escape, we serve it all in a relaxed and stylish
+        setting.
       </p>
-      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black px-0 lg:px-14">
-        As a <strong>lounge bar</strong>,{" "}
+      <h2 className="font-canela text-[25px] leading-[32.5px] text-casa_black italic">
+        The Best Terrace for Agafay Vibes and Desert Views
+      </h2>
+      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black px-0 lg:px-14 text-justify">
+        Escape the city bustle and immerse yourself in authentic{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          Agafay vibes
+        </strong>
+        . Our expansive{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          terrace
+        </strong>{" "}
+        offers panoramic views of the shimmering{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          Lake Takerkoust
+        </strong>{" "}
+        and the surrounding{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          desert
+        </strong>{" "}
+        landscape, making it the perfect backdrop for a{" "}
+        <strong>sunny lunch</strong> or a <strong>romantic dinner</strong>.
+      </p>
+      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black px-0 lg:px-14 text-justify">
+        With a focus on fresh, locally sourced ingredients, Casa Lalla offers an
+        authentic culinary experience that rivals the{" "}
+        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
+          best restaurants in Marrakech
+        </strong>
+        . Our chefs showcase the {"region's"} finest flavors, ensuring every
+        dish is a celebration of taste.
+      </p>
+      <h2 className="font-canela text-[25px] leading-[32.5px] text-casa_black italic">
+        Lounge Bar and Sophisticated Atmosphere
+      </h2>
+      <p className="text-[15px] leading-[25.5px] italic font-light text-casa_black px-0 lg:px-14 text-justify">
+        As a lounge bar,{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
           Casa Lalla Takerkoust
         </strong>{" "}
-        provides the{" "}
-        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          perfect spot
-        </strong>{" "}
-        to unwind and <strong>relax with friends</strong>,{" "}
-        <strong>family</strong>, or <strong>colleagues</strong>. The venue
-        offers a wide selection of carefully crafted{" "}
+        is the perfect spot to unwind with friends, family, or colleagues. Enjoy
+        our wide selection of carefully crafted{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
           cocktails
         </strong>
-        ,{" "}
+        , premium wines, and other beverages. If you are searching for{" "}
         <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          premium wines
-        </strong>
-        , and other beverages, all served in a{" "}
-        <strong className="text-casa_scarlet underline underline-offset-[5px] decoration-[0.5px]">
-          sophisticated and welcoming atmosphere
-        </strong>
-        .
+          restaurants marocain marrakech
+        </strong>{" "}
+        that offer both sophisticated dining and a welcoming atmosphere, look no
+        further.
       </p>
       <Link
         href="/reservation"

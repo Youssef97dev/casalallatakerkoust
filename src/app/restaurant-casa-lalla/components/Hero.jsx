@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/images/casalalla-takerkoust-agafay-vibes-4.jpg"
-          alt="casa lalla takerkoust, agafay vibes"
+          alt="top restaurants marocain marrakech"
           loading="lazy"
           width={1500}
           height={1500}

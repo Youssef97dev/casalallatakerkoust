@@ -8,7 +8,7 @@ import ButtonWtsp from "@/components/ButtonWtsp";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/retaurant-casa-lalla"} />
+      <Navbar path={"/fr/restaurant-casa-lalla"} />
       <Hero />
       <Content />
       <Footer />
