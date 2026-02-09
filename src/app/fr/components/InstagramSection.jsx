@@ -34,7 +34,7 @@ const images = [
     link: "https://www.instagram.com/p/DQ7fxQFDl_v/",
   },
   {
-    src: "/agafay-takerkoust/restaurants-marocain-marrakech-agafay.jpeg",
+    src: "/agafay-takerkoust/restaurants-marocain-marrakech-agafay.jpg",
     alt: "",
     video: false,
     link: "https://www.instagram.com/p/DGlJuUJNAxp/",
