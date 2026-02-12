@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaInstagram, FaWhatsapp, FaMailBulk } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaWhatsapp,
+  FaMailBulk,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -88,6 +93,13 @@ const Footer = () => {
               className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
             >
               <FaMailBulk />
+            </Link>
+            <Link
+              href="https://maps.app.goo.gl/XBefJ7zes9qskEHC9"
+              rel="noopener noreferrer"
+              className="text-[#8b3a2b] hover:text-[#a04630] transition text-[20px]"
+            >
+              <FaMapMarkerAlt />
             </Link>
           </div>
 
