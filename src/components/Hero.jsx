@@ -9,6 +9,11 @@ const imagesLarge = [
     class: "object-center",
   },
   {
+    src: "/agafay-takerkoust/agafay-restaurants-marocain-marrakech.webp",
+    alt: "best restautants in marrakech",
+    class: "object-center",
+  },
+  {
     src: "/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp",
     alt: "Elegant boho-chic wedding ceremony at Casa Lalla Takerkoust overlooking the water",
     class: "object-center",

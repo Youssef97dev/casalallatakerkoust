@@ -17,7 +17,7 @@ const spaces = [
   },
   {
     title: "Private Events",
-    image: "/agafay-takerkoust/elegant-table-setting-mediterranean-luxe.webp",
+    image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
     alt: "Elegant minimalist table setting for a fine dining experience at Casa Lalla",
     link: "/private-events",
   },

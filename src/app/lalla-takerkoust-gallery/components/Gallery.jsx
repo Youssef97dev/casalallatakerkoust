@@ -73,6 +73,46 @@ const GalleryImage = [
     class: "object-center",
   },
   {
+    image: "/agafay-gallery/casa-lalla-takerkoust-agafay-desert-view.webp",
+    alt: "Panoramic view of Casa Lalla Takerkoust situated near the Agafay desert",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/authentic-moroccan-food-marrakech-restaurant.webp",
+    alt: "Authentic Moroccan food platter served at Casa Lalla restaurant near Marrakech",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/agafay-desert-pool-ibiza-vibe-marrakech.webp",
+    alt: "Relaxing by the pool at Casa Lalla Takerkoust with an exclusive Ibiza vibe",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/luxury-dining-takerkoust-mykonos-style.webp",
+    alt: "Outdoor luxury dining experience at Casa Lalla featuring a chic Mykonos style atmosphere",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/best-moroccan-food-lunch-lake-takerkoust.webp",
+    alt: "Guests enjoying the best Moroccan food lunch overlooking Lake Takerkoust",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/sunset-party-agafay-ibiza-atmosphere.webp",
+    alt: "Sunset party atmosphere at Casa Lalla in Agafay rivalling the energy of Ibiza",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/chic-desert-oasis-design-mykonos-inspiration.webp",
+    alt: "The chic desert oasis design of Casa Lalla drawing inspiration from Mykonos architecture",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/casa-lalla-agafay-menu-moroccan-cuisine.webp",
+    alt: "A spread of traditional Moroccan cuisine from the Casa Lalla Agafay menu",
+    class: "object-center",
+  },
+  {
     image: "/agafay-gallery/lalla-takerkoust-lake-weather-marrakech.webp",
     alt: "agafay vibes during a magical sunset",
     class: "object-center",

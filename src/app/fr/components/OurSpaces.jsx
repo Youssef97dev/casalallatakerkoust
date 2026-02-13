@@ -15,7 +15,7 @@ const spaces = [
   },
   {
     title: "Événements privés",
-    image: "/images/casalalla-takerkoust-agafay-vibes-small-1.jpeg",
+    image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
     link: "/fr/private-events",
   },
 ];
