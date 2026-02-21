@@ -3,26 +3,24 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/images/lake-15.jpg",
+    image: "/agafay-gallery/restaurants-agafay-near-me.webp",
+    alt: "Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech",
     class: "object-center",
   },
   {
-    image: "/images/lake-24.jpg",
-    class: "object-bottom",
-  },
-  {
-    image: "/images/casalalla-restaurant-agafay.jpeg",
+    image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
+    alt: "Chic rooftop lounge with premium agafay vibes and panoramic desert views",
     class: "object-center",
   },
   {
-    image: "/images/DSC01955.jpg",
+    image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
+    alt: "Elegant dinner service at Lac Takerkoust, matching the luxury standards of Royal Mansour",
     class: "object-center",
   },
-
   {
-    image:
-      "/images/casalalla-takerkoust-vibes-agafay-activities-hero-mobile.jpg",
-    class: "object-bottom",
+    image: "/agafay-gallery/restaurants-near-me.webp",
+    alt: "Refined seafood pastilla at Casa Lalla, the ultimate restaurants marocain experience",
+    class: "object-center",
   },
 ];
 
@@ -36,7 +34,7 @@ const Gallery = () => {
             <div className="relative w-full aspect-square ">
               <Image
                 src={category.image}
-                alt="Gallery Pure House On The Lake, Agafay, Agavay Vibes, Lalla Takerkoust"
+                alt={category.alt}
                 fill
                 className={`object-cover aspect-square h-full ${category.class}`}
               />

@@ -6,35 +6,32 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp"
-          alt="top restaurants marocain marrakech"
+          alt="Elegant afternoon tea service inspired by the world-famous Mamounia tradition"
           loading="lazy"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover object-center`}
+          className={`w-full h-full object-cover object-[50%_75%]`}
         />
       </div>
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
-          alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+          src="/agafay-gallery/restaurants-marocains-marrakech.webp"
+          alt="Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech"
           loading="lazy"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover`}
+          className={`w-full h-full object-cover object-[15%_50%]`}
         />
       </div>
       {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-[85%] bg-gradient-to-b from-black/70 to-transparent"></div>
 
-      <div className="absolute inset-0 w-full flex justify-center text-center items-center font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-2 lg:px-0">
-        <h1>
-          A refined culinary experience by the tranquil waters of Lalla
-          Takerkoust
-        </h1>
+      <div className="absolute inset-0 w-full flex justify-center text-center items-start lg:items-center pt-52 lg:pt-0 font-canela text-white text-[38px] leading-[40px] lg:text-[40px] lg:leading-[60px] px-5 lg:px-0">
+        <h1>Casa Lalla Takerkoust Galerie</h1>
       </div>
 
       <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white z-40">
-        <a href="#our-philosophy">
+        <a href="#gallery">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5 animate-bounce"

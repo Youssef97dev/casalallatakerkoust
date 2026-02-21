@@ -5,18 +5,21 @@ import Link from "next/link";
 const spaces = [
   {
     title: "Restaurant",
-    image: "/images/casalalla-restaurant-agafay.jpeg",
-    link: "/fr/restaurant-casa-lalla",
+    image: "/agafay-takerkoust/private-tent-dining-agafay-desert-luxury.webp",
+    alt: "Private luxury dining tent with butler service for an intimate Agafay Desert experience",
+    link: "/restaurant-casa-lalla",
   },
   {
-    title: "Activités",
-    image: "/images/casa-lalla-activities-desert.jpeg",
-    link: "/fr/lalla-takerkoust-activities",
+    title: "Activities",
+    image: "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
+    alt: "Feeling the adrenaline rush on a high-speed quad bike tour in Agafay",
+    link: "/lalla-takerkoust-activities",
   },
   {
-    title: "Événements privés",
+    title: "Private Events",
     image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
-    link: "/fr/private-events",
+    alt: "Elegant minimalist table setting for a fine dining experience at Casa Lalla",
+    link: "/private-events",
   },
 ];
 
@@ -35,7 +38,7 @@ const OurSpaces = () => {
           >
             <Image
               src={space.image}
-              alt={space.title}
+              alt={space.alt}
               width={600}
               height={600}
               className="w-full h-[500px] object-cover transform group-hover:scale-110 transition-transform duration-700"

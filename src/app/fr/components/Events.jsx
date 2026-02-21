@@ -59,8 +59,8 @@ const Events = () => {
       </div>
       <div className="z-10 absolute right-0 w-[90%] lg:w-1/2 h-full">
         <Image
-          src="/images/casalalla-takerkoust-agafay-vibes-gallery-7.jpg"
-          alt="casa lalla takerkoust, agafay vibes"
+          src="/agafay-takerkoust/mediterranean-seafood-cuisine-marrakech.webp"
+          alt="Exquisite Mediterranean seafood dish served at Casa Lalla Takerkoust restaurant agafay desert"
           width={500}
           height={500}
           className="object-cover h-[400px] lg:h-[125vh]"
