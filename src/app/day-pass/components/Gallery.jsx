@@ -3,23 +3,25 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/agafay-gallery/restaurants-agafay-near-me.webp",
-    alt: "Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech",
+    image:
+      "/agafay-takerkoust/authentic-moroccan-cuisine-casa-lalla-takerkoust.webp",
+    alt: "Elegant indoor dining area at Casa Lalla Takerkoust featuring refined Moroccan decor and a sophisticated atmosphere for lunch or dinner",
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
-    alt: "Chic rooftop lounge with premium agafay vibes and panoramic desert views",
+    image: "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
+    alt: "Panoramic lakeside dining terrace at Casa Lalla Takerkoust with stunning views of Lake Takerkoust, the perfect Marrakech day trip destination",
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
-    alt: "Elegant dinner service at Lac Takerkoust, matching the luxury standards of Royal Mansour",
+    image:
+      "/agafay-takerkoust/outdoor-dining-terrace-casa-lalla-takerkoust.webp",
+    alt: "Exterior view of the luxury Casa Lalla Takerkoust restaurant and garden, a premier lakeside oasis in the Agafay desert region",
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/restaurants-near-me.webp",
-    alt: "Refined seafood pastilla at Casa Lalla, the ultimate restaurants marocain experience",
+    image: "/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp",
+    alt: "Thrilling quad biking adventure at Lake Takerkoust organized by Casa Lalla, exploring the rugged landscapes near the Atlas Mountains",
     class: "object-center",
   },
 ];
