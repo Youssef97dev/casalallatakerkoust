@@ -78,7 +78,7 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/authentic-moroccan-food-marrakech-restaurant.webp",
+    image: "/agafay-gallery/authentic-moroccan-food-marrakech-restaurants.webp",
     alt: "Authentic Moroccan food platter served at Casa Lalla restaurant near Marrakech",
     class: "object-center",
   },
@@ -193,18 +193,21 @@ const Gallery = () => {
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-[1.5px]">
         {GalleryImage.map((category, index) => (
-          <div key={index} className="flex flex-col">
+          <figure key={index} className="flex flex-col">
             {/* Image */}
             <div className="relative w-full h-[65vh] ">
               <Image
                 src={category.image}
                 alt={category.alt}
-                loading="lazy"
+                priority={index < 2}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className={`object-cover h-full lg:rounded-md ${category.class}`}
               />
             </div>
-          </div>
+            {/* Optional: If you ever want to display the image title cleanly */}
+            <figcaption className="sr-only">{category.alt}</figcaption>
+          </figure>
         ))}
       </div>
     </section>
