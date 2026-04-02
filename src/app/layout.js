@@ -91,6 +91,10 @@ export default function RootLayout({ children }) {
           }}
         />
       </Head>
+      <meta
+        name="google-site-verification"
+        content="VUkmCH9P76Sg2NwCRHleQ0CQnBTLMlZUbnaTNCJ7ys0"
+      />
       <body>{children}</body>
       <GoogleAnalytics gaId="G-1GSVC5EJ1N" />
     </html>
