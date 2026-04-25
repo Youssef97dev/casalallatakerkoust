@@ -50,8 +50,8 @@ const Footer = () => {
         <div className="w-full flex flex-col items-center justify-between gap-6 mt-2">
           {/* Links */}
           <nav className="text-[14px] leading-[25.5px] text-casa_black font-light tracking-wider space-x-2">
-            <Link href="/restaurant-casa-lalla" className="underline">
-              RESTAURANT
+            <Link href="/career" className="underline">
+              CAREER
             </Link>{" "}
             |
             <Link href="/lalla-takerkoust-activities" className="underline">
