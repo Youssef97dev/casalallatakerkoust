@@ -23,7 +23,7 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/restaurants-marocain-marrakech-show.webp",
+    image: "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
     alt: "Palace-level hospitality and gardens inspired by the legendary Mamounia hotel",
     class: "object-center",
   },
@@ -58,7 +58,8 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/restaurants-marocain-marrakech-garden.webp",
+    image:
+      "/agafay-gallery/casa-lalla-takerkoust-restaurant-ibiza-style-marrakech.webp",
     alt: "Romantic sunset reflection on Lac Takerkoust during a private lakeside dinner",
     class: "object-center",
   },

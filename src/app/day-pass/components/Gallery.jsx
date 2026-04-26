@@ -14,8 +14,7 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image:
-      "/agafay-takerkoust/outdoor-dining-terrace-casa-lalla-takerkoust.webp",
+    image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
     alt: "Exterior view of the luxury Casa Lalla Takerkoust restaurant and garden, a premier lakeside oasis in the Agafay desert region",
     class: "object-center",
   },
