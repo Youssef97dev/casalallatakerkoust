@@ -3,6 +3,45 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
+    image:
+      "/agafay-takerkoust/casa-lalla-takerkoust-restaurant-ibiza-style-marrakech.webp",
+    alt: "Restaurante estilo Ibiza en el lago Lalla Takerkoust Marrakech",
+    class: "object-center",
+  },
+  {
+    image:
+      "/agafay-takerkoust/mediterranean-restaurant-atmosphere-marrakech.webp",
+    alt: "Ambiente de restaurante mediterráneo en Marrakech",
+    class: "object-center",
+  },
+  {
+    image:
+      "/agafay-takerkoust/bohemian-terrace-dining-casa-lalla-takerkoust.webp",
+    alt: "Terrasse de style bohème pour dîner près de Marrakech",
+    class: "object-center",
+  },
+  {
+    image:
+      "/agafay-takerkoust/atlas-mountains-view-from-restaurant-marrakech.webp",
+    alt: "Vistas a las montañas del Atlas desde el restaurante",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
+    alt: "Tapas españolas y comida mediterránea en Marrakech",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
+    alt: "Cocktails rafraîchissants au bord du lac Takerkoust",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
+    alt: "Entrée du restaurant Casa Lalla au bord du lac",
+    class: "object-center",
+  },
+  {
     image: "/agafay-gallery/restaurants-agafay-near-me.webp",
     alt: "Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech",
     class: "object-center",
@@ -24,7 +63,7 @@ const GalleryImage = [
   },
   {
     image: "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
-    alt: "Palace-level hospitality and gardens inspired by the legendary Mamounia hotel",
+    alt: "Turistas disfrutando del estilo Ibiza en Lalla Takerkoust",
     class: "object-center",
   },
   {
@@ -55,12 +94,6 @@ const GalleryImage = [
   {
     image: "/agafay-gallery/private-events-restaurants-agafay-desert.webp",
     alt: "Intricate Moroccan decor at Casa Lalla, rivaling the beauty of Royal Mansour restaurants marrakech",
-    class: "object-center",
-  },
-  {
-    image:
-      "/agafay-gallery/casa-lalla-takerkoust-restaurant-ibiza-style-marrakech.webp",
-    alt: "Romantic sunset reflection on Lac Takerkoust during a private lakeside dinner",
     class: "object-center",
   },
   {
