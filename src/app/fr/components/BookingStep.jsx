@@ -73,7 +73,7 @@ const BookingStep = ({
 
       {/* Guests */}
       <div className="text-center">
-        <p className="text-sm text-gray-500">Les invités</p>
+        <p className="text-sm text-gray-500">Adultes</p>
         <div className="w-full flex justify-between items-center">
           <button onClick={() => decrementGuest()}>
             <IoIosArrowBack size={20} />
