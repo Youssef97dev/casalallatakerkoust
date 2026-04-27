@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ButtonWtsp from "@/components/ButtonWtsp";
-import Intro from "../../day-pass/components/Intro";
-import Gallery from "../../day-pass/components/Gallery";
+import Intro from "./Intro";
+import Gallery from "./Gallery";
 
 const Loader = () => {
   return (
