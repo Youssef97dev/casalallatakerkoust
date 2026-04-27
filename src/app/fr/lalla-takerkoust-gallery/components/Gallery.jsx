@@ -5,216 +5,270 @@ const GalleryImage = [
   {
     image:
       "/agafay-takerkoust/casa-lalla-takerkoust-restaurant-ibiza-style-marrakech.webp",
-    alt: "Restaurante estilo Ibiza en el lago Lalla Takerkoust Marrakech",
+    alt: "Restaurant et day club exclusif de style Ibiza au bord du lac Lalla Takerkoust près de Marrakech",
+    title:
+      "Découvrez un dîner de luxe de style Ibiza au lac Takerkoust à Marrakech",
     class: "object-center",
   },
   {
     image:
       "/agafay-takerkoust/mediterranean-restaurant-atmosphere-marrakech.webp",
-    alt: "Ambiente de restaurante mediterráneo en Marrakech",
+    alt: "Atmosphère chic de restaurant méditerranéen avec une ambiance Mykonos à Marrakech",
+    title:
+      "Oasis de restauration méditerranéenne inspirée de Mykonos près d'Agafay",
     class: "object-center",
   },
   {
     image:
       "/agafay-takerkoust/bohemian-terrace-dining-casa-lalla-takerkoust.webp",
-    alt: "Terrasse de style bohème pour dîner près de Marrakech",
+    alt: "Dîner sur terrasse boho-chic à Casa Lalla Takerkoust offrant une expérience de luxe dans le désert",
+    title: "Dîner de luxe sur une terrasse bohème aux portes de Marrakech",
     class: "object-center",
   },
   {
     image:
       "/agafay-takerkoust/atlas-mountains-view-from-restaurant-marrakech.webp",
-    alt: "Vistas a las montañas del Atlas desde el restaurante",
+    alt: "Vue imprenable sur les montagnes de l'Atlas depuis un day club et restaurant de luxe à Marrakech",
+    title:
+      "Vues panoramiques sur les montagnes de l'Atlas depuis notre restaurant au bord du lac",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
-    alt: "Tapas españolas y comida mediterránea en Marrakech",
+    alt: "Tapas espagnoles gastronomiques et cuisine méditerranéenne servies dans un restaurant haut de gamme de Marrakech",
+    title:
+      "Tapas espagnoles de qualité supérieure et cuisine méditerranéenne à Marrakech",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
-    alt: "Cocktails rafraîchissants au bord du lac Takerkoust",
+    alt: "Cocktails artisanaux signatures dans un day club de luxe au bord du lac Takerkoust avec une ambiance de fête d'Ibiza",
+    title:
+      "Rafraîchissez-vous avec des cocktails signatures dans notre Day Club à Marrakech",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
-    alt: "Entrée du restaurant Casa Lalla au bord du lac",
+    alt: "Entrée grandiose de Casa Lalla Takerkoust, une oasis de premier plan de style Mykonos près de Marrakech",
+    title: "Bienvenue à Casa Lalla Takerkoust : Votre oasis au bord du lac",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-agafay-near-me.webp",
-    alt: "Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech",
+    alt: "Vues imprenables sur le coucher de soleil sur le lac Takerkoust dans un restaurant très bien noté d'Agafay",
+    title:
+      "Dîner exceptionnel au coucher du soleil au lac Takerkoust près d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
-    alt: "Chic rooftop lounge with premium agafay vibes and panoramic desert views",
+    alt: "Lounge chic sur le toit dans un camp de luxe d'Agafay offrant des vues imprenables sur le désert et des événements VIP",
+    title:
+      "Rooftop lounge exclusif et événements privés dans le désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
-    alt: "Elegant dinner service at Lac Takerkoust, matching the luxury standards of Royal Mansour",
+    alt: "Dîner romantique et élégant sous les étoiles dans le désert d'Agafay avec un service de luxe",
+    title: "Dîner romantique inoubliable dans le désert sous les étoiles",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-near-me.webp",
-    alt: "Refined seafood pastilla at Casa Lalla, the ultimate restaurants marocain experience",
+    alt: "Pastilla aux fruits de mer marocaine raffinée offrant une expérience gastronomique authentique à Marrakech",
+    title: "Expérience gastronomique : la pastilla marocaine aux fruits de mer",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
-    alt: "Turistas disfrutando del estilo Ibiza en Lalla Takerkoust",
+    alt: "Touristes internationaux dégustant des verres dans une ambiance de beach club d'Ibiza à Lalla Takerkoust",
+    title: "Profitez de l'ambiance des beach clubs d'Ibiza au lac Takerkoust",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/lalla-takerkoust-marrakech-weather-sunset.webp",
-    alt: "Golden hour in the agafay desert, perfect for a luxury sunset dinner near Marrakech",
+    alt: "Dîner au coucher du soleil à l'heure dorée dans un restaurant de luxe du désert d'Agafay sous le climat idéal de Marrakech",
+    title:
+      "Dîner de luxe au coucher du soleil pendant l'heure dorée près de Marrakech",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/agafay-desert-day-trip.webp",
-    alt: "Mediterranean mezze at Lac Takerkoust, a top choice among trendy restaurants marrakech",
+    alt: "Plateau de mezze méditerranéen de qualité supérieure servi lors d'une excursion de luxe dans le désert d'Agafay",
+    title: "Savourez des mezze méditerranéens lors de votre excursion à Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-near-me-marrakech-mezze.webp",
-    alt: "Signature cocktails on the rooftop at sunset with authentic agafay vibes",
+    alt: "Cocktails au coucher du soleil sur un rooftop dans un restaurant tendance inspiré de Mykonos à Marrakech",
+    title: "Cocktails sur le rooftop au coucher du soleil, inspiration Mykonos",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/resturants-marocains-marrakech-agafay.webp",
-    alt: "Traditional Moroccan royal couscous, a highlight of restaurants marocains marrakech",
+    alt: "Couscous royal marocain traditionnel servi dans un cadre gastronomique haut de gamme dans le désert d'Agafay",
+    title: "Dégustation de couscous royal marocain authentique",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-agafay-poolside-lunch.webp",
-    alt: "Exploring the rocky agafay desert during a luxury day trip from Marrakech",
+    alt: "Déjeuner de luxe au bord de la piscine avec une ambiance d'Ibiza dans le paysage rocheux du désert d'Agafay",
+    title: "Déjeuner de luxe au bord de la piscine dans le désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/private-events-restaurants-agafay-desert.webp",
-    alt: "Intricate Moroccan decor at Casa Lalla, rivaling the beauty of Royal Mansour restaurants marrakech",
+    alt: "Décor marocain boho-chic sophistiqué à Casa Lalla, idéal pour des événements privés près de Marrakech",
+    title: "Lieu d'événement privé boho-chic à Casa Lalla Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-agafay-boho-chic-decor.webp",
-    alt: "Luxury pool day experience with Mamounia style service and Atlas mountain views",
+    alt: "Expérience exclusive de day club avec piscine de luxe, vue sur les montagnes de l'Atlas et style Mykonos",
+    title: "Expérience de day club et piscine de luxe de style Mykonos",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-agafay.webp",
-    alt: "Gourmet slow-cooked lamb Méchoui, a specialty for any fine restaurants marocain",
+    alt: "Méchoui d'agneau gastronomique cuit lentement, une spécialité marocaine de la haute gastronomie près d'Agafay",
+    title: "Spécialité traditionnelle de Méchoui d'agneau cuit lentement",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/casa-lalla-takerkoust-agafay-desert-view.webp",
-    alt: "Panoramic view of Casa Lalla Takerkoust situated near the Agafay desert",
+    alt: "Vue panoramique sur le day club de luxe Casa Lalla Takerkoust situé près du désert d'Agafay",
+    title: "Vues panoramiques époustouflantes sur Casa Lalla Takerkoust",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/authentic-moroccan-food-marrakech-restaurants.webp",
-    alt: "Authentic Moroccan food platter served at Casa Lalla restaurant near Marrakech",
+    alt: "Plateau de plats marocains authentiques et haut de gamme servi dans un restaurant branché près de Marrakech",
+    title: "Dégustation de plats marocains authentiques et haut de gamme",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/agafay-desert-pool-ibiza-vibe-marrakech.webp",
-    alt: "Relaxing by the pool at Casa Lalla Takerkoust with an exclusive Ibiza vibe",
+    alt: "Détente au bord de la piscine de luxe de Casa Lalla Takerkoust avec une ambiance exclusive de day club d'Ibiza",
+    title: "Lounge exclusif au bord de la piscine façon Ibiza à Marrakech",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/luxury-dining-takerkoust-mykonos-style.webp",
-    alt: "Outdoor luxury dining experience at Casa Lalla featuring a chic Mykonos style atmosphere",
+    alt: "Expérience de repas de luxe en plein air à Casa Lalla avec une esthétique chic de Mykonos",
+    title: "Dîner de luxe en plein air de style Mykonos chic",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/best-moroccan-food-lunch-lake-takerkoust.webp",
-    alt: "Guests enjoying the best Moroccan food lunch overlooking Lake Takerkoust",
+    alt: "Invités VIP profitant d'un déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
+    title: "Déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/sunset-party-agafay-ibiza-atmosphere.webp",
-    alt: "Sunset party atmosphere at Casa Lalla in Agafay rivalling the energy of Ibiza",
+    alt: "Atmosphère vibrante de fête au coucher du soleil à Casa Lalla à Agafay, avec une énergie digne des meilleures soirées d'Ibiza",
+    title: "Fête vibrante au coucher du soleil de style Ibiza à Casa Lalla",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/chic-desert-oasis-design-mykonos-inspiration.webp",
-    alt: "The chic desert oasis design of Casa Lalla drawing inspiration from Mykonos architecture",
+    alt: "Design d'oasis chic dans le désert de Casa Lalla, inspiré de l'architecture de luxe de Mykonos",
+    title: "Découvrez notre oasis dans le désert inspirée de Mykonos",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/casa-lalla-agafay-menu-moroccan-cuisine.webp",
-    alt: "A spread of traditional Moroccan cuisine from the Casa Lalla Agafay menu",
+    alt: "Assortiment gourmand de cuisine marocaine traditionnelle issu du menu exclusif de Casa Lalla Agafay",
+    title: "Cuisine marocaine gastronomique du menu de Casa Lalla",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/lalla-takerkoust-lake-weather-marrakech.webp",
-    alt: "agafay vibes during a magical sunset",
+    alt: "Coucher de soleil magique sur le lac Takerkoust avec une ambiance bohème chic haut de gamme du désert d'Agafay",
+    title:
+      "Vues magiques au coucher du soleil et ambiance bohème chic dans le désert",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/agafay-desert-buggy-tour-marrakech.webp",
-    alt: "Elevated view from our rooftop terrace over the serene waters of Lac Takerkoust",
+    alt: "Vue en hauteur depuis la terrasse sur le toit sur les eaux paisibles du lac Takerkoust après une excursion en buggy",
+    title: "Vues depuis la terrasse sur le toit sur le paisible lac Takerkoust",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/quad-biking-agafay-desert-marrakech.webp",
-    alt: "High-end mixology and creative drinks at the best festive restaurants marrakech",
+    alt: "Mixologie haut de gamme et cocktails créatifs dans le meilleur day club festif de Marrakech",
+    title: "Mixologie et cocktails créatifs dans notre Day Club festif",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/agafay-desert-day-trip-shuttle-service.webp",
-    alt: "Attentive private butler service at Agafay, a royal mansour standard of excellence",
+    alt: "Service VIP attentionné dans un camp de luxe du désert d'Agafay offrant une expérience client 5 étoiles",
+    title: "Service VIP 5 étoiles dans le désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/mechoui-roasted-lamb-desert-dinner.webp",
-    alt: "Panoramic views of the Lac Takerkoust dam and the snowy High Atlas peaks",
+    alt: "Vues panoramiques sur le barrage du lac Takerkoust et les sommets enneigés du Haut Atlas",
+    title:
+      "Vues époustouflantes sur le lac Takerkoust et les montagnes de l'Atlas",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/spanish-paella-lakeside-marrakech-restaurant.webp",
-    alt: "Lush Mediterranean gardens for a peaceful escape similar to the Mamounia park",
+    alt: "Jardins méditerranéens luxuriants pour une évasion paisible combinant la détente d'Ibiza et le charme de Marrakech",
+    title: "Paisibles jardins méditerranéens avec une ambiance chill d'Ibiza",
     class: "object-center",
   },
   {
     image:
       "/agafay-gallery/lobster-pastilla-mediterranean-cuisine-marrakech.webp",
-    alt: "Vibrant assortment of Moroccan salads at the best restaurants marocains marrakech",
+    alt: "Assortiment vibrant de salades marocaines de première qualité dans un des meilleurs restaurants de luxe de Marrakech",
+    title: "Assortiment premium de salades marocaines authentiques",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/yoga-lalla-takerkoust-lake-meditation.webp",
-    alt: "Sophisticated outdoor dining with authentic agafay vibes at our luxury desert camp",
+    alt: "Dîner sophistiqué en plein air avec une ambiance authentique d'Agafay dans notre camp de luxe de style Mykonos",
+    title: "Dîner sophistiqué en plein air avec l'ambiance du désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/lakeside-picnic-atlas-mountains-view.webp",
-    alt: "Nightly stargazing sessions from our rooftop in the clear agafay desert skies",
+    alt: "Séances nocturnes d'observation des étoiles depuis notre terrasse sur le toit sous le ciel dégagé du désert d'Agafay",
+    title:
+      "Séances d'observation des étoiles sur le toit dans le désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/mastiha-signature-cocktail-marrakech-lounge.webp",
-    alt: "Fresh grilled octopus and seafood, a Mediterranean staple among restaurants marrakech",
+    alt: "Poulpe grillé et fruits de mer frais de la Méditerranée, un incontournable de notre restaurant inspiré de Mykonos",
+    title: "Fruits de mer méditerranéens et poulpe grillé",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/restaurants-marocain-marrakech-chef.webp",
-    alt: "The perfect sunset aperitif at our lounge bar overlooking Lac Takerkoust",
+    alt: "Le parfait apéritif au coucher du soleil dans notre bar lounge de luxe surplombant le lac Lalla Takerkoust",
+    title:
+      "Savourez le parfait apéritif au coucher du soleil avec vue sur le lac",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/mediterranean-mezze-platter-boho-chic.webp",
-    alt: "Elegant afternoon tea service inspired by the world-famous Mamounia tradition",
+    alt: "Élégant service de thé de l'après-midi boho-chic offrant une expérience de luxe près de Marrakech",
+    title: "Élégante expérience de thé de l'après-midi boho-chic",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/floating-breakfast-heart-tray-private-pool.webp",
-    alt: "Action-packed quad biking tour through the rocky landscape of the agafay desert",
+    alt: "Excursion pleine d'action en quad et buggy à travers le paysage rocheux du désert d'Agafay",
+    title: "Excursion trépidante en quad dans le désert d'Agafay",
     class: "object-center",
   },
   {
     image: "/agafay-gallery/organic-herb-garden-sustainable-culinary.webp",
-    alt: "Chic rooftop lounge with premium agafay vibes and panoramic desert views",
+    alt: "Lounge chic sur le toit avec une ambiance premium d'Ibiza et des vues panoramiques sur le coucher de soleil dans le désert d'Agafay",
+    title: "Lounge chic sur le toit avec ambiance coucher de soleil d'Ibiza",
     class: "object-center",
   },
 ];
@@ -233,7 +287,8 @@ const Gallery = () => {
               <Image
                 src={category.image}
                 alt={category.alt}
-                priority={index < 2}
+                title={category.title}
+                priority={index < 4}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className={`object-cover h-full lg:rounded-md ${category.class}`}
