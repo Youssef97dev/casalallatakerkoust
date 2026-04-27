@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const DOMAIN = "https://casalallatakerkoust.com/";
+const DOMAIN = "https://casalallatakerkoust.com";
 
 // Group your images by the page they actually appear on
 const sitePages = [
