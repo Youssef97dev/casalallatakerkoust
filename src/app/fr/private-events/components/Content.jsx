@@ -17,7 +17,8 @@ const Content = () => {
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
             src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
-            alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+            alt="Terrasse panoramique avec vue sur le lac à Casa Lalla Takerkoust, un day club de luxe de style Mykonos près de Marrakech"
+            title="Terrasse de Luxe avec Vue sur le Lac à Casa Lalla Takerkoust"
             loading="lazy"
             width={500}
             height={500}
@@ -25,7 +26,8 @@ const Content = () => {
           />
           <Image
             src="/agafay-takerkoust/agafay-desert-marrakech-restaurants.webp"
-            alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+            alt="Expérience gastronomique exclusive dans le désert d'Agafay avec une ambiance luxueuse d'Ibiza et un service de restaurant premium à Marrakech"
+            title="Restaurant Exclusif et Dîner de Luxe dans le Désert d'Agafay"
             loading="lazy"
             width={500}
             height={500}
@@ -33,7 +35,8 @@ const Content = () => {
           />
           <Image
             src="/agafay-takerkoust/ibiza-mykonos-style-restaurants.webp"
-            alt="Panoramic terrace view setup for an Agafay wedding and private events, featuring a chic Ibiza Mykonos style atmosphere by the lake"
+            alt="Cadre de restaurant chic de style Ibiza et Mykonos offrant une expérience VIP en day club de luxe près du désert d'Agafay"
+            title="Restaurant de Luxe de Style Ibiza et Mykonos près d'Agafay"
             loading="lazy"
             width={500}
             height={500}
@@ -156,7 +159,8 @@ const Content = () => {
         <div className="w-full flex flex-col justify-start items-start gap-24">
           <Image
             src="/agafay-takerkoust/boho-chic-interior-design-marrakech-lake.webp"
-            alt="Modern minimalist interior design inspired by Ibiza and Formentera at Casa Lalla"
+            alt="Superbe design d'intérieur boho-chic dans notre restaurant de luxe au bord du lac, mêlant l'esthétique de Mykonos au charme de Marrakech"
+            title="Design d'Intérieur Boho-Chic dans Notre Restaurant de Luxe au Bord du Lac"
             loading="lazy"
             width={500}
             height={500}
@@ -164,7 +168,8 @@ const Content = () => {
           />
           <Image
             src="/agafay-takerkoust/high-atlas-mountains-snow-peaks-marrakech.webp"
-            alt="Panoramic view of the snow-capped High Atlas Mountains from the desert"
+            alt="Vues imprenables sur les sommets enneigés du Haut Atlas depuis notre day club exclusif de style Ibiza près de Marrakech"
+            title="Vues Superbes sur les Montagnes du Haut Atlas depuis Notre Day Club de Luxe"
             loading="lazy"
             width={500}
             height={500}
@@ -172,7 +177,8 @@ const Content = () => {
           />
           <Image
             src="/agafay-takerkoust/meilleur-restaurant-ibiza.webp"
-            alt="Luxury dining arrangement for an Agafay wedding or private events, showcasing Ibiza Mykonos style decor and lighting"
+            alt="La meilleure expérience de restaurant et day club de luxe de style Ibiza au lac Lalla Takerkoust à Marrakech"
+            title="Le Meilleur Restaurant de Luxe de Style Ibiza à Marrakech"
             loading="lazy"
             width={500}
             height={500}

@@ -5,23 +5,26 @@ const GalleryImage = [
   {
     image:
       "/agafay-takerkoust/authentic-moroccan-cuisine-casa-lalla-takerkoust.webp",
-    alt: "Salle de restaurant intérieure élégante à Casa Lalla Takerkoust avec décoration marocaine raffinée et ambiance sophistiquée pour le déjeuner ou le dîner",
+    alt: "Gastronomie marocaine authentique dans un cadre intérieur élégant de style Mykonos à Casa Lalla Takerkoust près du désert d'Agafay",
+    title: "Gastronomie Marocaine Authentique dans un Cadre Chic Façon Mykonos",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
-    alt: "Terrasse panoramique au bord de l'eau à Casa Lalla Takerkoust avec vue imprenable sur le lac Takerkoust, destination idéale pour une excursion près de Marrakech",
+    alt: "Terrasse de restauration de luxe au bord du lac avec une ambiance exclusive d'Ibiza et des vues imprenables sur le lac Takerkoust",
+    title: "Terrasse de Luxe au Bord du Lac avec Ambiance Exclusive d'Ibiza",
     class: "object-center",
   },
   {
-    image:
-      "/agafay-takerkoust/outdoor-dining-terrace-casa-lalla-takerkoust.webp",
-    alt: "Vue extérieure du restaurant de luxe Casa Lalla Takerkoust et de ses jardins, une oasis de premier plan au bord du lac dans la région du désert d'Agafay",
+    image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
+    alt: "Cuisine méditerranéenne gastronomique et tapas espagnoles servies dans l'oasis de luxe de notre restaurant de style Ibiza près d'Agafay",
+    title: "Cuisine Méditerranéenne et Tapas Premium dans une Oasis de Luxe",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp",
-    alt: "Aventure palpitante en quad au lac Takerkoust organisée par Casa Lalla, exploration des paysages sauvages au pied des montagnes de l'Atlas",
+    alt: "Excursion riche en adrénaline en quad dans le désert d'Agafay suivie d'une expérience VIP en day club de luxe près de l'Atlas",
+    title: "Excursion Palpitante en Quad à Agafay et Expérience VIP de Luxe",
     class: "object-center",
   },
 ];
@@ -37,6 +40,7 @@ const Gallery = () => {
               <Image
                 src={category.image}
                 alt={category.alt}
+                title={category.title}
                 fill
                 className={`object-cover aspect-square h-full ${category.class}`}
               />

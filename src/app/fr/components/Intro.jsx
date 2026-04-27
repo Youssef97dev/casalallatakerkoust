@@ -19,7 +19,8 @@ const Intro = () => {
       <div className="w-full flex justify-center items-center mt-8">
         <Image
           src="/agafay-takerkoust/boho-chic-rattan-decor-luxury-restaurant.webp"
-          alt="Detail of handmade rattan lighting and furniture in a luxury bohemian restaurant"
+          alt="Décor en rotin boho-chic dans notre restaurant et day club de luxe de style Mykonos près du désert d'Agafay à Marrakech"
+          title="Décor de Restaurant Boho-Chic de Luxe avec Ambiance Exclusive d'Ibiza"
           width={500}
           height={500}
           className="w-full opacity-70"

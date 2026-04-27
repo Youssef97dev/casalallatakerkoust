@@ -24,7 +24,8 @@ const Intro = () => {
       <div className="w-full flex justify-center items-center mt-8">
         <Image
           src="/agafay-takerkoust/boho-chic-rattan-decor-luxury-restaurant.webp"
-          alt="Detail of handmade rattan lighting and furniture in a luxury bohemian restaurant"
+          alt="Boho-chic rattan decor at our luxury Mykonos-style restaurant and day club near the Agafay Desert in Marrakech"
+          title="Luxury Boho-Chic Restaurant Decor with Exclusive Ibiza Vibes"
           loading="lazy"
           width={500}
           height={500}

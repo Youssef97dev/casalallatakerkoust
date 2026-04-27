@@ -6,7 +6,8 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp"
-          alt="top restaurants marocain marrakech"
+          alt="Fresh Mediterranean seafood pasta at our luxury Ibiza-style day club and restaurant near Marrakech"
+          title="Premium Mediterranean Seafood Pasta at Our Luxury Day Club"
           loading="lazy"
           width={1500}
           height={1500}
@@ -16,7 +17,8 @@ const Hero = () => {
       <div className="w-full h-full block lg:hidden">
         <Image
           src="/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp"
-          alt="Mediterranean restaurant terrace overlooking Lalla Takerkoust lake at sunset"
+          alt="Panoramic lake view terrace at Casa Lalla Takerkoust offering a chic Mykonos vibe and luxury dining near the Agafay Desert"
+          title="Luxury Lake View Terrace & Mykonos Vibe Dining at Casa Lalla"
           loading="lazy"
           width={1500}
           height={1500}

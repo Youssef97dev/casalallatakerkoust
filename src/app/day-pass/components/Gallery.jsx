@@ -5,22 +5,26 @@ const GalleryImage = [
   {
     image:
       "/agafay-takerkoust/authentic-moroccan-cuisine-casa-lalla-takerkoust.webp",
-    alt: "Elegant indoor dining area at Casa Lalla Takerkoust featuring refined Moroccan decor and a sophisticated atmosphere for lunch or dinner",
+    alt: "Authentic Moroccan fine dining in an elegant Mykonos-style indoor setting at Casa Lalla Takerkoust near the Agafay Desert",
+    title: "Authentic Moroccan Fine Dining in a Chic Mykonos-Style Setting",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
-    alt: "Panoramic lakeside dining terrace at Casa Lalla Takerkoust with stunning views of Lake Takerkoust, the perfect Marrakech day trip destination",
+    alt: "Luxury lakeside dining terrace with exclusive Ibiza vibes and stunning views of Lake Takerkoust, the perfect Marrakech day club destination",
+    title: "Luxury Lakeside Dining Terrace with Exclusive Ibiza Vibes",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
-    alt: "Exterior view of the luxury Casa Lalla Takerkoust restaurant and garden, a premier lakeside oasis in the Agafay desert region",
+    alt: "Gourmet Mediterranean food and Spanish tapas served in the luxury garden oasis of our Ibiza-style restaurant near the Agafay Desert",
+    title: "Premium Mediterranean Food & Tapas in a Luxury Garden Oasis",
     class: "object-center",
   },
   {
     image: "/agafay-takerkoust/quad-tour-agafay-desert-marrakech.webp",
-    alt: "Thrilling quad biking adventure at Lake Takerkoust organized by Casa Lalla, exploring the rugged landscapes near the Atlas Mountains",
+    alt: "Action-packed Agafay Desert quad tour adventure paired with a luxury VIP day club experience near the Atlas Mountains",
+    title: "Thrilling Agafay Desert Quad Tour & VIP Luxury Experience",
     class: "object-center",
   },
 ];
@@ -36,6 +40,7 @@ const Gallery = () => {
               <Image
                 src={category.image}
                 alt={category.alt}
+                title={category.title}
                 fill
                 className={`object-cover aspect-square h-full ${category.class}`}
               />

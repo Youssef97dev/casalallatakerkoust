@@ -6,7 +6,8 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/agafay-takerkoust/mykonos-style-architecture-marrakech-lake.webp"
-          alt="White-washed Mykonos-style architecture at the Casa Lalla lakeside retreat"
+          alt="Superbe architecture de style Mykonos dans notre oasis et day club de luxe surplombant le lac Takerkoust près de Marrakech"
+          title="Architecture de Style Mykonos et Oasis de Luxe au Lac Takerkoust"
           loading="lazy"
           width={1500}
           height={1500}
@@ -16,7 +17,8 @@ const Hero = () => {
       <div className="w-full h-full block lg:hidden">
         <Image
           src="/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp"
-          alt="Elegant boho-chic wedding ceremony at Casa Lalla Takerkoust overlooking the water"
+          alt="Élégant lieu de mariage de destination boho-chic offrant une ambiance de luxe d'Ibiza au lac Lalla Takerkoust près du désert d'Agafay"
+          title="Mariage de Destination de Luxe avec Ambiance Ibiza au Lac Takerkoust"
           loading="lazy"
           width={1500}
           height={1500}

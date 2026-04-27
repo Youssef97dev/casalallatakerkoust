@@ -6,7 +6,8 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp"
-          alt="Elegant afternoon tea service inspired by the world-famous Mamounia tradition"
+          alt="Gourmet Mediterranean seafood pasta served at our luxury Mykonos-style restaurant near the Agafay Desert in Morocco"
+          title="Premium Mediterranean Seafood Pasta & Luxury Dining in Morocco"
           loading="lazy"
           width={1500}
           height={1500}
@@ -16,7 +17,8 @@ const Hero = () => {
       <div className="w-full h-full block lg:hidden">
         <Image
           src="/agafay-gallery/restaurants-marocains-marrakech.webp"
-          alt="Breathtaking sunset views over Lac Takerkoust, a peaceful escape from busy restaurants marrakech"
+          alt="Authentic Moroccan fine dining experience at a chic Ibiza-style restaurant oasis near the Agafay Desert in Marrakech"
+          title="Authentic Moroccan Fine Dining with a Chic Ibiza Atmosphere"
           loading="lazy"
           width={1500}
           height={1500}

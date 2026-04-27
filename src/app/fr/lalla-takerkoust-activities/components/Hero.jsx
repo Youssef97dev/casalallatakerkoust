@@ -6,7 +6,8 @@ const Hero = () => {
       <div className="w-full h-full hidden lg:block">
         <Image
           src="/agafay-takerkoust/high-atlas-mountains-quad-marrakech.webp"
-          alt="Stunning golden hour landscape in the Agafay desert with agafay vibes"
+          alt="Expérience panoramique en quad face aux montagnes du Haut Atlas près de notre retraite de luxe style Ibiza"
+          title="Aventure en Quad dans le Haut Atlas & Expérience Day Club de Luxe"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover object-bottom`}
@@ -15,7 +16,8 @@ const Hero = () => {
       <div className="w-full h-full block lg:hidden">
         <Image
           src="/agafay-takerkoust/adrenaline-buggy-tour-marrakech-agafay-desert.webp"
-          alt="Stunning golden hour landscape in the Agafay desert with snow-capped peaks"
+          alt="Tour de buggy riche en adrénaline dans le désert d'Agafay, une excursion premium près de notre oasis inspirée de Mykonos"
+          title="Buggy Adrénaline au Désert d'Agafay – Aventure Tout-Terrain de Luxe"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover`}
