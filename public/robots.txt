@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://casalallatakerkoust.com/sitemap.xml
+Sitemap: https://casalallatakerkoust.com/image-sitemap.xml
