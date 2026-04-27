@@ -1,6 +1,17 @@
 const fs = require("fs");
 const path = require("path");
 
+// Add this helper function
+function escapeXML(str) {
+  if (!str) return "";
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 const DOMAIN = "https://casalallatakerkoust.com";
 
 // Group your images by the page they actually appear on
@@ -535,8 +546,16 @@ sitePages.forEach((page) => {
   page.images.forEach((item) => {
     xml += `    <image:image>\n`;
     xml += `      <image:loc>${DOMAIN}${item.image}</image:loc>\n`;
-    xml += `      <image:caption>${item.alt}</image:caption>\n`;
-    xml += `      <image:title>${item.title}</image:title>\n`;
+
+    // Safely escape the alt text
+    const safeAlt = escapeXML(item.alt);
+    xml += `      <image:caption>${safeAlt}</image:caption>\n`;
+
+    // Safely escape the title (or fallback to alt)
+    const rawTitle = item.title ? item.title : item.alt;
+    const safeTitle = escapeXML(rawTitle);
+    xml += `      <image:title>${safeTitle}</image:title>\n`;
+
     xml += `    </image:image>\n`;
   });
 
