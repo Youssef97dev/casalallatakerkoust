@@ -9,7 +9,8 @@ const slides = [
       "/agafay-takerkoust/sunset-cocktails-lalla-takerkoust-lounge.webp",
     mobileSrc:
       "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
-    alt: "Premium cocktails at sunset on the Casa Lalla Takerkoust lounge bar terrace",
+    alt: "Premium sunset cocktails at our Ibiza-style lounge bar terrace overlooking Lake Lalla Takerkoust near Agafay",
+    title: "Experience Ibiza-Style Sunset Cocktails at Lake Takerkoust",
     desktopClass: "object-center",
     mobileClass: "object-center",
   },
@@ -17,7 +18,8 @@ const slides = [
     desktopSrc: "/agafay-takerkoust/agafay-restaurants-marocain-marrakech.webp",
     mobileSrc:
       "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
-    alt: "Best Moroccan restaurants in Marrakech desert", // Improved alt text for SEO
+    alt: "Tourists enjoying an exclusive Mykonos vibe day club experience and fine Moroccan dining in the Agafay Desert",
+    title: "Exclusive Mykonos Vibe Day Club & Restaurant in the Agafay Desert",
     desktopClass: "object-center",
     mobileClass: "object-center",
   },
@@ -26,7 +28,8 @@ const slides = [
       "/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp",
     mobileSrc:
       "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
-    alt: "Elegant boho-chic wedding ceremony at Casa Lalla Takerkoust overlooking the water",
+    alt: "Elegant boho-chic destination wedding ceremony at Casa Lalla Takerkoust with luxury Ibiza beach club aesthetics",
+    title: "Luxury Boho-Chic Destination Weddings at Lake Lalla Takerkoust",
     desktopClass: "object-center",
     mobileClass: "object-center",
   },
@@ -34,7 +37,8 @@ const slides = [
     desktopSrc: "/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp",
     mobileSrc:
       "/agafay-takerkoust/boho-chic-lounge-mykonos-vibe-lalla-takerkoust.webp",
-    alt: "Sophisticated venue setup for a private corporate event at Lalla Takerkoust",
+    alt: "Sophisticated Mykonos-inspired boho-chic lounge setup for private VIP and corporate events at Lake Takerkoust",
+    title: "VIP Corporate Events in a Chic Mykonos-Inspired Desert Oasis",
     desktopClass: "object-center",
     mobileClass: "object-center",
   },
@@ -43,7 +47,8 @@ const slides = [
       "/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp",
     mobileSrc:
       "/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp",
-    alt: "Freshly prepared seafood pasta at Casa Lalla's Mediterranean restaurant",
+    alt: "Fresh Mediterranean seafood pasta served at our luxury lakefront restaurant near Marrakech with a chic Ibiza atmosphere",
+    title: "Premium Mediterranean Seafood Dining with a Chic Ibiza Atmosphere",
     desktopClass: "object-bottom",
     mobileClass: "object-center",
   },
@@ -107,6 +112,7 @@ const Hero = () => {
                 <Image
                   src={slide.mobileSrc}
                   alt={slide.alt}
+                  title={slide.title}
                   fill
                   priority={index === 0} // SEO/LCP Fix: Only preload the first image
                   sizes="100vw"
@@ -119,6 +125,7 @@ const Hero = () => {
                 <Image
                   src={slide.desktopSrc}
                   alt={slide.alt}
+                  title={slide.title}
                   fill
                   priority={index === 0} // SEO/LCP Fix: Only preload the first image
                   sizes="100vw"

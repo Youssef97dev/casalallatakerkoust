@@ -6,19 +6,24 @@ const spaces = [
   {
     title: "Restaurant",
     image: "/agafay-takerkoust/private-tent-dining-agafay-desert-luxury.webp",
-    alt: "Private luxury dining tent with butler service for an intimate Agafay Desert experience",
+    alt: "Tente de restauration privée de luxe avec service VIP offrant une expérience chic ambiance Mykonos dans le désert d'Agafay",
+    title_image: "Dîner de luxe privé ambiance Mykonos dans le désert d'Agafay",
     link: "/restaurant-casa-lalla",
   },
   {
-    title: "Activities",
+    title: "Activités",
     image: "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
-    alt: "Feeling the adrenaline rush on a high-speed quad bike tour in Agafay",
+    alt: "Excursion en quad à sensations fortes et activités de luxe près de notre day club de style Ibiza dans le désert d'Agafay",
+    title_image:
+      "Activités de luxe et excursions palpitantes près du lac Takerkoust",
     link: "/lalla-takerkoust-activities",
   },
   {
-    title: "Private Events",
+    title: "Événements Privés",
     image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
-    alt: "Elegant minimalist table setting for a fine dining experience at Casa Lalla",
+    alt: "Lieu d'événement privé sophistiqué de style Ibiza et gastronomie au bord du lac Lalla Takerkoust près de Marrakech",
+    title_image:
+      "Lieu exclusif de style Ibiza pour événements privés au lac Takerkoust",
     link: "/private-events",
   },
 ];
@@ -39,6 +44,7 @@ const OurSpaces = () => {
             <Image
               src={space.image}
               alt={space.alt}
+              title={space.title_image}
               width={600}
               height={600}
               className="w-full h-[500px] object-cover transform group-hover:scale-110 transition-transform duration-700"

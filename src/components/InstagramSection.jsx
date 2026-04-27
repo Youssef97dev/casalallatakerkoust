@@ -5,37 +5,43 @@ import Link from "next/link";
 const images = [
   {
     src: "/agafay-takerkoust/mykonos-vibes-restaurant-agafay-desert-marrakech.webp",
-    alt: "",
+    alt: "Luxury Mykonos vibe restaurant and day club oasis in the Agafay Desert near Marrakech",
+    title: "Experience Mykonos Vibes at Our Agafay Desert Restaurant",
     video: false,
     link: "https://www.instagram.com/p/DSHv8mkDbTF/",
   },
   {
     src: "/agafay-takerkoust/ibiza-sunset-lounge-near-royal-mansour.webp",
-    alt: "",
+    alt: "Chic Ibiza style sunset lounge offering premium luxury experiences and VIP service near Marrakech",
+    title: "Ibiza Style Sunset Lounge & Luxury Day Club",
     video: false,
     link: "https://www.instagram.com/p/DSHvxAujVCu/",
   },
   {
     src: "/agafay-takerkoust/mykonos-chic-Lalla-akerkoust-lake-morocco.webp",
-    alt: "",
+    alt: "Mykonos chic lakeside dining and boho-chic atmosphere at Lake Lalla Takerkoust in Morocco",
+    title: "Mykonos Chic Luxury Dining at Lake Lalla Takerkoust",
     video: false,
     link: "https://www.instagram.com/p/DSHuJyJDShv/",
   },
   {
     src: "/agafay-takerkoust/luxury-trip-from-mamounia-the-lake.webp",
-    alt: "",
+    alt: "Exclusive luxury day trip to Lake Takerkoust featuring vibrant Ibiza beach club vibes and stunning views",
+    title: "Exclusive Luxury Day Trip to Our Lakeside Beach Club",
     video: false,
     link: "https://www.instagram.com/p/DHjsxYRoOAP/",
   },
   {
     src: "/agafay-takerkoust/royal-mansour-lake-takerkoust-agafay.webp",
-    alt: "",
+    alt: "High-end VIP desert oasis near Lake Takerkoust and the Agafay Desert offering 5-star service",
+    title: "VIP Desert Oasis & Luxury Day Club Near Agafay",
     video: false,
     link: "https://www.instagram.com/p/DQ7fxQFDl_v/",
   },
   {
     src: "/agafay-takerkoust/restaurants-marocain-marrakech-agafay.jpg",
-    alt: "",
+    alt: "Authentic fine dining Moroccan restaurant in the Agafay Desert with a stylish bohemian Mykonos atmosphere",
+    title: "Fine Moroccan Dining in a Chic Agafay Desert Setting",
     video: false,
     link: "https://www.instagram.com/p/DGlJuUJNAxp/",
   },
@@ -68,6 +74,7 @@ const InstagramSection = () => {
               <Image
                 src={image.src}
                 alt={image.alt}
+                title={image.title}
                 loading="lazy"
                 width={250}
                 height={250}

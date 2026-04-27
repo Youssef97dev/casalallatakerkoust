@@ -3,22 +3,14 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div id="hero" className="relative w-full h-screen">
-      <div className="w-full h-full hidden lg:block">
+      <div className="w-full h-full">
         <Image
           src="/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp"
           alt="Sophisticated venue setup for a private corporate event at Lalla Takerkoust"
+          title="Luxury Ibiza-Style Corporate Event Venue at Lake Takerkoust"
           width={1500}
           height={1500}
-          className={`w-full h-full object-cover object-bottom`}
-        />
-      </div>
-      <div className="w-full h-full block lg:hidden">
-        <Image
-          src="/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp"
-          alt="Sophisticated venue setup for a private corporate event at Lalla Takerkoust"
-          width={1500}
-          height={1500}
-          className={`w-full h-full object-cover object-[91%_90%]`}
+          className={`w-full h-full object-cover lg:object-bottom object-[91%_90%]`}
         />
       </div>
       {/* Overlay */}
