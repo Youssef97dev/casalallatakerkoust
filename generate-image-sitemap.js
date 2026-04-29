@@ -244,6 +244,24 @@ const sitePages = [
         title:
           "Premium Mediterranean Seafood Dining with a Chic Ibiza Atmosphere",
       },
+      {
+        image:
+          "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
+        alt: "Elegant fine dining interior and welcoming restaurant atmosphere at Casa Lalla Takerkoust",
+        title: "Mykonos Vibe Elegant Dining Room at Casa Lalla",
+      },
+      {
+        image:
+          "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
+        alt: "High-speed quad bike tour and thrilling luxury activities near our Ibiza style day club in the Agafay Desert",
+        title: "Thrilling Luxury Activities & Tours Near Lake Takerkoust",
+      },
+      {
+        image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
+        alt: "Beautiful table setup for a private event and unforgettable wedding celebration at Casa Lalla Takerkoust venue",
+        title:
+          "Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust",
+      },
     ],
   },
 

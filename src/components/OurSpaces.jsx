@@ -5,9 +5,9 @@ import Link from "next/link";
 const spaces = [
   {
     title: "Restaurant",
-    image: "/agafay-takerkoust/private-tent-dining-agafay-desert-luxury.webp",
-    alt: "Private luxury dining tent with VIP service offering a chic Mykonos vibe experience in the Agafay Desert",
-    title_image: "Mykonos Vibe Private Luxury Dining in the Agafay Desert",
+    image: "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
+    alt: "Elegant fine dining interior and welcoming restaurant atmosphere at Casa Lalla Takerkoust",
+    title_image: "Mykonos Vibe Elegant Dining Room at Casa Lalla",
     link: "/restaurant-casa-lalla",
   },
   {
@@ -19,8 +19,8 @@ const spaces = [
   },
   {
     title: "Private Events",
-    image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
-    alt: "Sophisticated Ibiza style private event venue and fine dining at Lake Lalla Takerkoust near Marrakech",
+    image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
+    alt: "Beautiful table setup for a private event and unforgettable wedding celebration at Casa Lalla Takerkoust venue",
     title_image:
       "Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust",
     link: "/private-events",

@@ -5,9 +5,9 @@ import Link from "next/link";
 const spaces = [
   {
     title: "Restaurant",
-    image: "/agafay-takerkoust/private-tent-dining-agafay-desert-luxury.webp",
-    alt: "Tente de restauration privée de luxe avec service VIP offrant une expérience chic ambiance Mykonos dans le désert d'Agafay",
-    title_image: "Dîner de luxe privé ambiance Mykonos dans le désert d'Agafay",
+    image: "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
+    alt: "Intérieur élégant et atmosphère accueillante de restaurant gastronomique à Casa Lalla Takerkoust",
+    title_image: "Salle à Manger Élégante à Casa Lalla Mykonos vibes",
     link: "/restaurant-casa-lalla",
   },
   {
@@ -20,8 +20,8 @@ const spaces = [
   },
   {
     title: "Événements Privés",
-    image: "/agafay-takerkoust/takerkoust-restaurants-marrakech.webp",
-    alt: "Lieu d'événement privé sophistiqué de style Ibiza et gastronomie au bord du lac Lalla Takerkoust près de Marrakech",
+    image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
+    alt: "Magnifique décoration de table pour un événement privé et une célébration de mariage inoubliable au domaine Casa Lalla Takerkoust",
     title_image:
       "Lieu exclusif de style Ibiza pour événements privés au lac Takerkoust",
     link: "/private-events",
