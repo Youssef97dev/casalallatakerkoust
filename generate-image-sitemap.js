@@ -18,7 +18,7 @@ const DOMAIN = "https://casalallatakerkoust.com";
 const sitePages = [
   // --- ENGLISH PAGES ---
   {
-    pageUrl: "/lalla-takerkoust-gallery",
+    pageUrl: "/lalla-takerkoust-gallery/",
     images: [
       {
         image:
@@ -267,7 +267,7 @@ const sitePages = [
 
   // --- FRENCH PAGES ---
   {
-    pageUrl: "/fr/lalla-takerkoust-gallery", // Make sure this matches your exact Next.js route
+    pageUrl: "/fr/lalla-takerkoust-gallery/", // Make sure this matches your exact Next.js route
     images: [
       {
         image:
