@@ -63,24 +63,9 @@ const sitePages = [
         title: "Welcome to Casa Lalla Takerkoust: Your Lakeside Oasis",
       },
       {
-        image: "/agafay-gallery/restaurants-agafay-near-me.webp",
-        alt: "Breathtaking sunset views over Lake Takerkoust at a top-rated Agafay restaurant",
-        title: "Stunning Sunset Dining at Lake Takerkoust near Agafay",
-      },
-      {
-        image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
-        alt: "Chic rooftop lounge at an Agafay luxury camp offering premium desert views and VIP events",
-        title: "Exclusive Rooftop Lounge & Private Events in the Agafay Desert",
-      },
-      {
         image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
         alt: "Elegant romantic dinner setup under the stars in the Agafay Desert with luxury service",
         title: "Unforgettable Romantic Desert Dinner Under the Stars",
-      },
-      {
-        image: "/agafay-gallery/restaurants-near-me.webp",
-        alt: "Refined Moroccan seafood pastilla offering an authentic fine-dining experience in Marrakech",
-        title: "Gourmet Moroccan Seafood Pastilla Experience",
       },
       {
         image:
@@ -99,16 +84,6 @@ const sitePages = [
         title: "Indulge in Mediterranean Mezze on Your Agafay Day Trip",
       },
       {
-        image: "/agafay-gallery/restaurants-near-me-marrakech-mezze.webp",
-        alt: "Rooftop sunset cocktails at a trendy Mykonos-inspired restaurant in Marrakech",
-        title: "Sunset Rooftop Cocktails with Mykonos Inspiration",
-      },
-      {
-        image: "/agafay-gallery/resturants-marocains-marrakech-agafay.webp",
-        alt: "Traditional Moroccan royal couscous served in a high-end Agafay desert dining setting",
-        title: "Authentic Royal Moroccan Couscous Fine Dining",
-      },
-      {
         image: "/agafay-gallery/restaurants-agafay-poolside-lunch.webp",
         alt: "Luxury poolside lunch with Ibiza vibes in the rocky landscape of the Agafay desert",
         title: "Luxury Poolside Lunch in the Agafay Desert",
@@ -117,16 +92,6 @@ const sitePages = [
         image: "/agafay-gallery/private-events-restaurants-agafay-desert.webp",
         alt: "Intricate Moroccan boho-chic decor at Casa Lalla, perfect for private events near Marrakech",
         title: "Boho-Chic Private Event Venue at Casa Lalla Agafay",
-      },
-      {
-        image: "/agafay-gallery/restaurants-agafay-boho-chic-decor.webp",
-        alt: "Exclusive luxury pool day club experience with Atlas Mountain views and Mykonos styling",
-        title: "Mykonos-Style Luxury Pool Day Club Experience",
-      },
-      {
-        image: "/agafay-gallery/restaurants-agafay.webp",
-        alt: "Gourmet slow-cooked lamb Méchoui, a fine-dining Moroccan specialty near Agafay",
-        title: "Traditional Slow-Cooked Lamb Méchoui Specialty",
       },
       {
         image: "/agafay-gallery/casa-lalla-takerkoust-agafay-desert-view.webp",
@@ -333,27 +298,9 @@ const sitePages = [
         title: "Bienvenue à Casa Lalla Takerkoust : Votre oasis au bord du lac",
       },
       {
-        image: "/agafay-gallery/restaurants-agafay-near-me.webp",
-        alt: "Vues imprenables sur le coucher de soleil sur le lac Takerkoust dans un restaurant très bien noté d'Agafay",
-        title:
-          "Dîner exceptionnel au coucher du soleil au lac Takerkoust près d'Agafay",
-      },
-      {
-        image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
-        alt: "Lounge chic sur le toit dans un camp de luxe d'Agafay offrant des vues imprenables sur le désert et des événements VIP",
-        title:
-          "Rooftop lounge exclusif et événements privés dans le désert d'Agafay",
-      },
-      {
         image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
         alt: "Dîner romantique et élégant sous les étoiles dans le désert d'Agafay avec un service de luxe",
         title: "Dîner romantique inoubliable dans le désert sous les étoiles",
-      },
-      {
-        image: "/agafay-gallery/restaurants-near-me.webp",
-        alt: "Pastilla aux fruits de mer marocaine raffinée offrant une expérience gastronomique authentique à Marrakech",
-        title:
-          "Expérience gastronomique : la pastilla marocaine aux fruits de mer",
       },
       {
         image:
@@ -375,17 +322,6 @@ const sitePages = [
           "Savourez des mezze méditerranéens lors de votre excursion à Agafay",
       },
       {
-        image: "/agafay-gallery/restaurants-near-me-marrakech-mezze.webp",
-        alt: "Cocktails au coucher du soleil sur un rooftop dans un restaurant tendance inspiré de Mykonos à Marrakech",
-        title:
-          "Cocktails sur le rooftop au coucher du soleil, inspiration Mykonos",
-      },
-      {
-        image: "/agafay-gallery/resturants-marocains-marrakech-agafay.webp",
-        alt: "Couscous royal marocain traditionnel servi dans un cadre gastronomique haut de gamme dans le désert d'Agafay",
-        title: "Dégustation de couscous royal marocain authentique",
-      },
-      {
         image: "/agafay-gallery/restaurants-agafay-poolside-lunch.webp",
         alt: "Déjeuner de luxe au bord de la piscine avec une ambiance d'Ibiza dans le paysage rocheux du désert d'Agafay",
         title: "Déjeuner de luxe au bord de la piscine dans le désert d'Agafay",
@@ -394,16 +330,6 @@ const sitePages = [
         image: "/agafay-gallery/private-events-restaurants-agafay-desert.webp",
         alt: "Décor marocain boho-chic sophistiqué à Casa Lalla, idéal pour des événements privés près de Marrakech",
         title: "Lieu d'événement privé boho-chic à Casa Lalla Agafay",
-      },
-      {
-        image: "/agafay-gallery/restaurants-agafay-boho-chic-decor.webp",
-        alt: "Expérience exclusive de day club avec piscine de luxe, vue sur les montagnes de l'Atlas et style Mykonos",
-        title: "Expérience de day club et piscine de luxe de style Mykonos",
-      },
-      {
-        image: "/agafay-gallery/restaurants-agafay.webp",
-        alt: "Méchoui d'agneau gastronomique cuit lentement, une spécialité marocaine de la haute gastronomie près d'Agafay",
-        title: "Spécialité traditionnelle de Méchoui d'agneau cuit lentement",
       },
       {
         image: "/agafay-gallery/casa-lalla-takerkoust-agafay-desert-view.webp",

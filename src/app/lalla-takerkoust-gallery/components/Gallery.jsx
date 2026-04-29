@@ -49,27 +49,9 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/restaurants-agafay-near-me.webp",
-    alt: "Breathtaking sunset views over Lake Takerkoust at a top-rated Agafay restaurant",
-    title: "Stunning Sunset Dining at Lake Takerkoust near Agafay",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/agafay-luxury-camp-private-event.webp",
-    alt: "Chic rooftop lounge at an Agafay luxury camp offering premium desert views and VIP events",
-    title: "Exclusive Rooftop Lounge & Private Events in the Agafay Desert",
-    class: "object-center",
-  },
-  {
     image: "/agafay-gallery/romantic-dinner-agafay-desert-under-stars.webp",
     alt: "Elegant romantic dinner setup under the stars in the Agafay Desert with luxury service",
     title: "Unforgettable Romantic Desert Dinner Under the Stars",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/restaurants-near-me.webp",
-    alt: "Refined Moroccan seafood pastilla offering an authentic fine-dining experience in Marrakech",
-    title: "Gourmet Moroccan Seafood Pastilla Experience",
     class: "object-center",
   },
   {
@@ -91,18 +73,6 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/agafay-gallery/restaurants-near-me-marrakech-mezze.webp",
-    alt: "Rooftop sunset cocktails at a trendy Mykonos-inspired restaurant in Marrakech",
-    title: "Sunset Rooftop Cocktails with Mykonos Inspiration",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/resturants-marocains-marrakech-agafay.webp",
-    alt: "Traditional Moroccan royal couscous served in a high-end Agafay desert dining setting",
-    title: "Authentic Royal Moroccan Couscous Fine Dining",
-    class: "object-center",
-  },
-  {
     image: "/agafay-gallery/restaurants-agafay-poolside-lunch.webp",
     alt: "Luxury poolside lunch with Ibiza vibes in the rocky landscape of the Agafay desert",
     title: "Luxury Poolside Lunch in the Agafay Desert",
@@ -112,18 +82,6 @@ const GalleryImage = [
     image: "/agafay-gallery/private-events-restaurants-agafay-desert.webp",
     alt: "Intricate Moroccan boho-chic decor at Casa Lalla, perfect for private events near Marrakech",
     title: "Boho-Chic Private Event Venue at Casa Lalla Agafay",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/restaurants-agafay-boho-chic-decor.webp",
-    alt: "Exclusive luxury pool day club experience with Atlas Mountain views and Mykonos styling",
-    title: "Mykonos-Style Luxury Pool Day Club Experience",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/restaurants-agafay.webp",
-    alt: "Gourmet slow-cooked lamb Méchoui, a fine-dining Moroccan specialty near Agafay",
-    title: "Traditional Slow-Cooked Lamb Méchoui Specialty",
     class: "object-center",
   },
   {
