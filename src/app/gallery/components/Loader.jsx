@@ -8,7 +8,7 @@ import Hero from "./Hero";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/lalla-takerkoust-gallery"} />
+      <Navbar path={"/fr/gallery"} />
       <Hero />
       <Gallery />
       <Footer />
