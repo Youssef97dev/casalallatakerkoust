@@ -12,7 +12,7 @@ function escapeXML(str) {
     .replace(/'/g, "&apos;");
 }
 
-const DOMAIN = "https://casalallatakerkoust.com";
+const DOMAIN = "https://www.casalallatakerkoust.com";
 
 // Group your images by the page they actually appear on
 const sitePages = [
