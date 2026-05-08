@@ -52,6 +52,26 @@ const slides = [
     desktopClass: "object-bottom",
     mobileClass: "object-center",
   },
+  {
+    desktopSrc:
+      "/agafay-takerkoust/beautiful-restaurants-agafay-marrakech.webp",
+    mobileSrc:
+      "/agafay-takerkoust/luxury-dining-restaurants-agafay-marrakech.webp",
+    alt: "Elegant table setup showcasing luxury dining among restaurants Agafay Marrakech",
+    title: "Luxury Dining Agafay Marrakech",
+    desktopClass: "object-bottom",
+    mobileClass: "object-center",
+  },
+  {
+    desktopSrc:
+      "/agafay-takerkoust/casa-lalla-takerkoust-best-restaurants-agafay.webp",
+    mobileSrc:
+      "/agafay-takerkoust/ambiance-agafay-vibes-meilleur-restaurants.webp",
+    alt: "Ambiance chaleureuse et festive au cœur de Casa Lalla, le meilleur restaurants Agafay",
+    title: "Ambiance Agafay Vibes",
+    desktopClass: "object-bottom",
+    mobileClass: "object-center",
+  },
 ];
 
 const Hero = () => {
