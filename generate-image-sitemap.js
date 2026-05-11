@@ -29,12 +29,6 @@ const sitePages = [
       },
       {
         image:
-          "/agafay-takerkoust/mediterranean-restaurant-atmosphere-marrakech.webp",
-        alt: "Chic Mediterranean restaurant atmosphere with a Mykonos vibe in Marrakech",
-        title: "Mykonos-Inspired Mediterranean Dining Oasis Near Agafay",
-      },
-      {
-        image:
           "/agafay-takerkoust/bohemian-terrace-dining-casa-lalla-takerkoust.webp",
         alt: "Boho-chic terrace dining at Casa Lalla Takerkoust offering a luxury desert experience",
         title: "Bohemian Luxury Terrace Dining Outside Marrakech",
@@ -50,11 +44,6 @@ const sitePages = [
           "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
         alt: "Gourmet Spanish tapas and Mediterranean food served at an upscale Marrakech restaurant",
         title: "Premium Spanish Tapas & Mediterranean Cuisine in Marrakech",
-      },
-      {
-        image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
-        alt: "Signature craft cocktails at a luxury day club by Lake Takerkoust with Ibiza party vibes",
-        title: "Refresh with Signature Cocktails at Our Marrakech Day Club",
       },
       {
         image:
@@ -284,13 +273,6 @@ const sitePages = [
       },
       {
         image:
-          "/agafay-takerkoust/mediterranean-restaurant-atmosphere-marrakech.webp",
-        alt: "Atmosphère chic de restaurant méditerranéen avec une ambiance Mykonos à Marrakech",
-        title:
-          "Oasis de restauration méditerranéenne inspirée de Mykonos près d'Agafay",
-      },
-      {
-        image:
           "/agafay-takerkoust/bohemian-terrace-dining-casa-lalla-takerkoust.webp",
         alt: "Dîner sur terrasse boho-chic à Casa Lalla Takerkoust offrant une expérience de luxe dans le désert",
         title: "Dîner de luxe sur une terrasse bohème aux portes de Marrakech",
@@ -308,12 +290,6 @@ const sitePages = [
         alt: "Tapas espagnoles gastronomiques et cuisine méditerranéenne servies dans un restaurant haut de gamme de Marrakech",
         title:
           "Tapas espagnoles de qualité supérieure et cuisine méditerranéenne à Marrakech",
-      },
-      {
-        image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
-        alt: "Cocktails artisanaux signatures dans un day club de luxe au bord du lac Takerkoust avec une ambiance de fête d'Ibiza",
-        title:
-          "Rafraîchissez-vous avec des cocktails signatures dans notre Day Club à Marrakech",
       },
       {
         image:

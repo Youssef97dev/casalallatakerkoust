@@ -11,13 +11,6 @@ const GalleryImage = [
   },
   {
     image:
-      "/agafay-takerkoust/mediterranean-restaurant-atmosphere-marrakech.webp",
-    alt: "Chic Mediterranean restaurant atmosphere with a Mykonos vibe in Marrakech",
-    title: "Mykonos-Inspired Mediterranean Dining Oasis Near Agafay",
-    class: "object-center",
-  },
-  {
-    image:
       "/agafay-takerkoust/bohemian-terrace-dining-casa-lalla-takerkoust.webp",
     alt: "Boho-chic terrace dining at Casa Lalla Takerkoust offering a luxury desert experience",
     title: "Bohemian Luxury Terrace Dining Outside Marrakech",
@@ -34,12 +27,6 @@ const GalleryImage = [
     image: "/agafay-takerkoust/spanish-tapas-mediterranean-food-marrakech.webp",
     alt: "Gourmet Spanish tapas and Mediterranean food served at an upscale Marrakech restaurant",
     title: "Premium Spanish Tapas & Mediterranean Cuisine in Marrakech",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
-    alt: "Signature craft cocktails at a luxury day club by Lake Takerkoust with Ibiza party vibes",
-    title: "Refresh with Signature Cocktails at Our Marrakech Day Club",
     class: "object-center",
   },
   {
