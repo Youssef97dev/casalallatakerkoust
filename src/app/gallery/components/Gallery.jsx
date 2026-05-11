@@ -30,6 +30,12 @@ const GalleryImage = [
     class: "object-center",
   },
   {
+    image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
+    alt: "Signature craft cocktails at a luxury day club by Lake Takerkoust with Ibiza party vibes",
+    title: "Refresh with Signature Cocktails at Our Marrakech Day Club",
+    class: "object-center",
+  },
+  {
     image: "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
     alt: "Grand entrance to Casa Lalla Takerkoust, a premier Mykonos-style oasis near Marrakech",
     title: "Welcome to Casa Lalla Takerkoust: Your Lakeside Oasis",

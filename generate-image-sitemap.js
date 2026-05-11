@@ -46,6 +46,11 @@ const sitePages = [
         title: "Premium Spanish Tapas & Mediterranean Cuisine in Marrakech",
       },
       {
+        image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
+        alt: "Signature craft cocktails at a luxury day club by Lake Takerkoust with Ibiza party vibes",
+        title: "Refresh with Signature Cocktails at Our Marrakech Day Club",
+      },
+      {
         image:
           "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
         alt: "Grand entrance to Casa Lalla Takerkoust, a premier Mykonos-style oasis near Marrakech",
@@ -290,6 +295,12 @@ const sitePages = [
         alt: "Tapas espagnoles gastronomiques et cuisine méditerranéenne servies dans un restaurant haut de gamme de Marrakech",
         title:
           "Tapas espagnoles de qualité supérieure et cuisine méditerranéenne à Marrakech",
+      },
+      {
+        image: "/agafay-takerkoust/signature-cocktails-day-club-marrakech.webp",
+        alt: "Cocktails artisanaux signatures dans un day club de luxe au bord du lac Takerkoust avec une ambiance de fête d'Ibiza",
+        title:
+          "Rafraîchissez-vous avec des cocktails signatures dans notre Day Club à Marrakech",
       },
       {
         image:
