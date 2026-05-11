@@ -263,11 +263,6 @@ const sitePages = [
           "Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust",
       },
       {
-        image: "/agafay-takerkoust/beautiful-restaurants-agafay-marrakech.webp",
-        alt: "Elegant table setup showcasing luxury dining among restaurants Agafay Marrakech",
-        title: "Luxury Dining Agafay Marrakech",
-      },
-      {
         image:
           "/agafay-takerkoust/casa-lalla-takerkoust-best-restaurants-agafay.webp",
         alt: "Ambiance chaleureuse et festive au cœur de Casa Lalla, le meilleur restaurants Agafay",
