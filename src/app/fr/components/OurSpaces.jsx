@@ -1,32 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-const spaces = [
-  {
-    title: "Restaurant",
-    image: "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
-    alt: "Intérieur élégant et atmosphère accueillante de restaurant gastronomique à Casa Lalla Takerkoust",
-    title_image: "Salle à Manger Élégante à Casa Lalla Mykonos vibes",
-    link: "/restaurant-casa-lalla",
-  },
-  {
-    title: "Activités",
-    image: "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
-    alt: "Excursion en quad à sensations fortes et activités de luxe près de notre day club de style Ibiza dans le désert d'Agafay",
-    title_image:
-      "Activités de luxe et excursions palpitantes près du lac Takerkoust",
-    link: "/lalla-takerkoust-activities",
-  },
-  {
-    title: "Événements Privés",
-    image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
-    alt: "Magnifique décoration de table pour un événement privé et une célébration de mariage inoubliable au domaine Casa Lalla Takerkoust",
-    title_image:
-      "Lieu exclusif de style Ibiza pour événements privés au lac Takerkoust",
-    link: "/private-events",
-  },
-];
+import { HomeSpaces } from "@/data/imageData";
 
 const OurSpaces = () => {
   return (
@@ -35,23 +10,23 @@ const OurSpaces = () => {
         Nos Espaces
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:px-20">
-        {spaces.map((space, index) => (
+        {HomeSpaces.map((space, index) => (
           <Link
             key={index}
-            href={space.link}
+            href={space.linkFr}
             className="relative group overflow-hidden shadow-md"
           >
             <Image
               src={space.image}
-              alt={space.alt}
-              title={space.title_image}
+              alt={space.altFr}
+              title={space.titleFr_image}
               width={600}
               height={600}
               className="w-full h-[500px] object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 transition-all duration-500" />
             <h3 className="absolute inset-0 flex items-center justify-center text-casa_background text-[30px] leading-[55px] font-lora tracking-wide italic px-14">
-              {space.title}
+              {space.titleFr}
             </h3>
           </Link>
         ))}

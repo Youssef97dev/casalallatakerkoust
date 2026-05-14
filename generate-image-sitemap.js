@@ -254,20 +254,37 @@ const sitePages = [
       {
         image:
           "/agafay-takerkoust/sunset-cocktails-lalla-takerkoust-lounge.webp",
-        alt: "Premium sunset cocktails at our Ibiza-style lounge bar terrace overlooking Lake Lalla Takerkoust near Agafay",
-        title: "Experience Ibiza-Style Sunset Cocktails at Lake Takerkoust",
+        alt: "Premium sunset cocktails at our Ibiza-style lounge bar terrace near Agafay",
+        title: "Ibiza-Style Sunset Cocktails Lounge at Lake Takerkoust",
+      },
+      {
+        image:
+          "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
+        alt: "Beautiful panoramic lake view from the Casa Lalla luxury restaurant terrace in Takerkoust",
+        title: "Panoramic Lake View Restaurant Experience in Takerkoust",
       },
       {
         image: "/agafay-takerkoust/agafay-restaurants-marocain-marrakech.webp",
-        alt: "Tourists enjoying an exclusive Mykonos vibe day club experience and fine Moroccan dining in the Agafay Desert",
-        title:
-          "Exclusive Mykonos Vibe Day Club & Restaurant in the Agafay Desert",
+        alt: "Fine Moroccan dining experience at a premium luxury restaurant in the Agafay Desert",
+        title: "Fine Moroccan Dining in the Agafay Desert",
+      },
+      {
+        image:
+          "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
+        alt: "Tourists enjoying an exclusive Mykonos vibe day club experience with refreshing drinks at Lake Lalla Takerkoust",
+        title: "Exclusive Mykonos Vibe Day Club at Lake Takerkoust",
       },
       {
         image:
           "/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp",
-        alt: "Elegant boho-chic destination wedding ceremony at Casa Lalla Takerkoust with luxury Ibiza beach club aesthetics",
-        title: "Luxury Boho-Chic Destination Weddings at Lake Lalla Takerkoust",
+        alt: "Elegant boho-chic destination wedding ceremony setup at Lake Lalla Takerkoust near Marrakech",
+        title: "Luxury Destination Weddings at Lake Lalla Takerkoust",
+      },
+      {
+        image:
+          "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
+        alt: "The welcoming grand entrance to Casa Lalla Takerkoust near Marrakech featuring luxury beach club aesthetics",
+        title: "Welcome to Casa Lalla Takerkoust Near Marrakech",
       },
       {
         image: "/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp",
@@ -276,10 +293,22 @@ const sitePages = [
       },
       {
         image:
+          "/agafay-takerkoust/boho-chic-lounge-mykonos-vibe-lalla-takerkoust.webp",
+        alt: "Mykonos-inspired boho-chic lounge setup offering a relaxing VIP desert oasis experience",
+        title: "Mykonos-Inspired Boho-Chic Lounge Oasis",
+      },
+      {
+        image:
           "/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp",
         alt: "Fresh Mediterranean seafood pasta served at our luxury lakefront restaurant near Marrakech with a chic Ibiza atmosphere",
         title:
           "Premium Mediterranean Seafood Dining with a Chic Ibiza Atmosphere",
+      },
+      {
+        image:
+          "/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp",
+        alt: "Chic Ibiza-style lakefront terrace at Casa Lalla Takerkoust offering stunning waterfront views",
+        title: "Chic Lakefront Dining Terrace at Casa Lalla",
       },
       {
         image:
@@ -302,8 +331,44 @@ const sitePages = [
       {
         image:
           "/agafay-takerkoust/casa-lalla-takerkoust-best-restaurants-agafay.webp",
-        alt: "Ambiance chaleureuse et festive au cœur de Casa Lalla, le meilleur restaurants Agafay",
-        title: "Ambiance Agafay Vibes",
+        alt: "Le Casa Lalla, reconnu comme l'un des meilleurs restaurants de luxe près du désert d'Agafay",
+        title: "Casa Lalla : Meilleur Restaurant près d'Agafay",
+      },
+      {
+        image:
+          "/agafay-takerkoust/ambiance-agafay-vibes-meilleur-restaurants.webp",
+        alt: "Ambiance chaleureuse et festive aux vibrations d'Agafay au cœur du restaurant Casa Lalla",
+        title: "Ambiance Festive Agafay Vibes au Casa Lalla",
+      },
+      {
+        image:
+          "/agafay-takerkoust/hidden-gem-restaurant-marrakech-lake-takerkoust.webp",
+        alt: "Beautiful exterior and dining area of Casa Lalla, a hidden gem restaurant near Marrakech",
+        title: "Casa Lalla Restaurant Exterior & Dining",
+      },
+      {
+        image:
+          "/agafay-takerkoust/sunset-restaurant-lake-takerkoust-marrakech.webp",
+        alt: "Breathtaking sunset view from Casa Lalla restaurant terrace overlooking Lake Takerkoust near Marrakech",
+        title: "Sunset Dining at Lake Takerkoust, Morocco",
+      },
+      {
+        image:
+          "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
+        alt: "Elegant fine dining interior and welcoming restaurant atmosphere at Casa Lalla Takerkoust",
+        title: "Mykonos Vibe Elegant Dining Room at Casa Lalla",
+      },
+      {
+        image:
+          "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
+        alt: "High-speed quad bike tour and thrilling luxury activities near our Ibiza style day club in the Agafay Desert",
+        title: "Thrilling Luxury Activities & Tours Near Lake Takerkoust",
+      },
+      {
+        image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
+        alt: "Beautiful table setup for a private event and unforgettable wedding celebration at Casa Lalla Takerkoust venue",
+        title:
+          "Exclusive Ibiza Style Venue for Private Events at Lake Takerkoust",
       },
     ],
   },
@@ -551,6 +616,30 @@ const sitePages = [
           "/agafay-takerkoust/fine-dining-dessert-luxury-restaurant-morocco.webp",
         alt: "Dessert marocain gastronomique exquis et joliment dressé au Casa Lalla à Takerkoust",
         title: "Desserts Marocains Gastronomiques",
+      },
+    ],
+  },
+  {
+    pageUrl: "/fr",
+    images: [
+      {
+        image:
+          "/agafay-takerkoust/fine-dining-interior-casa-lalla-takerkoust.webp",
+        alt: "Intérieur élégant et atmosphère accueillante de restaurant gastronomique à Casa Lalla Takerkoust",
+        title: "Salle à Manger Élégante à Casa Lalla Mykonos vibes",
+      },
+      {
+        image:
+          "/agafay-takerkoust/adrenaline-quad-biking-marrakech-desert.webp",
+        alt: "Excursion en quad à sensations fortes et activités de luxe près de notre day club de style Ibiza dans le désert d'Agafay",
+        title:
+          "Activités de luxe et excursions palpitantes près du lac Takerkoust",
+      },
+      {
+        image: "/agafay-takerkoust/private-event-wedding-setup-casa-lalla.webp",
+        alt: "Magnifique décoration de table pour un événement privé et une célébration de mariage inoubliable au domaine Casa Lalla Takerkoust",
+        title:
+          "Lieu exclusif de style Ibiza pour événements privés au lac Takerkoust",
       },
     ],
   },

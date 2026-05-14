@@ -1,68 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-
-// Unified array for easy management of desktop and mobile assets
-const slides = [
-  {
-    desktopSrc:
-      "/agafay-takerkoust/sunset-cocktails-lalla-takerkoust-lounge.webp",
-    mobileSrc:
-      "/agafay-takerkoust/restaurant-lake-view-casa-lalla-takerkoust.webp",
-    alt: "Premium sunset cocktails at our Ibiza-style lounge bar terrace overlooking Lake Lalla Takerkoust near Agafay",
-    title: "Experience Ibiza-Style Sunset Cocktails at Lake Takerkoust",
-    desktopClass: "object-center",
-    mobileClass: "object-center",
-  },
-  {
-    desktopSrc: "/agafay-takerkoust/agafay-restaurants-marocain-marrakech.webp",
-    mobileSrc:
-      "/agafay-takerkoust/tourists-enjoying-drinks-lalla-takerkoust.webp",
-    alt: "Tourists enjoying an exclusive Mykonos vibe day club experience and fine Moroccan dining in the Agafay Desert",
-    title: "Exclusive Mykonos Vibe Day Club & Restaurant in the Agafay Desert",
-    desktopClass: "object-center",
-    mobileClass: "object-center",
-  },
-  {
-    desktopSrc:
-      "/agafay-takerkoust/destination-wedding-marrakech-lake-takerkoust.webp",
-    mobileSrc:
-      "/agafay-takerkoust/casa-lalla-takerkoust-entrance-marrakech.webp",
-    alt: "Elegant boho-chic destination wedding ceremony at Casa Lalla Takerkoust with luxury Ibiza beach club aesthetics",
-    title: "Luxury Boho-Chic Destination Weddings at Lake Lalla Takerkoust",
-    desktopClass: "object-center",
-    mobileClass: "object-center",
-  },
-  {
-    desktopSrc: "/agafay-takerkoust/corporate-event-venue-marrakech-lake.webp",
-    mobileSrc:
-      "/agafay-takerkoust/boho-chic-lounge-mykonos-vibe-lalla-takerkoust.webp",
-    alt: "Sophisticated Mykonos-inspired boho-chic lounge setup for private VIP and corporate events at Lake Takerkoust",
-    title: "VIP Corporate Events in a Chic Mykonos-Inspired Desert Oasis",
-    desktopClass: "object-center",
-    mobileClass: "object-center",
-  },
-  {
-    desktopSrc:
-      "/agafay-takerkoust/seafood-pasta-mediterranean-dining-morocco.webp",
-    mobileSrc:
-      "/agafay-takerkoust/casa-lalla-takerkoust-lake-view-terrace.webp",
-    alt: "Fresh Mediterranean seafood pasta served at our luxury lakefront restaurant near Marrakech with a chic Ibiza atmosphere",
-    title: "Premium Mediterranean Seafood Dining with a Chic Ibiza Atmosphere",
-    desktopClass: "object-bottom",
-    mobileClass: "object-center",
-  },
-  {
-    desktopSrc:
-      "/agafay-takerkoust/casa-lalla-takerkoust-best-restaurants-agafay.webp",
-    mobileSrc:
-      "/agafay-takerkoust/ambiance-agafay-vibes-meilleur-restaurants.webp",
-    alt: "Ambiance chaleureuse et festive au cœur de Casa Lalla, le meilleur restaurants Agafay",
-    title: "Ambiance Agafay Vibes",
-    desktopClass: "object-bottom",
-    mobileClass: "object-center",
-  },
-];
+import { HeroSlides } from "@/data/imageData";
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -76,7 +15,7 @@ const Hero = () => {
   // Slideshow Interval
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % HeroSlides.length);
     }, 5000);
 
     return () => clearInterval(interval);
@@ -98,7 +37,7 @@ const Hero = () => {
       className="relative w-full h-screen overflow-hidden bg-black"
     >
       {/* Background Slideshow */}
-      {slides.map((slide, index) => {
+      {HeroSlides.map((slide, index) => {
         const isActive = index === currentIndex;
         const isZooming = isActive && mounted;
 
@@ -121,8 +60,8 @@ const Hero = () => {
               <div className="block lg:hidden absolute inset-0 w-full h-full">
                 <Image
                   src={slide.mobileSrc}
-                  alt={slide.alt}
-                  title={slide.title}
+                  alt={slide.mobileAlt}
+                  title={slide.mobileTitle}
                   fill
                   priority={index === 0} // SEO/LCP Fix: Only preload the first image
                   sizes="100vw"
@@ -134,8 +73,8 @@ const Hero = () => {
               <div className="hidden lg:block absolute inset-0 w-full h-full">
                 <Image
                   src={slide.desktopSrc}
-                  alt={slide.alt}
-                  title={slide.title}
+                  alt={slide.desktopAlt}
+                  title={slide.desktopTitle}
                   fill
                   priority={index === 0} // SEO/LCP Fix: Only preload the first image
                   sizes="100vw"
