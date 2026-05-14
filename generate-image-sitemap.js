@@ -203,6 +203,49 @@ const sitePages = [
         alt: "Chic rooftop lounge with premium Ibiza vibes and panoramic Agafay desert sunset views",
         title: "Chic Rooftop Lounge with Premium Ibiza Sunset Vibes",
       },
+      {
+        image:
+          "/agafay-takerkoust/best-moroccan-food-tagine-restaurant-marrakech.webp",
+        alt: "Traditional gourmet Moroccan tagine served at a luxury restaurant near the Atlas Mountains",
+        title:
+          "Authentic Moroccan Cuisine at Casa Lalla best restaurant in marrakech",
+      },
+      {
+        image:
+          "/agafay-takerkoust/couples-dining-experience-restaurant-near-agafay.webp",
+        alt: "Couple enjoying a luxury romantic dinner with sunset views near the Agafay desert, Morocco",
+        title: "Romantic Couples Dining in Morocco",
+      },
+      {
+        image:
+          "/agafay-takerkoust/luxury-rooftop-restaurant-agafay-desert-surroundings.webp",
+        alt: "Luxurious boho rooftop seating area offering panoramic views of the Agafay desert surroundings",
+        title: "Luxury Rooftop Lounge View in Agafay",
+      },
+      {
+        image:
+          "/agafay-takerkoust/romantic-dinner-marrakech-atlas-mountains-view.webp",
+        alt: "Romantic candlelight dinner table setup with Atlas Mountains backdrop at Casa Lalla in Morocco",
+        title: "Romantic Dinner Experience Near Marrakech",
+      },
+      {
+        image:
+          "/agafay-takerkoust/traditional-moroccan-tea-experience-takerkoust.webp",
+        alt: "Pouring traditional Moroccan mint tea with a beautiful lake view at Casa Lalla restaurant",
+        title: "Moroccan Mint Tea Experience",
+      },
+      {
+        image:
+          "/agafay-takerkoust/atlas-mountains-restaurant-panoramic-view-marrakech.webp",
+        alt: "Stunning panoramic views of the snow-capped Atlas Mountains from a luxury dining table in Morocco",
+        title: "Panoramic Atlas Mountains Dining",
+      },
+      {
+        image:
+          "/agafay-takerkoust/fine-dining-dessert-luxury-restaurant-morocco.webp",
+        alt: "Exquisite fine dining Moroccan dessert beautifully plated at Casa Lalla in Takerkoust",
+        title: "Fine Dining Moroccan Desserts",
+      },
     ],
   },
   {
@@ -465,6 +508,49 @@ const sitePages = [
         alt: "Lounge chic sur le toit avec une ambiance premium d'Ibiza et des vues panoramiques sur le coucher de soleil dans le désert d'Agafay",
         title:
           "Lounge chic sur le toit avec ambiance coucher de soleil d'Ibiza",
+      },
+      {
+        image:
+          "/agafay-takerkoust/best-moroccan-food-tagine-restaurant-marrakech.webp",
+        alt: "Tajine marocain gastronomique traditionnel servi dans un restaurant de luxe près des montagnes de l'Atlas",
+        title:
+          "Cuisine Marocaine Authentique chez Casa Lalla meilleur restaurant à marrakech",
+      },
+      {
+        image:
+          "/agafay-takerkoust/couples-dining-experience-restaurant-near-agafay.webp",
+        alt: "Couple profitant d'un dîner romantique de luxe avec vue sur le coucher de soleil près du désert d'Agafay",
+        title: "Dîner Romantique pour Couples au Maroc",
+      },
+      {
+        image:
+          "/agafay-takerkoust/luxury-rooftop-restaurant-agafay-desert-surroundings.webp",
+        alt: "Espace lounge luxueux sur le toit offrant une vue panoramique sur les environs du désert d'Agafay",
+        title: "Vue depuis le Lounge sur le Toit près d'Agafay",
+      },
+      {
+        image:
+          "/agafay-takerkoust/romantic-dinner-marrakech-atlas-mountains-view.webp",
+        alt: "Table romantique aux chandelles avec les montagnes de l'Atlas en toile de fond au Casa Lalla au Maroc",
+        title: "Expérience de Dîner Romantique Près de Marrakech",
+      },
+      {
+        image:
+          "/agafay-takerkoust/traditional-moroccan-tea-experience-takerkoust.webp",
+        alt: "Service traditionnel du thé à la menthe marocain avec une belle vue sur le lac au restaurant Casa Lalla",
+        title: "L'Expérience du Thé à la Menthe Marocain",
+      },
+      {
+        image:
+          "/agafay-takerkoust/atlas-mountains-restaurant-panoramic-view-marrakech.webp",
+        alt: "Superbe vue panoramique sur les montagnes de l'Atlas enneigées depuis une table de luxe au Maroc",
+        title: "Dîner Panoramique sur l'Atlas",
+      },
+      {
+        image:
+          "/agafay-takerkoust/fine-dining-dessert-luxury-restaurant-morocco.webp",
+        alt: "Dessert marocain gastronomique exquis et joliment dressé au Casa Lalla à Takerkoust",
+        title: "Desserts Marocains Gastronomiques",
       },
     ],
   },
