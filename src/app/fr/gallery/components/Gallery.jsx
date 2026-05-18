@@ -2,12 +2,24 @@ import React from "react";
 import Image from "next/image";
 import { GalleryImage } from "@/data/imageData";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  name: "Casa Lalla Takerkoust Gallery",
+  description: "Photos of our beautiful location and activities.",
+  image: GalleryImage.map((img) => img.image),
+};
+
 const Gallery = () => {
   return (
     <section
       id="gallery"
       className="px-0 md:px-14 py-12 space-y-8 pt-[1.5px] lg:pt-14"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-[1.5px]">
         {GalleryImage.map((category, index) => (
           <figure key={index} className="flex flex-col">
