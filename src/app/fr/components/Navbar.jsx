@@ -114,7 +114,7 @@ const Navbar = ({ path, change = false }) => {
                 <Link href="/fr/lalla-takerkoust-activities">Activités</Link>
               </li>
               <li>
-                <Link href="/menu/menu-casalalla-francais.pdf">Menu</Link>
+                <Link href="/fr/menu">Menu</Link>
               </li>
               <li>
                 <Link href="/fr/gallery">Galerie</Link>
@@ -191,7 +191,7 @@ const Navbar = ({ path, change = false }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/menu/menu-casalalla-francais.pdf">Menu</Link>
+                <Link href="/fr/menu">Menu</Link>
               </li>
               <li className="">
                 <Link href="/fr/gallery">{"Galerie"}</Link>
