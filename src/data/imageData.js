@@ -1,5 +1,55 @@
 export const GalleryImage = [
   {
+    image: "/agafay-gallery/agafay-desert-pool-ibiza-vibe-marrakech.webp",
+    altEn:
+      "Relaxing by the luxury pool at Casa Lalla Takerkoust with an exclusive Ibiza day club vibe",
+    titleEn: "Exclusive Ibiza Vibe Poolside Lounge in Marrakech",
+    altFr:
+      "Détente au bord de la piscine de luxe de Casa Lalla Takerkoust avec une ambiance exclusive de day club d'Ibiza",
+    titleFr: "Lounge exclusif au bord de la piscine façon Ibiza à Marrakech",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/luxury-dining-takerkoust-mykonos-style.webp",
+    altEn:
+      "Outdoor luxury dining experience at Casa Lalla featuring a chic Mykonos aesthetic",
+    titleEn: "Chic Mykonos-Style Outdoor Luxury Dining",
+    altFr:
+      "Expérience de repas de luxe en plein air à Casa Lalla avec une esthétique chic de Mykonos",
+    titleFr: "Dîner de luxe en plein air de style Mykonos chic",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/best-moroccan-food-lunch-lake-takerkoust.webp",
+    altEn:
+      "VIP guests enjoying a premium Moroccan food lunch overlooking Lake Takerkoust",
+    titleEn: "Premium Moroccan Lunch Overlooking Lake Takerkoust",
+    altFr:
+      "Invités VIP profitant d'un déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
+    titleFr: "Déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/sunset-party-agafay-ibiza-atmosphere.webp",
+    altEn:
+      "Vibrant sunset party atmosphere at Casa Lalla in Agafay featuring world-class Ibiza energy",
+    titleEn: "Vibrant Ibiza-Style Sunset Party at Casa Lalla",
+    altFr:
+      "Atmosphère vibrante de fête au coucher du soleil à Casa Lalla à Agafay, avec une énergie digne des meilleures soirées d'Ibiza",
+    titleFr: "Fête vibrante au coucher du soleil de style Ibiza à Casa Lalla",
+    class: "object-center",
+  },
+  {
+    image: "/agafay-gallery/chic-desert-oasis-design-mykonos-inspiration.webp",
+    altEn:
+      "Chic desert oasis design of Casa Lalla drawing inspiration from luxury Mykonos architecture",
+    titleEn: "Discover Our Mykonos-Inspired Desert Oasis",
+    altFr:
+      "Design d'oasis chic dans le désert de Casa Lalla, inspiré de l'architecture de luxe de Mykonos",
+    titleFr: "Découvrez notre oasis dans le désert inspirée de Mykonos",
+    class: "object-center",
+  },
+  {
     image:
       "/agafay-takerkoust/best-moroccan-food-tagine-restaurant-marrakech.webp",
     altEn:
@@ -226,56 +276,6 @@ export const GalleryImage = [
     altFr:
       "Plateau de plats marocains authentiques et haut de gamme servi dans un restaurant branché près de Marrakech",
     titleFr: "Dégustation de plats marocains authentiques et haut de gamme",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/agafay-desert-pool-ibiza-vibe-marrakech.webp",
-    altEn:
-      "Relaxing by the luxury pool at Casa Lalla Takerkoust with an exclusive Ibiza day club vibe",
-    titleEn: "Exclusive Ibiza Vibe Poolside Lounge in Marrakech",
-    altFr:
-      "Détente au bord de la piscine de luxe de Casa Lalla Takerkoust avec une ambiance exclusive de day club d'Ibiza",
-    titleFr: "Lounge exclusif au bord de la piscine façon Ibiza à Marrakech",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/luxury-dining-takerkoust-mykonos-style.webp",
-    altEn:
-      "Outdoor luxury dining experience at Casa Lalla featuring a chic Mykonos aesthetic",
-    titleEn: "Chic Mykonos-Style Outdoor Luxury Dining",
-    altFr:
-      "Expérience de repas de luxe en plein air à Casa Lalla avec une esthétique chic de Mykonos",
-    titleFr: "Dîner de luxe en plein air de style Mykonos chic",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/best-moroccan-food-lunch-lake-takerkoust.webp",
-    altEn:
-      "VIP guests enjoying a premium Moroccan food lunch overlooking Lake Takerkoust",
-    titleEn: "Premium Moroccan Lunch Overlooking Lake Takerkoust",
-    altFr:
-      "Invités VIP profitant d'un déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
-    titleFr: "Déjeuner marocain haut de gamme avec vue sur le lac Takerkoust",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/sunset-party-agafay-ibiza-atmosphere.webp",
-    altEn:
-      "Vibrant sunset party atmosphere at Casa Lalla in Agafay featuring world-class Ibiza energy",
-    titleEn: "Vibrant Ibiza-Style Sunset Party at Casa Lalla",
-    altFr:
-      "Atmosphère vibrante de fête au coucher du soleil à Casa Lalla à Agafay, avec une énergie digne des meilleures soirées d'Ibiza",
-    titleFr: "Fête vibrante au coucher du soleil de style Ibiza à Casa Lalla",
-    class: "object-center",
-  },
-  {
-    image: "/agafay-gallery/chic-desert-oasis-design-mykonos-inspiration.webp",
-    altEn:
-      "Chic desert oasis design of Casa Lalla drawing inspiration from luxury Mykonos architecture",
-    titleEn: "Discover Our Mykonos-Inspired Desert Oasis",
-    altFr:
-      "Design d'oasis chic dans le désert de Casa Lalla, inspiré de l'architecture de luxe de Mykonos",
-    titleFr: "Découvrez notre oasis dans le désert inspirée de Mykonos",
     class: "object-center",
   },
   {
