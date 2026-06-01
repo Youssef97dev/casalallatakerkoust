@@ -1,5 +1,18 @@
 export const GalleryImage = [
   {
+    image:
+      "/agafay-takerkoust/restaurant-casa-lalla-takerkoust-agafay-vibes.webp",
+    altEn:
+      "Restaurant Casa Lalla dining area overlooking Lake Takerkoust with Agafay desert vibes near Marrakech",
+    titleEn:
+      "Experience Restaurant Casa Lalla - Takerkoust & Agafay Desert Dining",
+    altFr:
+      "Salle à manger du Restaurant Casa Lalla avec vue sur le lac Takerkoust et ambiance désert d'Agafay près de Marrakech",
+    titleFr:
+      "Découvrez le Restaurant Casa Lalla - Dîner au Lac Takerkoust et Agafay",
+    class: "object-center",
+  },
+  {
     image: "/agafay-gallery/agafay-desert-pool-ibiza-vibe-marrakech.webp",
     altEn:
       "Relaxing by the luxury pool at Casa Lalla Takerkoust with an exclusive Ibiza day club vibe",

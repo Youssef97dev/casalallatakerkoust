@@ -29,7 +29,7 @@ const Gallery = () => {
                 src={category.image}
                 alt={category.altEn}
                 title={category.titleEn}
-                priority={index < 8}
+                priority={index < 10}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className={`object-cover h-full lg:rounded-md ${category.class}`}
